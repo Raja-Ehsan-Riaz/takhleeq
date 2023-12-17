@@ -1,9 +1,9 @@
-import ComingSoon from "@/components/ComingSoon/ComingSoon";
+import LandingPagehero from "@/components/LandingPage/LandingPageHero";
 
 export default function Home() {
   return (
     <div>
-      <ComingSoon />
+      <LandingPagehero />
     </div>
   );
 }
