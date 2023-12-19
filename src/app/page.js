@@ -4,6 +4,7 @@ import BusinessStartupPitch from "@/components/LandingPage/BusinessStartupPitch"
 import WorkShowcase from "@/components/LandingPage/WorkShowcase";
 import Quote from "@/components/LandingPage/Quote";
 import NewsAndUpdates from "@/components/LandingPage/NewsAndUpdates";
+import Testimonials from "@/components/LandingPage/Testimonials";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <WorkShowcase />
       <Quote />
       <NewsAndUpdates />
+      <Testimonials />
     </div>
   );
 }

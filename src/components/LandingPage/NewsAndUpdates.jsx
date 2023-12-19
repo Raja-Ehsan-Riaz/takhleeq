@@ -1,15 +1,16 @@
+import Link from "next/link";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const NewsAndUpdates = () => {
   return (
-    <div className="px-[5%] py-20">
+    <div className="px-[5%] py-28 bg-[#7957931A]">
       <h2 className="text-[#8838D3] text-left text-4xl uppercase font-bold mb-10">
         News and{" "}
         <span className="text-black border-b-[6px] border-b-[#8838D3]">
           updates
         </span>
       </h2>
-      <div>
+      <div className="mb-16">
         <div className="flex flex-row">
           <div className="bg-[url('/Images/news-and-updates-bg-placeholder.png')] hover:bg-none hover:bg-[#9670FF] p-4 w-[33.33%] pt-36 pr-16">
             <div className="bg-[#8838D3] px-3 py-1 text-white text-sm inline-block rounded-sm">
@@ -101,6 +102,11 @@ const NewsAndUpdates = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex w-full">
+        <Link href={"#"} className="px-8 py-4 bg-[#8838D3] text-white mx-auto">
+          Learn More
+        </Link>
       </div>
     </div>
   );
