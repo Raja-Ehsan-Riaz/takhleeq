@@ -2,7 +2,8 @@ import LandingPagehero from "@/components/LandingPage/LandingPageHero";
 import ITservices from "@/components/LandingPage/ITservices";
 import BusinessStartupPitch from "@/components/LandingPage/BusinessStartupPitch";
 import WorkShowcase from "@/components/LandingPage/WorkShowcase";
-import Testimonial from "@/components/LandingPage/Testimonial";
+import Quote from "@/components/LandingPage/Quote";
+import NewsAndUpdates from "@/components/LandingPage/NewsAndUpdates";
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
       <ITservices />
       <BusinessStartupPitch />
       <WorkShowcase />
-      <Testimonial />
+      <Quote />
+      <NewsAndUpdates />
     </div>
   );
 }
