@@ -9,3 +9,10 @@
 body {
   background-color: white;
 }
+
+.bg-pak-map-globalcss {
+  background-image: url("/Icons&Symbols/pakistan-map-outline.png");
+  background-position: right;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
