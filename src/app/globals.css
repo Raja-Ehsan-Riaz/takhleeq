@@ -16,3 +16,10 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
+.services-hero-bg-globalscss {
+  background-image: url(/Images/services-hero-bg.png);
+  background-position: center;
+  background-size: 100% cover;
+  background-repeat: no-repeat;
+}
