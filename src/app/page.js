@@ -5,6 +5,7 @@ import WorkShowcase from "@/components/LandingPage/WorkShowcase";
 import Quote from "@/components/LandingPage/Quote";
 import NewsAndUpdates from "@/components/LandingPage/NewsAndUpdates";
 import Testimonials from "@/components/LandingPage/Testimonials";
+import NeedConsultation from "@/components/LandingPage/NeedConsultation";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Quote />
       <NewsAndUpdates />
       <Testimonials />
+      <NeedConsultation />
     </div>
   );
 }
