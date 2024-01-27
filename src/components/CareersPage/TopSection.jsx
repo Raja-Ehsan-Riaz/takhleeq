@@ -7,9 +7,9 @@ const TopSection = () => {
       </h2>
       <div className="text-lg mt-12 text-center">
         We specialize in UX/UI design for websites, SaaS, and web/mobile apps,
-        blending the latest UI/UX trends with clients' unique goals. Our designs
+        blending the latest UI/UX trends with clients&apos; unique goals. Our designs
         prioritize intuitiveness, visual appeal, and business impact. Whether
-        it's improving website functionality, streamlining SaaS.
+        it&apos;s improving website functionality, streamlining SaaS.
       </div>
     </div>
   );
