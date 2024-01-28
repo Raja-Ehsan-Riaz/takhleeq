@@ -57,28 +57,28 @@ function NavBar() {
             <li
               className={`py-4 text-left md:text-center my-4 border-b border-b-[#6A4DBB] hover:text-[#6A4DBB] md:border-b-0 `}
             >
-              <Link href="/" onClick={() => setNavbar(false)}>
+              <Link href="/about-us" onClick={() => setNavbar(false)}>
                 About Us
               </Link>
             </li>
             <li
               className={`py-4 text-left md:text-center my-4 border-b border-b-[#6A4DBB] hover:text-[#6A4DBB]   md:border-b-0  `}
             >
-              <Link href="/" onClick={() => setNavbar(false)}>
+              <Link href="/services" onClick={() => setNavbar(false)}>
                 Services
               </Link>
             </li>
             <li
               className={`py-4 text-left md:text-center my-4 border-b border-b-[#6A4DBB] hover:text-[#6A4DBB]   md:border-b-0 `}
             >
-              <Link href="/" onClick={() => setNavbar(false)}>
+              <Link href="/about-us" onClick={() => setNavbar(false)}>
                 Projects
               </Link>
             </li>
             <li
               className={`py-4 text-left md:text-center my-4 border-b border-b-[#6A4DBB] hover:text-[#6A4DBB] md:border-b-0`}
             >
-              <Link href="/" onClick={() => setNavbar(false)}>
+              <Link href="/pricing" onClick={() => setNavbar(false)}>
                 Pricing
               </Link>
             </li>
@@ -92,7 +92,7 @@ function NavBar() {
             <li
               className={`py-4 text-left md:text-center my-4 hidden md:block hover:text-[#6A4DBB] `}
             >
-              <Link href="/" onClick={() => setNavbar(false)}>
+              <Link href="/contact-us" onClick={() => setNavbar(false)}>
                 Contact Us
               </Link>
             </li>
