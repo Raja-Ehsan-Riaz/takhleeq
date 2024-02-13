@@ -17,7 +17,7 @@ function NavBar() {
       `}
     >
       <div
-        className={`flex items-center justify-between py-3 md:block z-20 ${
+        className={`flex items-center justify-between py-2 md:block z-20 ${
           navbar ? "px-8 " : ""
         }`}
       >
@@ -52,7 +52,7 @@ function NavBar() {
           }`}
         >
           <ul
-            className={`h-screen w-full md:h-auto md:items-center justify-center md:flex md:gap-6 lg:gap-10 text-xl md:text-lg font-light md:font-normal px-[10%] md:px-0`}
+            className={`h-screen w-full md:h-auto md:items-center justify-center md:flex md:gap-6 lg:gap-10 text-xl md:text-base font-light md:font-medium transition-all duration-500 px-[10%] md:px-0`}
           >
             <li
               className={`py-4 text-left md:text-center my-4 border-b border-b-[#6A4DBB] hover:text-[#6A4DBB] md:border-b-0 `}

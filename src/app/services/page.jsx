@@ -10,6 +10,7 @@ const Services = () => {
       <ServicesHero />
       <ServicesList />
       <Solutions />
+      <ServicesList />
       <SolutionsVideo />
       <ContactStrip />
     </div>

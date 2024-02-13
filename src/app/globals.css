@@ -23,3 +23,16 @@ body {
   background-size: 100% cover;
   background-repeat: no-repeat;
 }
+
+.change-item {
+  animation: change 1s ease;
+}
+
+@keyframes change {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -21,8 +21,11 @@ const NeedConsultation = () => {
       <div className="flex flex-row">
         <div className="w-[75%]">
           <p>Drop us a line! We are here to answer your questions 24/7.</p>
-          <form onSubmit={handleSubmit} className="mt-4 flex flex-col">
-            <div className="flex flex-row justify-between">
+          <form
+            onSubmit={handleSubmit}
+            className="mt-4 flex flex-col items-center"
+          >
+            <div className="flex flex-row justify-between gap-4 w-full">
               <input
                 type="text"
                 id="full-name"
@@ -55,7 +58,7 @@ const NeedConsultation = () => {
                 className="p-4 border border-[#8838D3] rounded-lg bg-transparent"
               ></input>
             </div>
-            <div className="mt-4">
+            <div className="mt-4 w-full">
               <textarea
                 id="message"
                 name="message"
@@ -67,9 +70,11 @@ const NeedConsultation = () => {
             </div>
             <button
               type="submit"
-              className="px-8 py-4 bg-[#8838D3] text-white mx-auto mt-4"
+              className=" px-12 py-4 mt-4  focus:outline-none   relative border border-[#8838D3] bg-[#8838D3] text-white cursor-pointer font-bold text-sm transition-colors overflow-hidden before:absolute before:-right-[100%] before:top-0 before:z-10 before:h-[100rem] before:w-[200%] before:origin-top-right before:rotate-[15deg] before:hover:rotate-0 before:scale-x-50 before:bg-white before:transition-transform before:duration-300 before:content-[''] hover:text-[#8838D3] before:hover:scale-x-100"
             >
+              <div className="relative z-20">
               Submit
+              </div>
             </button>
           </form>
         </div>

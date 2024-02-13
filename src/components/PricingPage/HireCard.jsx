@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const HireCard = () => {
   return (
@@ -12,10 +13,19 @@ const HireCard = () => {
           Choose one of the options below to get an accurate price estimation
           for your project:
         </div>
-        <button className=" py-4 px-12 font-semibold bg-white">Hire Us</button>
+        <Link href="/#">
+          <button class="relative  bg-transparent px-12 py-4 bg-white text-black font-bold text-sm transition-colors overflow-hidden before:absolute before:-right-[100%] before:top-0 before:z-10 before:h-[100rem] before:w-[200%] before:origin-top-right before:rotate-[15deg] before:hover:rotate-0 before:scale-x-50 before:bg-black before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
+            <div className="relative z-20">Hire Us</div>
+          </button>
+        </Link>
       </div>
       <div className="relative z-20">
-        <Image src="/Icons&Symbols/Hire-me.png" alt="" height={300} width={300} />
+        <Image
+          src="/Icons&Symbols/Hire-me.png"
+          alt=""
+          height={300}
+          width={300}
+        />
       </div>
     </div>
   );

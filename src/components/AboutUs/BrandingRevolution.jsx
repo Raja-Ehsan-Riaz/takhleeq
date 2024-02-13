@@ -16,8 +16,10 @@ const BrandingRevolution = () => {
           while offering our employees the best trainin while offering our employees the best trainin
         </div>
         <div className="mt-16">
-          <Link href={"#"} className="px-8 py-4 bg-white text-black">
-            Read More
+        <Link href="">
+            <button class="relative  bg-transparent px-12 py-5 bg-white text-black font-bold text-sm transition-colors overflow-hidden before:absolute before:-right-[100%] before:top-0 before:z-10 before:h-[100rem] before:w-[200%] before:origin-top-right before:rotate-[15deg] before:hover:rotate-0 before:scale-x-50 before:bg-black before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
+              <div className="relative z-20">Read More</div>
+            </button>
           </Link>
         </div>
       </div>
