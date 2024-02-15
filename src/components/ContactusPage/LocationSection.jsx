@@ -4,10 +4,10 @@ import { IoLocation, IoMailOutline } from "react-icons/io5";
 
 const LocationSection = () => {
   return (
-    <div className="flex justify-center items-start px-[5%]  mb-16 h-[25rem]">
-      <div className="flex flex-col gap-4 justify-between items-start w-1/2 h-full">
-        <div className="flex flex-row  border-l-8 border-[#8838D3]">
-          <div className="flex flex-col items-start justify-between p-4 px-8 bg-[#79579D3A]">
+    <div className="flex justify-center items-stretch px-[5%] gap-[5%] mb-16">
+      <div className="flex flex-col gap-4 justify-between items-start w-[50%] ">
+        <div className="flex flex-row  border-l-8 border-[#8838D3] w-full">
+          <div className="flex flex-col w-[90%] items-start justify-between p-6 px-8 bg-[#79579D3A]">
             <div className="uppercase font-bold text-xl text-[#8838D3]">
               Pakistan
             </div>
@@ -29,8 +29,8 @@ const LocationSection = () => {
             <IoLocation size={30} color="white" />
           </div>
         </div>
-        <div className="flex flex-row  border-l-8 border-[#8838D3]">
-          <div className="flex flex-col items-start justify-between p-4 px-8 bg-[#79579D3A]">
+        <div className="flex flex-row  border-l-8 border-[#8838D3] w-full">
+          <div className="flex flex-col w-[90%] items-start justify-between p-6 px-8 bg-[#79579D3A]">
             <div className="uppercase font-bold text-xl text-[#8838D3]">
               Pakistan
             </div>
@@ -52,8 +52,8 @@ const LocationSection = () => {
             <IoLocation size={30} color="white" />
           </div>
         </div>
-        <div className="flex flex-row  border-l-8 border-[#8838D3]">
-          <div className="flex flex-col items-start justify-between p-4 px-8 bg-[#79579D3A]">
+        <div className="flex flex-row  border-l-8 border-[#8838D3] w-full">
+          <div className="flex flex-col w-[90%] items-start justify-between p-6 px-8 bg-[#79579D3A]">
             <div className="uppercase font-bold text-xl text-[#8838D3]">
               Pakistan
             </div>
@@ -76,7 +76,7 @@ const LocationSection = () => {
           </div>
         </div>
       </div>
-      <div className="w-1/2 h-full bg-[#79579D3A]"></div>
+      <div className="w-[40%] h-[30rem] bg-[#79579D3A]"></div>
     </div>
   );
 };

@@ -12,12 +12,12 @@ function NavBar() {
   const [navbar, setNavbar] = useState(false);
   return (
     <nav
-      className={`w-full justify-between mx-auto md:items-center md:flex overflow-x-hidden overflow-y-hidden shadow-lg 
+      className={`w-full justify-between mx-auto md:items-center md:flex overflow-x-hidden fixed z-50 bg-white overflow-y-hidden shadow-lg 
         ${navbar ? "px-0" : "px-8"}  
       `}
     >
       <div
-        className={`flex items-center justify-between py-2 md:block z-20 ${
+        className={`flex items-center justify-between md:block z-20 ${
           navbar ? "px-8 " : ""
         }`}
       >
@@ -71,7 +71,7 @@ function NavBar() {
             <li
               className={`py-4 text-left md:text-center my-4 border-b border-b-[#6A4DBB] hover:text-[#6A4DBB]   md:border-b-0 `}
             >
-              <Link href="/about-us" onClick={() => setNavbar(false)}>
+              <Link href="/clients" onClick={() => setNavbar(false)}>
                 Projects
               </Link>
             </li>
@@ -85,7 +85,7 @@ function NavBar() {
             <li
               className={`py-4 text-left md:text-center my-4 border-b border-b-[#6A4DBB] hover:text-[#6A4DBB] md:border-b-0`}
             >
-              <Link href="/" onClick={() => setNavbar(false)}>
+              <Link href="/blogs" onClick={() => setNavbar(false)}>
                 News & Updates
               </Link>
             </li>

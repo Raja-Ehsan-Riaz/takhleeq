@@ -36,3 +36,43 @@ body {
     opacity: 1;
   }
 }
+
+.hero-translate-1 {
+  animation: bobbingAnim 1.5s ease-in 0s;
+}
+
+.hero-translate-2 {
+  animation: bobbingAnimBottom 1.5s ease-in 0s;
+}
+
+@keyframes bobbingAnim {
+  0% {
+    transform: translateY(-100%);
+    visibility: hidden;
+  }
+
+  100% {
+    transform: translateY(0%);
+    visibility: visible;
+  }
+}
+
+@keyframes bobbingAnimBottom {
+  0% {
+    transform: translateY(100%);
+    visibility: hidden;
+  }
+
+  100% {
+    transform: translateY(0%);
+    visibility: visible;
+  }
+}
+
+.text-border {
+  text-shadow: 
+    3px 3px 0 rgb(199, 199, 199), 
+    -3px -3px 0 rgb(199, 199, 199),
+    3px -3px 0 rgb(199, 199, 199),
+    -3px 3px rgb(199, 199, 199);
+}

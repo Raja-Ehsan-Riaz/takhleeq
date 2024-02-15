@@ -1,0 +1,107 @@
+[
+  {
+    "Name": "Core Team",
+    "Members": [
+      { "Name": "Saqib Malik", "Designation": "CEO/Founder" },
+      {
+        "Name": "Dr. Abid Rafique",
+        "Designation": "Chairman & Executive Founder"
+      },
+      {
+        "Name": "Dr. Wajahat Hussain",
+        "Designation": "CTO  & Head of takhleeq.io Research Lab "
+      },
+      { "Name": "Mr. Mian Muhammad Idrees", "Designation": "COO & Co-Founder" }
+    ]
+  },
+  {
+    "Name": "Project Managers",
+    "Members": [
+      { "Name": "Ahmed Usman", "Designation": "" },
+      { "Name": "Shaheer Ahmad", "Designation": "" }
+    ]
+  },
+  {
+    "Name": "Graphics Designers",
+    "Members": [
+      { "Name": "Ali Zeb", "Designation": "" },
+      {
+        "Name": "Muhammad Hammad",
+        "Designation": ""
+      },
+      {
+        "Name": "Saba Khateeb",
+        "Designation": ""
+      }
+    ]
+  },
+  {
+    "Name": "Industrial Designers",
+    "Members": [
+      { "Name": "Zainab Ikram", "Designation": "" },
+      {
+        "Name": "Zainab Shuja",
+        "Designation": ""
+      }
+    ]
+  },
+  {
+    "Name": "UI/UX Designers",
+    "Members": [
+      { "Name": "Ahsan Iqbal", "Designation": "" },
+      {
+        "Name": "Minahil Shakoor",
+        "Designation": ""
+      }
+    ]
+  },
+  {
+    "Name": "Web Developers",
+    "Members": [
+      { "Name": "Ali Mazhar", "Designation": "" },
+      {
+        "Name": "Raja Ehsan Riaz",
+        "Designation": ""
+      },
+      {
+        "Name": "Zain Mughal",
+        "Designation": ""
+      }
+    ]
+  },
+  {
+    "Name": "Media Team",
+    "Members": [
+      { "Name": "Uzair Khan", "Designation": "Videographer & Photographer" },
+      {
+        "Name": "Muhammad Abdullah",
+        "Designation": "Videographer & Photographer"
+      },
+      {
+        "Name": "Muhammad Abdullah",
+        "Designation": "Video & Photo Editor "
+      },
+      { "Name": "Rayan Malik", "Designation": "Video & Photo Editor" }
+    ]
+  },
+  {
+    "Name": "Social Media Marketing Managers",
+    "Members": [
+      { "Name": "Zoya Salman", "Designation": "" },
+      {
+        "Name": "Umair Asim",
+        "Designation": ""
+      }
+    ]
+  },
+  {
+    "Name": "Content Writers",
+    "Members": [
+      { "Name": "Saad Masood", "Designation": "" },
+      {
+        "Name": "Hina Naeem",
+        "Designation": ""
+      }
+    ]
+  }
+]

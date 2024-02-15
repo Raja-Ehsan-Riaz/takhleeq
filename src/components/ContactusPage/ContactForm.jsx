@@ -39,7 +39,7 @@ const ContactForm = (props) => {
             placeholder="Message"
           />
         </div>
-        <div className=" flex flex-col justify-start items-start gap-4 text-white w-1/2 p-8  bg-[#79579D3A]">
+        <div className=" flex flex-col justify-start items-start gap-6 text-white w-1/2 p-8  bg-[#79579D3A]">
           <h2 className=" text-lg  font-bold text-center text-[#8838D3]">
             Contact{" "}
             <span className=" text-black border-b-4 border-b-[#8838D3]">

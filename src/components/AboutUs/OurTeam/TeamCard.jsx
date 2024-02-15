@@ -1,17 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import Team from "/public/Images/team-dummy.png";
-import { FaPlusCircle } from "react-icons/fa";
 import { BiLogoInstagramAlt, BiPlusCircle } from "react-icons/bi";
 import Link from "next/link";
-import { IoLogoLinkedin } from "react-icons/io5";
 import { RiLinkedinBoxFill, RiTwitterXFill } from "react-icons/ri";
 import { FaSquareFacebook } from "react-icons/fa6";
 
-const TeamCard = () => {
+const TeamCard = ({name,designation}) => {
   return (
-    <div className="flex flex-col justify-center items-center mt-8 w-[20rem] relative">
-      <div className="bg-gray-300 pt-6 group rounded-xl overflow-hidden relative">
+    <div className="flex flex-col justify-center items-center w-[15rem] mt-8 relative mx-auto ">
+      <div className="bg-gray-300  group rounded-lg overflow-hidden relative">
         <div className="absolute right-4 top-3 transform duration-300 group-hover:rotate-45 z-50">
           <BiPlusCircle size={20} color="black" />
         </div>
@@ -46,10 +44,10 @@ const TeamCard = () => {
             />
           </Link>
         </div>
-        <Image src={Team} height={300}  className="relative z-30" />
+        <Image src={Team}  style={{objectFit:"cover"}} className="relative z-30" />
       </div>
-      <div className="uppercase text-xl font-bold mt-4">Saqib Malik</div>
-      <div>Chief Executive Officer</div>
+      <div className="uppercase text-xl font-bold mt-4">{name}</div>
+      <div>{designation}</div>
     </div>
   );
 };
