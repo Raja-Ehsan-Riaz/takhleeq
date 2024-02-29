@@ -1,0 +1,105 @@
+[
+  {
+    "title": "Branding",
+    "description": "Phaseus sit amet tristique lorem ipsum s simply free text ligua donec culisleo sus cipit.",
+    "icon": "/Illustrations/services/branding.png",
+    "punchline": "Where Striking Graphics Meet Lasting Impressions - Elevating Brands Beyond the Ordinary",
+    "detail": "takhleeq.io excels at crafting visually striking graphics for effective brand communication. Our dedicated branding service blends creativity and strategy to captivate audiences, ensuring brands stand out and leave a lasting impression in the competitive market. The different components of our branding includes:    ",
+    "components": [
+      {
+        "heading": "Brand Strategy:",
+        "text": "Developing a cohesive plan to define the brand's values, positioning, and messaging. "
+      },
+      {
+        "heading": "Brand Strategy:",
+        "text": "Developing a cohesive plan to define the brand's values, positioning, and messaging. "
+      },
+      {
+        "heading": "Brand Strategy:",
+        "text": "Developing a cohesive plan to define the brand's values, positioning, and messaging. "
+      }
+    ],
+    "images": [],
+    "strategy": "Our branding strategy is a careful fusion of creativity and strategic thinking. We leverage visually striking graphics to craft compelling narratives that go beyond mere aesthetics. By ensuring our clients' brands not only stand out but also convey a story, we create a lasting impression in the competitive market. This approach aims to establish a robust and distinctive brand identity, fostering meaningful connections with target audiences and setting the stage for long-term brand success. "
+  },
+  {
+    "title": "AI Driven Marketing",
+    "description": "Phaseus sit amet tristique lorem ipsum s simply free text ligua donec culisleo sus cipit.",
+    "icon": "/Illustrations/services/aimarketing.png",
+    "punchline": "",
+    "detail": "",
+    "components": [{ "heading": "", "text": "" }],
+    "images": [],
+    "strategy": ""
+  },
+  {
+    "title": "Creative Designs",
+    "description": "Phaseus sit amet tristique lorem ipsum s simply free text ligua donec culisleo sus cipit.",
+    "icon": "/Illustrations/services/aimarketing.png",
+    "punchline": "",
+    "detail": "",
+    "components": [{ "heading": "", "text": "" }],
+    "images": [],
+    "strategy": ""
+  },
+  {
+    "title": "Content Creation",
+    "description": "Phaseus sit amet tristique lorem ipsum s simply free text ligua donec culisleo sus cipit.",
+    "icon": "/Illustrations/services/aimarketing.png",
+    "punchline": "",
+    "detail": "",
+    "components": [{ "heading": "", "text": "" }],
+    "images": [],
+    "strategy": ""
+  },
+  {
+    "title": "Media Services",
+    "description": "Phaseus sit amet tristique lorem ipsum s simply free text ligua donec culisleo sus cipit.",
+    "icon": "/Illustrations/services/media.png",
+    "punchline": "",
+    "detail": "",
+    "components": [{ "heading": "", "text": "" }],
+    "images": [],
+    "strategy": ""
+  },
+  {
+    "title": "Web/App Development",
+    "description": "Phaseus sit amet tristique lorem ipsum s simply free text ligua donec culisleo sus cipit.",
+    "icon": "/Illustrations/services/web.png",
+    "punchline": "",
+    "detail": "",
+    "components": [{ "heading": "", "text": "" }],
+    "images": [],
+    "strategy": ""
+  },
+  {
+    "title": "Ui/Ux design",
+    "description": "Phaseus sit amet tristique lorem ipsum s simply free text ligua donec culisleo sus cipit.",
+    "icon": "/Illustrations/services/uiux.png",
+    "punchline": "",
+    "detail": "",
+    "components": [{ "heading": "", "text": "" }],
+    "images": [],
+    "strategy": ""
+  },
+  {
+    "title": "Interior Design",
+    "description": "Phaseus sit amet tristique lorem ipsum s simply free text ligua donec culisleo sus cipit.",
+    "icon": "/Illustrations/services/interior.png",
+    "punchline": "",
+    "detail": "",
+    "components": [{ "heading": "", "text": "" }],
+    "images": [],
+    "strategy": ""
+  },
+  {
+    "title": "Industrial Design",
+    "description": "Phaseus sit amet tristique lorem ipsum s simply free text ligua donec culisleo sus cipit.",
+    "icon": "/Illustrations/services/industrial.png",
+    "punchline": "",
+    "detail": "",
+    "components": [{ "heading": "", "text": "" }],
+    "images": [],
+    "strategy": ""
+  }
+]

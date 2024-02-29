@@ -1,18 +1,43 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 import { IoMdSearch } from "react-icons/io";
 
 const LandingPagehero = () => {
+  const [divs, setDivs] = useState([false, false, false, false]);
+
+  useEffect(() => {
+    const timeouts = [0, 250, 500, 1000]; // Delays for each div appearance
+    timeouts.forEach((timeout, index) => {
+      setTimeout(() => {
+        setDivs((prevDivs) => {
+          const newDivs = [...prevDivs];
+          newDivs[index] = true;
+          return newDivs;
+        });
+      }, timeout);
+    });
+  }, []);
+
   return (
     <div className="w-full h-[90vh] flex justify-center bg-[#7936b7] items-center  text-white relative overflow-hidden">
-      <div className="bg-[#9346db] h-full w-[25%] hero-translate-1 uppercase text-8xl  flex justify-center items-center text-center font-bold ">
+      <div
+        className={` ${
+          divs[0] ? "hero-translate-1" : "opacity-0"
+        } bg-[#9346db] h-full w-[25%]  uppercase text-8xl  flex justify-center items-center text-center font-bold  `}
+      >
         <div className="transform rotate-[270deg] opacity-40">
           Branding <br />
           <span className="text-border text-[#9346db]"> Branding</span>
         </div>
       </div>
-      <div className="relative  h-full w-[25%] hero-translate-2 uppercase text-8xl  flex justify-center items-center text-center font-bold ">
+      <div
+        className={`relative  h-full w-[25%] ${
+          divs[1] ? "hero-translate-2" : "opacity-0"
+        } uppercase text-8xl  flex justify-center items-center text-center font-bold `}
+      >
         <div className="transform rotate-[270deg] opacity-40 relative z-20 ">
           Content <br />
           <span className="text-border text-[#8838D3]"> Creation</span>
@@ -25,13 +50,21 @@ const LandingPagehero = () => {
         />
         <div className="w-full h-full absolute z-10 top-0 left-0 bg-[#8838D3]/90    "></div>
       </div>
-      <div className="bg-[#9346db] h-full w-[25%] hero-translate-1 uppercase text-8xl  flex justify-center items-center text-center font-bold ">
+      <div
+        className={`relative  bg-[#9346db] h-full w-[25%] ${
+          divs[2] ? "hero-translate-1" : "opacity-0"
+        } uppercase text-8xl  flex justify-center items-center text-center font-bold `}
+      >
         <div className="transform rotate-[270deg] opacity-40">
           Digital AI <br />
           <span className="text-border text-[#9346db]"> Marketing</span>
         </div>
       </div>
-      <div className="relative  h-full w-[25%] hero-translate-2 uppercase text-8xl  flex justify-center items-center text-center font-bold ">
+      <div
+        className={`relative  h-full w-[25%] ${
+          divs[3] ? "hero-translate-2" : "opacity-0"
+        } uppercase text-8xl   flex justify-center items-center text-center font-bold `}
+      >
         <div className="transform rotate-[270deg] opacity-40 relative z-20 ">
           Interior <br />
           <span className="text-border text-[#8838D3]"> Design</span>

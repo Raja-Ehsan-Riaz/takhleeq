@@ -8,7 +8,7 @@ import { FaSquareFacebook } from "react-icons/fa6";
 
 const TeamCard = ({name,designation}) => {
   return (
-    <div className="flex flex-col justify-center items-center w-[15rem] mt-8 relative mx-auto ">
+    <div className="flex flex-col justify-center items-center w-[15rem] mt-8 relative mx-auto text-center ">
       <div className="bg-gray-300  group rounded-lg overflow-hidden relative">
         <div className="absolute right-4 top-3 transform duration-300 group-hover:rotate-45 z-50">
           <BiPlusCircle size={20} color="black" />
@@ -47,7 +47,7 @@ const TeamCard = ({name,designation}) => {
         <Image src={Team}  style={{objectFit:"cover"}} className="relative z-30" />
       </div>
       <div className="uppercase text-xl font-bold mt-4">{name}</div>
-      <div>{designation}</div>
+      <div className="text-sm">{designation}</div>
     </div>
   );
 };

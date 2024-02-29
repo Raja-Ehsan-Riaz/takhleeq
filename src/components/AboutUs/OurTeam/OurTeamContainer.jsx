@@ -45,7 +45,7 @@ const OurTeamContainer = ({ first, team }) => {
             .find((item) => item.Name === team)
             ?.Members.map((member) => (
               <SwiperSlide>
-                <TeamCard name={member.Name} designation={member.designation} />
+                <TeamCard name={member.Name} designation={member.Designation} />
               </SwiperSlide>
             ))}
         </Swiper>

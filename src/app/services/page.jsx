@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div>
       <ServicesHero />
-      <ServicesList />
+      <ServicesList upper/>
       <Solutions />
       <ServicesList />
       <SolutionsVideo />
