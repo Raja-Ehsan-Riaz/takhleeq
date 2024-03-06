@@ -1,15 +1,29 @@
 "use client";
 import teams from "../../../utils/teams.json";
 import TeamCard from "./TeamCard"; // import Swiper core and required modules
-import { Navigation, Pagination, A11y } from "swiper/modules";
+import { Navigation, Pagination, A11y, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import { useRef } from "react";
+import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri";
 
-const OurTeamContainer = ({ first, team }) => {
+const OurTeamContainer = ({ first, coreTeam }) => {
+  const swiperRef = useRef(null);
+
+  const goToPrevSlide = () => {
+    if (swiperRef.current) {
+      swiperRef.current.swiper.slidePrev();
+    }
+  };
+
+  const goToNextSlide = () => {
+    if (swiperRef.current) {
+      swiperRef.current.swiper.slideNext();
+    }
+  };
   return (
     <div className={` ${first ? "pt-28" : ""}  px-[5%] `}>
       {first ? (
@@ -32,23 +46,61 @@ const OurTeamContainer = ({ first, team }) => {
       ) : (
         <></>
       )}
-      <h2 className=" text-3xl  font-semibold text-center mt-12">{team}</h2>
-      <div className="w-[80%] mx-auto">
+      <h2 className=" text-3xl  font-semibold text-center mt-12">
+        {coreTeam ? "Core Team" : "Other Members"}
+      </h2>
+      <div className="w-[80%] mx-auto relative">
         <Swiper
           // install Swiper modules
-          modules={[Navigation, Pagination, A11y]}
+          modules={[Navigation, Pagination, A11y, Autoplay]}
           slidesPerView={4}
-          loop={true}
+          loop
+          autoplay
+          ref={swiperRef}
+          navigation={{
+            prevEl: ".swiper-button-prev",
+            nextEl: ".swiper-button-next",
+          }}
           // navigation
         >
-          {teams
-            .find((item) => item.Name === team)
-            ?.Members.map((member) => (
-              <SwiperSlide>
-                <TeamCard name={member.Name} designation={member.Designation} />
-              </SwiperSlide>
-            ))}
+          {coreTeam ? (
+            <>
+              {teams.slice(0, 4).map((member, index) => (
+                <SwiperSlide key={index}>
+                  <TeamCard
+                    name={member.Name}
+                    designation={member.Designation}
+                  />
+                </SwiperSlide>
+              ))}
+            </>
+          ) : (
+            <>
+              {teams.slice(4).map((member, index) => (
+                <SwiperSlide key={index}>
+                  <TeamCard
+                    name={member.Name}
+                    designation={member.Designation}
+                  />
+                </SwiperSlide>
+              ))}
+            </>
+          )}
         </Swiper>
+        {!coreTeam && (
+          <div className="swiper-button-prev-container absolute -left-20 top-[40%] cursor-pointer text-[#8838D3] ">
+            <div className="swiper-button-prev-custom" onClick={goToPrevSlide}>
+              {<RiArrowLeftSLine size={50} />}
+            </div>
+          </div>
+        )}
+        {!coreTeam && (
+          <div className="swiper-button-next-container absolute -right-20 top-[40%] cursor-pointer text-[#8838D3] ">
+            <div className="swiper-button-next-custom" onClick={goToNextSlide}>
+              {<RiArrowRightSLine size={50} />}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

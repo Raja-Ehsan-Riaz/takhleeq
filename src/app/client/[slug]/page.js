@@ -1,0 +1,24 @@
+import ClientHero from "@/components/ClientPage/ClientHero";
+import Goals from "@/components/ClientPage/Goals";
+import Outcomes from "@/components/ClientPage/Outcomes";
+import OverView from "@/components/ClientPage/OverView";
+import ServicesProvided from "@/components/ClientPage/ServicesProvided";
+import clients from "../../../utils/clientsdetails.json";
+
+function findClientByTitle(title) {
+    return clients.find(client => client.name === title);
+}
+
+
+export default function Client({ params }) {
+    const client = decodeURIComponent(params.slug) ? findClientByTitle(decodeURIComponent(params.slug.replace(/#/g, "/"))) : null;
+    return (
+        <div>
+            <ClientHero title={client.name} />
+            <OverView description={client.description} />
+            <ServicesProvided/>
+            <Goals goals={client.goals}/>
+            <Outcomes outcomes={client.outcomes}/>
+        </div>
+    );
+}

@@ -113,6 +113,7 @@ const FAQ = () => {
       {faqs.map((item, index) => {
         return (
           <div
+          key={index}
             className={`p-4 rounded-b-lg mt-8 ${
               activeTab === index ? "change-item" : "hidden"
             }`}

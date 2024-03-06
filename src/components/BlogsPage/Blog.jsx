@@ -13,17 +13,24 @@ const Blog = ({ title, images, date }) => {
   const daysAgo = Math.floor(differenceInMs / (1000 * 60 * 60 * 24));
 
   return (
-    <div className="w-full h-[30vw]">
+    <div className="w-full h-[30vw] hover:shadow-lg transition duration-500 shadow-black ">
       <Link className="w-full h-full" href={`/blog/${title}`}>
-      <div className="services-hero-bg-globalscss w-full h-[90%] relative text-white">
-        <div className="flex flex-col justify-between items-start  absolute bottom-0 left-0 p-4">
-          <button className="p-2 bg-white mb-4 rounded-lg text-black text-[0.6rem]">
-            {daysAgo == 0 ? <>today</> : daysAgo == 1 ? <>{daysAgo} day ago</> : <> {daysAgo} days ago</>}
-          </button>
-          <div className="text-2xl font-bold uppercase">{title}</div>
-          <div className="italic">{date}</div>
+        <div className="services-hero-bg-globalscss w-full h-[90%] relative text-white">
+          <div className="flex flex-col justify-between items-start  absolute bottom-0 left-0 p-4">
+            <button className="p-2 bg-white mb-4 rounded-lg text-black text-[0.6rem]">
+              {daysAgo == 0 ? (
+                <>today</>
+              ) : daysAgo == 1 ? (
+                <>{daysAgo} day ago</>
+              ) : (
+                <> {daysAgo} days ago</>
+              )}
+            </button>
+            <div className="text-2xl font-bold uppercase">{title}</div>
+            <div className="italic">{date}</div>
+          </div>
         </div>
-      </div>
+      </Link>
       <div className="flex flex-row justify-between items-center w-full h-[10%] bg-[#BBA2FF] text-[0.7rem] p-4">
         <div className="flex gap-4 items-center">
           <div className="h-10 w-10 rounded-full bg-gray-400"></div>
@@ -44,7 +51,6 @@ const Blog = ({ title, images, date }) => {
           </div>
         </div>
       </div>
-      </Link>
     </div>
   );
 };

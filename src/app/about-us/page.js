@@ -13,14 +13,8 @@ export default function Aboutus() {
             <TopSection />
             <SupportingClients />
             <BrandingRevolution />
-            <OurTeamContainer first team="Core Team" />
-            <OurTeamContainer team="Project Managers" />
-            <OurTeamContainer team="Web Developers" />
-            <OurTeamContainer team="Industrial Designers" />
-            <OurTeamContainer team="Media Team" />
-            <OurTeamContainer team="Social Media Marketing Managers" />
-            <OurTeamContainer team="Content Writers" />
-            <OurTeamContainer team="UI/UX Designers" />
+            <OurTeamContainer first coreTeam />
+            <OurTeamContainer />
             <Testimonials />
             <ContactStrip />
         </div>
