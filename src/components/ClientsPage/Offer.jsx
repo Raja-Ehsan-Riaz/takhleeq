@@ -9,7 +9,7 @@ const Offer = () => {
         </h2>
         <div className="text-lg mt-4 text-center">
           We specialize in UX/UI design for websites, SaaS, and web/mobile apps,
-          blending the latest UI/UX trends with clients' unique goals. 
+          blending the latest UI/UX trends with clients&apos; unique goals. 
         </div>
         <div className="flex flex-wrap justify-center gap-16 items-center  mt-12">
             <OfferCard/>

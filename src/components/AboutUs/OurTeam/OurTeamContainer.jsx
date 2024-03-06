@@ -40,7 +40,7 @@ const OurTeamContainer = ({ first, coreTeam }) => {
             through research and development, our young and dynamic
             professionals think outside the box and come up with unique
             solutions that are both visually appealing and effective in
-            achieving the client's desired results.
+            achieving the client&apos;s desired results.
           </div>
         </>
       ) : (
