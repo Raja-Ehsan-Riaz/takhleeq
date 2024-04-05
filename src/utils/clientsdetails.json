@@ -1,6 +1,8 @@
 [
   {
     "name": "Elements Learning",
+    "icon":"/elearning.png",
+    "cover":"",
     "description": "Elements Learning, a leading education system in Pakistan, prioritizes experiential and achievable learning, viewing children as the pillars of a better future. With mentors acting as facilitators, the organization guides and supports students' journeys, aiming to reignite their sense of wonder through engaging programs that seamlessly integrate Deen and Culture.",
     "overview": "Elements learning is a forward-thinking education system in Pakistan that places a strong emphasis on experimental and accomplishable learning. The organization believes that children are not just children but also the pillars on which a better future rests. Their goal is to provide guidance and support at every step of the learning journey, with mentors who act as facilitators rather than just teachers. Elements Learning aims to reignite a child's sense of wonder through fun and engaging programs that integrate Deen and Culture. As they look to excel in the digital age, Elements Learning is seeking assistance from takhleeq.io for branding that can help achieve their marketing goals, as well as product designs and digital services.",
     "goals": {
@@ -23,10 +25,14 @@
         "Educational Outreach: Design and publication of educational materials have significantly expanded outreach to students."
       ]
     },
-    "link": "#"
+    "link": "#",
+    "bg": "bg-yellow-600",
+    "portfolio": ["0", "1", "4", "3", "2"]
   },
   {
     "name": "truID Technologies Pvt. Ltd.",
+    "icon":"/truid.png",
+    "cover":"",
     "description": "Founded in 2021, truID Technologies Pvt. Ltd. stands at the forefront of identity verification solutions, catering to global enterprise clients. With a team of seasoned professionals boasting extensive experience dating back to 2002, truID has successfully served clients across various regions, including the UK, Europe, US, Canada, South East Asia, and South America.",
     "overview": "truID Technologies Pvt. Ltd. was incorporated in 2021 and specializes in delivering innovative identity verification solutions for enterprise clients across the world. The team consists of leading experts from across different fields working in the industry since 2002 and have experience of delivering to clients from UK, Europe, US, Canada, UK, South East Asia and South America. As they look to excel in the digital age, truID is seeking assistance from takhleeq.io for branding that can help achieve their marketing goals.",
     "goals": {
@@ -52,10 +58,14 @@
         "Adaptability to Trends: Staying updated with social media trends and platform changes will ensure truID's social media strategy remains relevant and effective in evolving digital landscapes."
       ]
     },
-    "link": "#"
+    "link": "#",
+    "bg": "bg-red-600",
+    "portfolio": []
   },
   {
     "name": "Toyota G.T Motors Pvt Limited",
+    "icon":"/toyota.png",
+    "cover":"",
     "description": "Toyota G.T Motors Pvt Limited is a performance-driven automotive company dedicated to delivering exceptional results and unparalleled customer satisfaction. With a focus on optimizing vehicle performance through rigorous testing and expert preparation, Toyota G.T Motors ensures uncompromising quality in its cars, spare parts, and maintenance equipment.",
     "overview": "Toyota G.T Motors Pvt Limited is a performance-oriented automotive firm dedicated to delivering outstanding results and unmatched customer satisfaction. With a strong emphasis on enhancing vehicle performance through rigorous testing and meticulous checks, Toyota G.T Motors prioritizes quality assurance by utilizing proven technology in manufacturing cars, spare parts, and maintenance equipment. Collaborating closely with the company, our team of branding experts and digital strategists aims to cultivate a robust brand identity that reflects its core values and mission. Additionally, we will craft compelling digital content, including a website tailored to resonate with the target audience, thereby assisting Toyota G.T Motors Pvt Limited in achieving its marketing and sales objectives.",
     "goals": {
@@ -80,10 +90,14 @@
         "Overall, takhleeq.io's collaboration with Toyota G.T Motors has driven tangible results, elevating the brand's presence and contributing to its growth in the automotive industry."
       ]
     },
-    "link": "#"
+    "link": "#",
+    "bg": "red-800",
+    "portfolio": ["1", "2", "3"]
   },
   {
     "name": "Sentinel AI",
+    "icon":"/sentinel.png",
+    "cover":"",
     "description": "Sentinel AI Technologies Pvt. Ltd., established in 2022, is a prominent player in the IT industry, boasting a team of top-notch experts in Artificial Intelligence, Computer Vision, and Machine Learning. Their groundbreaking AI and ML-based products are revolutionizing business operations.",
     "overview": "Sentinel AI Technologies Pvt. Ltd. is a rapidly growing company that was incorporated in 2022 and specializes in the IT industry. The team consists of leading experts from across different fields such as Artificial Intelligence, Computer Vision, and Machine Learning. They craft AI and ML-based innovative products that are changing the way businesses operate. As they look to excel in the digital age, Sentinel AI is seeking assistance from takhleeq.io for branding that can help achieve their marketing goals.",
     "goals": {
@@ -106,10 +120,14 @@
         "Increased User Retention: A good user experience and intuitive design implemented by takhleeq.io result in higher user satisfaction and retention rates, ensuring that Sentinel AI retains its customer base and continues to grow over time."
       ]
     },
-    "link": "#"
+    "link": "#",
+    "bg": "yellow-600",
+    "portfolio": []
   },
   {
     "name": "Fauji Security Services FSS",
+    "icon":"/fss.png",
+    "cover":"",
     "description": "FSS, is one of the pioneers in the security business of Pakistan. Founded in 1993, with the noble aim of providing employment opportunities to the retired Army personnel and generate funds for the families of Shuhadas, Army widows and welfare of soldiers . The Company earned a name in the country for providing well-trained and reliable security services to the national/ multinational public and private sector organizations. With 25 years of its operational experience in Pakistan’s most difficult law and order period, FSS has matured and diversified its services to meet the needs of even the most discerning clients.",
     "overview": "takhleeq.io is proud to partner with Fauji Security Services (FSS), one of Pakistan's pioneering security firms, founded in 1993 with a noble mission to provide employment opportunities to retired Army personnel and support the families of Shuhadas, Army widows, and soldiers. With 25 years of operational experience in Pakistan's most challenging law and order periods, FSS has earned a reputation for delivering well-trained and reliable security services to national and multinational organizations. Leveraging its expertise, takhleeq.io aims to enhance FSS's branding and marketing strategies, further solidifying its position as a trusted leader in the security industry.",
     "goals": {
@@ -132,10 +150,14 @@
         "Increased Efficiency: The UI/UX design improvements led to increased efficiency for both FSS and its customers. The intuitive navigation and streamlined user flow optimized key processes, such as requesting security services or accessing important information, resulting in time savings and improved productivity for all stakeholders."
       ]
     },
-    "link": "#"
+    "link": "#",
+    "bg": "bg-red-600",
+    "portfolio": ["0", "1"]
   },
   {
     "name": "Murabbi",
+    "icon":"/murabbi.png",
+    "cover":"",
     "description": "Murabbi is a forward-thinking training company specializing in cutting-edge technologies like blockchain, artificial intelligence, functional safety, and digital twin, among others. Through personalized on-the-job style training, state-of-the-art bootcamps, workshops, and seminars, Murabbi equips learners with the latest insights and techniques crucial for staying ahead in today's rapidly evolving technological landscape. With tailored solutions and continuous mentoring, Murabbi ensures learners remain up-to-date with the latest advancements in their chosen field.",
     "overview": "Murabbi is a visionary training company that caters to the needs of the ever-evolving technological landscape. The company offers personalized on-the-job style training in technologies such as blockchain, artificial intelligence, functional safety, and digital twin etc. Murabbi's state-of-the-art training bootcamps, workshops, and seminars empower learners with the latest insights and techniques that are essential to stay ahead of the curve.  The company also provides tailored solutions to meet individual or company needs, and continuous mentoring ensures learners stay up-to-date with the latest advancements in their chosen field. As they look to excel in the digital age, Murabbi is seeking assistance from takhleeq.io for branding that can help achieve their goals.",
     "goals": {
@@ -163,10 +185,14 @@
         "Engaging Content Creation: takhleeq.io's skilled content creators specialized in writing compelling social media posts and creating catchy scripts, ensuring Murabbi's content is polished, effective, and engages the audience effectively across digital platforms."
       ]
     },
-    "link": "#"
+    "link": "#",
+    "bg": "yellow-600",
+    "portfolio": []
   },
   {
     "name": "Askari Bank",
+    "icon":"/askari.png",
+    "cover":"",
     "description": "Askari Bank was incorporated in Pakistan on October 9, 1991, as a public limited company. It commenced operation on April 1, 1992, and is principally engaged in the business of banking, as defined in the Banking Companies Ordinance, 1962. The Bank is listed on Pakistan Stock Exchange (earlier it was listed on Karachi, Lahore and Islamabad Stock Exchanges).\n\nSince inception, the bank has concentrated on growth through improving service quality, investment in technology and people, utilizing its extensive branch network which includes Islamic and agricultural banking. Corporate Social Responsibility is an integral part of the way we do business. In order to fulfill our CSR objectives, we attempt to promote public interest by encouraging community growth and development, providing assistance to educational, healthcare and other deserving sectors of the economy, while meeting the expectations of our shareholders.",
     "overview": "Askari Bank, incorporated in Pakistan in 1991, is a public limited company principally engaged in banking operations as defined by the Banking Companies Ordinance, 1962. The bank is listed on the Pakistan Stock Exchange. Since its inception, Askari Bank has focused on growth by enhancing service quality, investing in technology and human resources, and leveraging its extensive branch network to offer Islamic and agricultural banking services. Corporate Social Responsibility (CSR) is a core component of the bank's operations, with a commitment to promoting community growth and development, supporting education, healthcare, and other sectors while meeting shareholder expectations. As Askari Bank continues to evolve in the digital age, it seeks support from takhleeq.io to enhance its branding and digital presence to better serve its customers and stakeholders.",
     "goals": {
@@ -197,10 +223,14 @@
         "Achievement of CSR Objectives: Askari Bank's CSR initiatives have been effectively communicated to the public through digital channels, resulting in greater awareness and support for community growth and development projects."
       ]
     },
-    "link": "#"
+    "link": "#",
+    "bg": "bg-sky-700",
+    "portfolio": ["0", "1"]
   },
   {
     "name": "Health Smart Solutions",
+    "icon":"/hss.png",
+    "cover":"",
     "description": "Health Smart Solutions is a leading healthcare technology company dedicated to revolutionizing the healthcare industry through innovative solutions. By leveraging cutting-edge technologies such as artificial intelligence, machine learning, and data analytics, Health Smart Solutions aims to enhance patient care, optimize operational efficiency, and improve clinical outcomes. With a focus on delivering cost-effective and scalable solutions, the company collaborates with healthcare providers and organizations to address the evolving needs of the industry.",
     "overview": "Health Smart Solutions is a pioneering healthcare technology company committed to transforming the healthcare industry through innovative solutions. By harnessing the power of cutting-edge technologies like artificial intelligence, machine learning, and data analytics, Health Smart Solutions seeks to elevate patient care, streamline operational processes, and enhance clinical outcomes. With a strategic emphasis on delivering scalable and cost-effective solutions, the company collaborates closely with healthcare providers and organizations to meet the evolving needs of the industry. As Health Smart Solutions strives to establish itself as a leader in healthcare innovation, it has partnered with takhleeq.io to develop a comprehensive branding strategy and digital presence that resonates with its target audience and drives business growth.",
     "goals": {
@@ -229,15 +259,19 @@
         "Data-Driven Insights: Analytics and data-driven insights are utilized to measure the effectiveness of marketing campaigns, track website performance, and make informed decisions to optimize digital marketing strategies and drive business growth."
       ]
     },
-    "link": "#"
+    "link": "#",
+    "bg": "yellow-600",
+    "portfolio": []
   },
   {
     "name": "BCube",
+    "icon":"/bcube.png",
+    "cover":"",
     "description": "BCUBE is a group of highly skilled entrepreneurs with the vision to be the leading technology firm. With a combined experience of over 30 years, in the field of embedded systems and RF/MW, the company plans to create strategic value for their customers with effective use of technology. It provides comprehensive, reliable, cost effective and efficient solutions customized according to the customer’s requirements. BCube masters in the field of High speed PCB design, Hardware design, Digital signal processing, software solutions and RF/MW circuit design.",
-    "projectOverview": "takhleeq.io is proud to partner with BCUBE, a visionary technology firm driven by a team of highly skilled entrepreneurs with over 30 years of combined experience in embedded systems and RF/MW technologies. BCUBE aims to lead the industry by providing strategic value to its customers through innovative and customized technology solutions. With expertise in high-speed PCB design, hardware design, digital signal processing, software solutions, and RF/MW circuit design, BCUBE offers comprehensive, reliable, cost-effective, and efficient solutions tailored to meet the unique requirements of its clients. As BCUBE embarks on its journey to revolutionize the technology landscape, takhleeq.io is committed to providing branding and website development services to support its mission and enhance its online presence.",
-    "projectGoals": {
+    "overview": "takhleeq.io is proud to partner with BCUBE, a visionary technology firm driven by a team of highly skilled entrepreneurs with over 30 years of combined experience in embedded systems and RF/MW technologies. BCUBE aims to lead the industry by providing strategic value to its customers through innovative and customized technology solutions. With expertise in high-speed PCB design, hardware design, digital signal processing, software solutions, and RF/MW circuit design, BCUBE offers comprehensive, reliable, cost-effective, and efficient solutions tailored to meet the unique requirements of its clients. As BCUBE embarks on its journey to revolutionize the technology landscape, takhleeq.io is committed to providing branding and website development services to support its mission and enhance its online presence.",
+    "goals": {
       "description": "The project's goals for BCUBE encompass a holistic approach to brand development and enhancement. Here are main features:",
-      "features": [
+      "bullets": [
         "Create a robust brand identity by crafting cohesive marketing collateral and a detailed company profile, showcasing BCUBE's expertise and solutions effectively.",
         "Craft an intuitive website featuring seamless UI/UX design and compelling content to effectively convey truID's value proposition.",
         "Boost brand exposure through engaging social media marketing strategies and captivating video production and photography, reaching and engaging target audiences.",
@@ -245,9 +279,9 @@
         "Sustain the website's long-term success with ongoing maintenance, including regular updates and security enhancements."
       ]
     },
-    "projectOutcomes": {
+    "outcomes": {
       "description": "So far, takhleeq.io has successfully attained the majority of its project objectives for BCUBE. Here are the key outcomes thus far:",
-      "outcomes": [
+      "bullets": [
         "Increased Brand Visibility: BCUBE's presence in the technology and cybersecurity sectors will be amplified through targeted social media marketing initiatives.",
         "Enhanced Audience Interaction: By actively engaging with the target demographic across platforms like LinkedIn, Twitter, and Facebook, BCUBE will foster meaningful connections and interactions.",
         "Improved Lead Acquisition: Strategic content creation and paid advertising endeavors will contribute to the acquisition of high-quality leads interested in BCUBE's authentication solutions.",
@@ -257,15 +291,20 @@
         "Positive Brand Image: Proactive management of audience feedback and brand mentions will cultivate a favorable brand reputation, fostering trust and credibility.",
         "Adaptation to Trends: Keeping abreast of social media trends and platform updates will ensure BCUBE's social media strategy remains responsive and effective in evolving digital landscapes."
       ]
-    }
+    },
+    "link": "#",
+    "bg": "yellow-600",
+    "portfolio": []
   },
   {
     "name": "Benz Edition",
+    "icon":"/benz.png",
+    "cover":"",
     "description": "Located in the heart of Hatton Garden, London, Benz Edition is a premier destination for luxury watch enthusiasts. As specialists in fine timepieces, we curate an exquisite collection of high-end watches, catering to discerning clientele seeking elegance and sophistication. With a passion for craftsmanship and a commitment to excellence, Benz Edition offers a distinguished shopping experience, where every timepiece tells a story of luxury and precision.",
-    "projectOverview": "takhleeq.io is proud to collaborate with Benz Edition, a renowned luxury watch specialist based in the prestigious Hatton Garden of London. With a reputation for curating an exquisite collection of high-end timepieces, Benz Edition caters to discerning clientele seeking elegance and sophistication. As experts in fine craftsmanship and committed to excellence, Benz Edition offers a distinguished shopping experience where each timepiece narrates a tale of luxury and precision. Through our partnership, takhleeq.io aims to elevate Benz Edition's branding to new heights, ensuring their unique story of luxury resonates with a wider audience, both locally and globally.",
-    "projectGoals": {
+    "overview": "takhleeq.io is proud to collaborate with Benz Edition, a renowned luxury watch specialist based in the prestigious Hatton Garden of London. With a reputation for curating an exquisite collection of high-end timepieces, Benz Edition caters to discerning clientele seeking elegance and sophistication. As experts in fine craftsmanship and committed to excellence, Benz Edition offers a distinguished shopping experience where each timepiece narrates a tale of luxury and precision. Through our partnership, takhleeq.io aims to elevate Benz Edition's branding to new heights, ensuring their unique story of luxury resonates with a wider audience, both locally and globally.",
+    "goals": {
       "description": "The project's goals for Benz Edition encompass a holistic approach to brand development and enhancement. Here are main features:",
-      "features": [
+      "bullets": [
         "Establish a compelling brand identity that reflects Benz Edition's reputation for luxury and sophistication.",
         "Develop a visually stunning website that showcases Benz Edition's exquisite collection of high-end timepieces.",
         "Create engaging marketing collateral to effectively communicate Benz Edition's unique story and value proposition.",
@@ -274,9 +313,9 @@
         "Increase online and offline foot traffic to Benz Edition's physical store through targeted marketing campaigns and promotions."
       ]
     },
-    "projectOutcomes": {
+    "outcomes": {
       "description": "So far, takhleeq.io has successfully attained the majority of its project objectives for Benz Edition. Here are the key outcomes thus far:",
-      "outcomes": [
+      "bullets": [
         "Significant increase in social media followership for Benz Edition across various platforms.",
         "Enhanced brand visibility and recognition within the luxury watch industry.",
         "Improved engagement metrics including likes, comments, and shares on Benz Edition's social media posts.",
@@ -284,6 +323,9 @@
         "Strengthened customer relationships and loyalty through interactive engagement on social media platforms.",
         "Positive impact on Benz Edition's overall brand reputation and credibility in the luxury watch market."
       ]
-    }
+    },
+    "link": "#",
+    "bg": "yellow-600",
+    "portfolio": []
   }
 ]

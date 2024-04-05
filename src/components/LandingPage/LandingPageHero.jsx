@@ -22,62 +22,14 @@ const LandingPagehero = () => {
   }, []);
 
   return (
-    <div className="w-full h-[90vh] flex justify-center bg-[#7936b7] items-center  text-white relative overflow-hidden">
-      <div
-        className={` ${
-          divs[0] ? "hero-translate-1" : "opacity-0"
-        } bg-[#9346db] h-full w-[25%]  uppercase text-8xl  flex justify-center items-center text-center font-bold  `}
-      >
-        <div className="transform rotate-[270deg] opacity-40">
-          Branding <br />
-          <span className="text-border text-[#9346db]"> Branding</span>
-        </div>
-      </div>
-      <div
-        className={`relative  h-full w-[25%] ${
-          divs[1] ? "hero-translate-2" : "opacity-0"
-        } uppercase text-8xl  flex justify-center items-center text-center font-bold `}
-      >
-        <div className="transform rotate-[270deg] opacity-40 relative z-20 ">
-          Content <br />
-          <span className="text-border text-[#8838D3]"> Creation</span>
-        </div>
-        <Image
+    <div className="w-full h-[89vh] flex justify-center items-center  text-white relative overflow-hidden">
+      <Image
           fill={true}
           style={{ objectFit: "cover" }}
-          src="/Images/hero-bg.png"
+          src="/Images/Heros/landing.png"
           className=" absolute z-0"
         />
-        <div className="w-full h-full absolute z-10 top-0 left-0 bg-[#8838D3]/90    "></div>
-      </div>
-      <div
-        className={`relative  bg-[#9346db] h-full w-[25%] ${
-          divs[2] ? "hero-translate-1" : "opacity-0"
-        } uppercase text-8xl  flex justify-center items-center text-center font-bold `}
-      >
-        <div className="transform rotate-[270deg] opacity-40">
-          Digital AI <br />
-          <span className="text-border text-[#9346db]"> Marketing</span>
-        </div>
-      </div>
-      <div
-        className={`relative  h-full w-[25%] ${
-          divs[3] ? "hero-translate-2" : "opacity-0"
-        } uppercase text-8xl   flex justify-center items-center text-center font-bold `}
-      >
-        <div className="transform rotate-[270deg] opacity-40 relative z-20 ">
-          Interior <br />
-          <span className="text-border text-[#8838D3]"> Design</span>
-        </div>
-        <Image
-          fill={true}
-          style={{ objectFit: "cover" }}
-          src="/Images/hero-bg.png"
-          className=" absolute z-0"
-        />
-        <div className="w-full h-full absolute z-10 top-0 left-0 bg-[#8838D3]/90    "></div>
-      </div>
-      <div className="flex justify-center items-center absolute z-30 top-0 left-0 w-full h-full bg-transparent">
+      <div className="flex justify-center items-center absolute z-30 top-0 left-0 w-full h-full bg-[#7936b7]/80 ">
         <div className="text-center w-[40%]">
           <h1 className="text-8xl font-bold">takhleeq</h1>
           <p className="text-2xl ">Ultimate Branding Experience</p>

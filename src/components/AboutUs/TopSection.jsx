@@ -2,6 +2,12 @@
 
 import { useState } from "react";
 
+import Value1 from "../../../public/Icons&Symbols/aboutus/birth.png";
+import Value2 from "../../../public/Icons&Symbols/aboutus/mission.png";
+import Value3 from "../../../public/Icons&Symbols/aboutus/values.png";
+import Value4 from "../../../public/Icons&Symbols/aboutus/vision.png";
+import Image from "next/image";
+
 const TopSection = () => {
   // State to manage the index of the selected item
   const [selectedItemIndex, setSelectedItemIndex] = useState(0);
@@ -66,26 +72,34 @@ const TopSection = () => {
   };
   return (
     <div className="flex flex-col items-center justify-center px-[20%] py-28  bg-[#7957931A]">
-      <div className="flex flex-row justify-evenly w-full items-center mb-4 gap-6">
+      <div className="flex flex-row justify-evenly w-full items-center mb-8 gap-6">
         <div
-          className="h-20 w-20 bg-[#8838D3] rounded-full cursor-pointer"
+          className="h-20 w-20 rounded-full cursor-pointer relative"
           onClick={() => handleCircleClick(0)}
-        ></div>
+        >
+          <Image src={Value1} alt="" className="absolute object-contain" width={100}/>
+        </div>
         <div className="w-24 border-2 border-gray-900"></div>
         <div
-          className="h-20 w-20 bg-[#8838D3] rounded-full cursor-pointer"
+          className="h-20 w-20 rounded-full cursor-pointer relative"
           onClick={() => handleCircleClick(1)}
-        ></div>
+        >
+          <Image src={Value2} alt="" className="absolute object-contain" width={100}/>
+        </div>
         <div className="w-24 border-2 border-gray-900"></div>
         <div
-          className="h-20 w-20 bg-[#8838D3] rounded-full cursor-pointer"
+          className="h-20 w-20 rounded-full cursor-pointer relative"
           onClick={() => handleCircleClick(2)}
-        ></div>
+        >
+          <Image src={Value4} alt="" className="absolute object-contain ml-4" width={60}/>
+        </div>
         <div className="w-24 border-2 border-gray-900"></div>
         <div
-          className="h-20 w-20 bg-[#8838D3] rounded-full cursor-pointer"
+          className="h-20 w-20 rounded-full cursor-pointer relative"
           onClick={() => handleCircleClick(3)}
-        ></div>
+        >
+          <Image src={Value3} alt="" className="absolute object-contain" width={100}/>
+        </div>
       </div>
       {items.map((item, index) => (
         <div

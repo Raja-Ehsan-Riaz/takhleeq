@@ -4,6 +4,7 @@ import Outcomes from "@/components/ClientPage/Outcomes";
 import OverView from "@/components/ClientPage/OverView";
 import ServicesProvided from "@/components/ClientPage/ServicesProvided";
 import clients from "../../../utils/clientsdetails.json";
+import Portfolio from "@/components/ClientPage/Portfolio";
 
 function findClientByTitle(title) {
     return clients.find(client => client.name === title);
@@ -15,10 +16,11 @@ export default function Client({ params }) {
     return (
         <div>
             <ClientHero title={client.name} />
-            <OverView description={client.description} />
+            <OverView description={client.description} image={client.icon} />
             <ServicesProvided/>
             <Goals goals={client.goals}/>
             <Outcomes outcomes={client.outcomes}/>
+            <Portfolio title={client.name} portfolio={client.portfolio} bg={client.bg}/>
         </div>
     );
 }

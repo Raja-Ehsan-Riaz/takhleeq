@@ -1,14 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import BusinessCelebrationImage from "/public/Images/business-celebration-group.png";
+import RoadMap from "/public/Illustrations/roadmap.png";
 
 const BusinessStartupPitch = () => {
   return (
-    <div className="flex flex-row px-[5%] py-28 bg-[#8838D3] text-white">
+    <div className="flex flex-row px-[5%] py-16 bg-[#8838D3] text-white">
       <div className="w-[45%] px-8">
         <Image
-          src={BusinessCelebrationImage}
+          src={RoadMap}
           alt="people celebrating business startup success"
           className=""
         />

@@ -1,10 +1,17 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const BrandingRevolution = () => {
   return (
-    <div className="flex flex-row px-[5%] justify-between py-28 bg-[#6A4EB8] text-white">
-      <div className="w-[30%] flex justify-center items-center text-4xl font-semibold">
-        Tech Driven Branding Revolution
+    <div className="flex flex-row px-[5%] justify-between items-stretch   py-28  text-white relative overflow-hidden">
+      <Image
+          fill={true}
+          style={{ objectFit: "cover" }}
+          src="/Images/branding.png"
+          className=" absolute -z-10"
+        />
+      <div className="w-[40%] flex justify-center items-center text-5xl font-bold">
+        Tech-Driven Branding Revolution
       </div>
       <div className="w-[55%] text-center">
         <p className="text-lg mt-12">

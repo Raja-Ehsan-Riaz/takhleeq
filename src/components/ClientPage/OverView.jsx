@@ -1,4 +1,6 @@
-const OverView = ({description}) => {
+import Image from "next/image";
+
+const OverView = ({description,image}) => {
   return (
     <div className="flex flex-row justify-between px-[5%] py-28 gap-8">
       <div className="w-[60%] flex flex-col items-start gap-8">
@@ -15,12 +17,13 @@ const OverView = ({description}) => {
           <div className="relative z-20">Visit Page</div>
         </div>
       </div>
-      <div className="w-[40%] h-auto bg-slate-400">
-        {/* <Image
-          src={ITServicesImage}
-          alt="people talking about IT"
-          className=""
-        /> */}
+      <div className="w-[40%] relative h-auto ">
+      <Image
+            fill={true}
+            style={{ objectFit: "contain" }}
+            src={`/Icons&Symbols/clients${image}`}
+            className=" absolute"
+          />
       </div>
     </div>
   );

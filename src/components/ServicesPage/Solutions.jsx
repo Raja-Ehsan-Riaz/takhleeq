@@ -1,8 +1,9 @@
+import Image from "next/image";
 import SingleSolutionCard from "./SingleSolutionCard";
 
 const Solutions = () => {
   return (
-    <div className="bg-[#8838D3] py-24 px-[5%] flex flex-row justify-between items-center">
+    <div className="bg-[#8838D3] py-24 px-[5%] flex flex-row justify-between items-center  ">
       <div className="w-[60%] flex flex-col gap-4 items-start">
         <h2 className="text-white text-left  text-5xl uppercase font-bold mb-10 mt-auto">
           We Shape the perfect <br />
@@ -19,7 +20,14 @@ const Solutions = () => {
           a lasting impression on audiences.
         </p>
       </div>
-      <div className="w-[25rem] h-[25rem] bg-gray-400"></div>
+      <div className="w-[30rem] h-[25rem] bg-slate-700 relative overflow-hidden">
+      <Image
+          fill={true}
+          style={{ objectFit: "cover" }}
+          src="/Images/services/solutions.png"
+          className=" absolute z-0"
+        />
+      </div>
     </div>
   );
 };

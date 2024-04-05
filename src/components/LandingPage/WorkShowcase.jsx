@@ -1,7 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import PlaceholderImage from "/public/Images/work-showcase-placeholder.png";
+import askari from "/public/portfolio/askari-2.png";
+import el from "/public/portfolio/elearning.jpg";
+import fss from "/public/portfolio/FSS.jpg";
+import sentinal from "/public/portfolio/sentinal.jpg";
+import toyota from "/public/portfolio/toyota.png";
+import truid from "/public/portfolio/truid.png";
 
 const WorkShowcase = () => {
   return (
@@ -12,24 +17,25 @@ const WorkShowcase = () => {
           Showcase
         </span>
       </h2>
-      <div className="flex flex-wrap mt-8 mb-12">
-        <div className="w-[33%] p-8">
-          <Image src={PlaceholderImage} alt="" className="rounded-md" />
+      <div className="flex flex-wrap justify-center mt-8 mb-12">
+        <div className="w-[50%] p-8">
+          <Image src={fss} alt="" className="rounded-md cursor-pointer" />
         </div>
-        <div className="w-[33%] p-8">
-          <Image src={PlaceholderImage} alt="" className="rounded-md" />
+        <div className="w-[50%] p-8">
+          <Image src={sentinal} alt="" className="rounded-md cursor-pointer" />
         </div>
-        <div className="w-[33%] p-8">
-          <Image src={PlaceholderImage} alt="" className="rounded-md" />
+        <div className="w-[50%] p-8">
+          <Image src={askari} alt="" className="rounded-md cursor-pointer" />
         </div>
-        <div className="w-[33%] p-8">
-          <Image src={PlaceholderImage} alt="" className="rounded-md" />
+        <div className="w-[50%] p-8">
+          <Image src={el} alt="" className="rounded-md cursor-pointer" />
         </div>
-        <div className="w-[33%] p-8">
-          <Image src={PlaceholderImage} alt="" className="rounded-md" />
+
+        <div className="w-[50%] p-8">
+          <Image src={toyota} alt="" className="rounded-md cursor-pointer" />
         </div>
-        <div className="w-[33%] p-8">
-          <Image src={PlaceholderImage} alt="" className="rounded-md" />
+        <div className="w-[50%] p-8">
+          <Image src={truid} alt="" className="rounded-md cursor-pointer" />
         </div>
       </div>
       <Link href={"#"}>

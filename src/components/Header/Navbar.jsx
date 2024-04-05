@@ -26,7 +26,7 @@ function NavBar() {
             src={TakhleeqLogo}
             alt="sparkleo logo"
             quality={100}
-            className="w-[300px]"
+            className="w-[280px]"
             onClick={() => setNavbar(false)}
           />
         </Link>
@@ -55,42 +55,42 @@ function NavBar() {
             className={`h-screen w-full md:h-auto md:items-center justify-center md:flex md:gap-6 lg:gap-10 text-xl md:text-base font-light md:font-medium transition-all duration-500 px-[10%] md:px-0`}
           >
             <li
-              className={`py-4 text-left md:text-center my-4 border-b border-b-[#6A4DBB] hover:text-[#6A4DBB] md:border-b-0 `}
+              className={`py-4 text-left md:text-center my-2 border-b border-b-[#6A4DBB] hover:text-[#6A4DBB] md:border-b-0 `}
             >
               <Link href="/about-us" onClick={() => setNavbar(false)}>
                 About Us
               </Link>
             </li>
             <li
-              className={`py-4 text-left md:text-center my-4 border-b border-b-[#6A4DBB] hover:text-[#6A4DBB]   md:border-b-0  `}
+              className={`py-4 text-left md:text-center my-2 border-b border-b-[#6A4DBB] hover:text-[#6A4DBB]   md:border-b-0  `}
             >
               <Link href="/services" onClick={() => setNavbar(false)}>
                 Services
               </Link>
             </li>
             <li
-              className={`py-4 text-left md:text-center my-4 border-b border-b-[#6A4DBB] hover:text-[#6A4DBB]   md:border-b-0 `}
+              className={`py-4 text-left md:text-center my-2 border-b border-b-[#6A4DBB] hover:text-[#6A4DBB]   md:border-b-0 `}
             >
               <Link href="/clients" onClick={() => setNavbar(false)}>
                 Projects
               </Link>
             </li>
             <li
-              className={`py-4 text-left md:text-center my-4 border-b border-b-[#6A4DBB] hover:text-[#6A4DBB] md:border-b-0`}
+              className={`py-4 text-left md:text-center my-2 border-b border-b-[#6A4DBB] hover:text-[#6A4DBB] md:border-b-0`}
             >
               <Link href="/pricing" onClick={() => setNavbar(false)}>
                 Pricing
               </Link>
             </li>
             <li
-              className={`py-4 text-left md:text-center my-4 border-b border-b-[#6A4DBB] hover:text-[#6A4DBB] md:border-b-0`}
+              className={`py-4 text-left md:text-center my-2 border-b border-b-[#6A4DBB] hover:text-[#6A4DBB] md:border-b-0`}
             >
               <Link href="/blogs" onClick={() => setNavbar(false)}>
                 News & Updates
               </Link>
             </li>
             <li
-              className={`py-4 text-left md:text-center my-4 hidden md:block hover:text-[#6A4DBB] `}
+              className={`py-4 text-left md:text-center my-2 hidden md:block hover:text-[#6A4DBB] `}
             >
               <Link href="/contact-us" onClick={() => setNavbar(false)}>
                 Contact Us

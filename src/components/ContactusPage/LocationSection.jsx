@@ -8,11 +8,11 @@ const LocationSection = () => {
       <div className="flex flex-col gap-4 justify-between items-start w-[50%] ">
         <div className="flex flex-row  border-l-8 border-[#8838D3] w-full">
           <div className="flex flex-col w-[90%] items-start justify-between p-6 px-8 bg-[#79579D3A]">
-            <div className="uppercase font-bold text-xl text-[#8838D3]">
-              Pakistan
+            <div className="uppercase font-bold text-xl text-[#8838D3] mb-2">
+              Main Office
             </div>
             <div className="font-semibold">
-              Media Lab, IEAC Building, NUST H-12, Islamabad
+              GRC, SEECS, NUST, Sector H-12, Islamabad
             </div>
             <div className="flex justify-between gap-6">
               <div className="flex flex-row justify-start items-center gap-4">
@@ -31,11 +31,11 @@ const LocationSection = () => {
         </div>
         <div className="flex flex-row  border-l-8 border-[#8838D3] w-full">
           <div className="flex flex-col w-[90%] items-start justify-between p-6 px-8 bg-[#79579D3A]">
-            <div className="uppercase font-bold text-xl text-[#8838D3]">
-              Pakistan
+            <div className="uppercase font-bold text-xl text-[#8838D3] mb-2">
+              Coorporate Office
             </div>
             <div className="font-semibold">
-              Media Lab, IEAC Building, NUST H-12, Islamabad
+              AKLASC Plaza, behind Babri Masjid, G-10 Markaz Islamabad
             </div>
             <div className="flex justify-between gap-6">
               <div className="flex flex-row justify-start items-center gap-4">
@@ -54,20 +54,20 @@ const LocationSection = () => {
         </div>
         <div className="flex flex-row  border-l-8 border-[#8838D3] w-full">
           <div className="flex flex-col w-[90%] items-start justify-between p-6 px-8 bg-[#79579D3A]">
-            <div className="uppercase font-bold text-xl text-[#8838D3]">
-              Pakistan
+            <div className="uppercase font-bold text-xl text-[#8838D3] mb-2">
+              United Kingdom
             </div>
             <div className="font-semibold">
-              Media Lab, IEAC Building, NUST H-12, Islamabad
+             Not Available
             </div>
             <div className="flex justify-between gap-6">
               <div className="flex flex-row justify-start items-center gap-4">
                 <IoMailOutline size={20} />
-                <div>contact@takhleeq.com</div>
+                <div>not available</div>
               </div>
               <div className="flex flex-row justify-start items-center gap-4">
                 <FaPhone size={15} />
-                <div className="ml-1">0333-123467</div>
+                <div className="ml-1">not available</div>
               </div>
             </div>
           </div>
