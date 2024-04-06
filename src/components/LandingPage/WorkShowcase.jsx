@@ -2,8 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 import askari from "/public/portfolio/askari-2.png";
-import el from "/public/portfolio/elearning.jpg";
 import fss from "/public/portfolio/FSS.jpg";
+import el from "/public/portfolio/elearning.jpg";
 import sentinal from "/public/portfolio/sentinal.jpg";
 import toyota from "/public/portfolio/toyota.png";
 import truid from "/public/portfolio/truid.png";
