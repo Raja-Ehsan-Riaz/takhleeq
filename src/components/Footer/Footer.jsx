@@ -11,7 +11,7 @@ import { RiTwitterXFill } from "react-icons/ri";
 const Footer = () => {
   return (
     <div className=" bg-gradient-to-b from-[#6A4EB8] to-[#B418FB] text-white ">
-      <div className="flex flex-row gap-24 pt-28 pb-16 mx-[10%]">
+      <div className="flex flex-col items-center lg:flex-row gap-24 pt-28 pb-16 mx-[10%]">
         <div className="flex flex-col">
           <Link href={"#"}>
             <h3 className="mb-4 text-2xl font-semibold">About</h3>
@@ -54,7 +54,7 @@ const Footer = () => {
             <h3 className="mb-4 text-2xl font-semibold">News & Updates</h3>
           </Link>
         </div>
-        <div className="ml-auto">
+        <div className="lg:ml-auto">
           <Image
             src={LogoFullWhite}
             alt="Takhleeq Logo"

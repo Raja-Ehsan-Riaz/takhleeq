@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ContactHero = () => {
     return (
-      <div className="flex h-[70vh] relative overflow-hidden bg-[#7936b7]/50 bg-gradient-to-r from-[#1312149E]/50 via-[#1312149E]/20 to-[#1312149E]/50 ">
+      <div className="flex h-[70vh] relative overflow-hidden bg-[#7936b7]/50 bg-gradient-to-r from-[#1312149E]/50 via-[#1312149E]/50 to-[#1312149E]/50 ">
         <Image
           fill={true}
           style={{ objectFit: "cover" }}

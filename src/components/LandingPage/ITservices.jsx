@@ -6,8 +6,8 @@ import ITServicesImage from "/public/Illustrations/it-service.png";
 
 const ITservices = () => {
   return (
-    <div className="flex flex-row items-end justify-between  px-[5%] pt-28">
-      <div className="w-[55%]">
+    <div className="flex flex-col lg:flex-row items-center justify-between  px-[5%] py-28">
+      <div className="lg:w-[55%] lg:px-8">
         <h2 className="uppercase text-6xl text-left font-bold">
           One-window Stop <br /> to Boost{" "} <br />
           <span className="text-[#8838D3] border-b-8 border-b-black">

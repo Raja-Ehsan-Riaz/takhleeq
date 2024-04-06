@@ -29,8 +29,8 @@ const LandingPagehero = () => {
           src="/Images/Heros/landing.png"
           className=" absolute z-0"
         />
-      <div className="flex justify-center items-center absolute z-30 top-0 left-0 w-full h-full bg-[#7936b7]/80 ">
-        <div className="text-center w-[40%]">
+      <div className="flex justify-center items-center absolute z-30 top-0 left-0 w-full h-full bg-[#7936b7]/70 bg-blend-overlay  bg-gradient-to-r from-[#1312149E]/40 via-[#1312149E]/40 to-[#1312149E]/40 ">
+        <div className="text-center lg:w-[40%] ">
           <h1 className="text-8xl font-bold">takhleeq</h1>
           <p className="text-2xl ">Ultimate Branding Experience</p>
           <div className="flex flex-row bg-white rounded-md items-center my-4">

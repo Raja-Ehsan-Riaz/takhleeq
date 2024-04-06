@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FaArrowRightLong } from "react-icons/fa6";
+import blogs from "../../utils/blogs.json";
 
 const NewsAndUpdates = () => {
   return (
@@ -11,96 +12,45 @@ const NewsAndUpdates = () => {
         </span>
       </h2>
       <div className="mb-16">
-        <div className="flex flex-row">
-          <div className="bg-[url('/Images/news-and-updates-bg-placeholder.png')] hover:bg-none hover:bg-[#9670FF] p-4 w-[33.33%] pt-36 pr-16">
-            <div className="bg-[#8838D3] px-3 py-1 text-white text-sm inline-block rounded-sm">
-              <p>Latest</p>
-            </div>
-            <h3 className="text-lg text-white mt-2 font-semibold uppercase">
-              A new startup Takhleeq is hiring full-time Graphic Designer.
-            </h3>
-            <p className="text-sm font-light text-white">
-              <i>Sept 17 2023</i>
-            </p>
-            <div className="flex flex-row text-[#8838D3] hover:text-white mt-8">
-              <p>Play Video</p>
-              <FaArrowRightLong size={20} className="ml-[10px]" />
-            </div>
-          </div>
-
-          <div className="bg-[url('/Images/news-and-updates-bg-placeholder.png')] hover:bg-none hover:bg-[#9670FF] p-4 w-[33.33%] pt-36 pr-16">
-            <div className="bg-[#8838D3] px-3 py-1 text-white text-sm inline-block rounded-sm">
-              <p>Latest</p>
-            </div>
-            <h3 className="text-lg text-white mt-2 font-semibold uppercase">
-              A new startup Takhleeq is hiring full-time Graphic Designer.
-            </h3>
-            <p className="text-sm font-light text-white">
-              <i>Sept 17 2023</i>
-            </p>
-            <div className="flex flex-row text-[#8838D3] hover:text-white mt-8">
-              <p>Play Video</p>
-              <FaArrowRightLong size={20} className="ml-[10px]" />
-            </div>
-          </div>
-
-          <div className="bg-[url('/Images/news-and-updates-bg-placeholder.png')] hover:bg-none hover:bg-[#9670FF] p-4 w-[33.33%] pt-36 pr-16">
-            <div className="bg-[#8838D3] px-3 py-1 text-white text-sm inline-block rounded-sm">
-              <p>Latest</p>
-            </div>
-            <h3 className="text-lg text-white mt-2 font-semibold uppercase">
-              A new startup Takhleeq is hiring full-time Graphic Designer.
-            </h3>
-            <p className="text-sm font-light text-white">
-              <i>Sept 17 2023</i>
-            </p>
-            <div className="flex flex-row text-[#8838D3] hover:text-white mt-8">
-              <p>Play Video</p>
-              <FaArrowRightLong size={20} className="ml-[10px]" />
-            </div>
-          </div>
+        <div className="flex flex-col lg:flex-row">
+          {blogs.slice(0, 3).map((news) => (
+            <Link
+              href={`/blog/${news.title}`}
+              className="bg-[url('/Images/news-and-updates-bg-placeholder.png')] hover:bg-none hover:bg-[#9670FF] cursor-pointer p-4 lg:w-[33.33%] pt-36 pr-16"
+            >
+              <div className="bg-[#8838D3] px-3 py-1 text-white text-sm inline-block rounded-sm">
+                <p>Latest</p>
+              </div>
+              <h3 className="text-lg text-white mt-4 font-semibold uppercase">
+                {news.title}
+              </h3>
+              <p className="text-sm font-light text-white mb-8">
+                <i>{news.date}</i>
+              </p>
+            </Link>
+          ))}
         </div>
 
-        <div className="flex flex-row">
-          <div className="bg-[url('/Images/news-and-updates-bg-placeholder.png')] bg-no-repeat bg-cover hover:bg-none hover:bg-[#9670FF] p-4 w-[50%] pt-44 pr-20">
-            <div className="bg-[#8838D3] px-3 py-1 text-white text-sm inline-block rounded-sm">
-              <p>Latest</p>
-            </div>
-            <h3 className="text-lg text-white mt-2 font-semibold uppercase">
-              A new startup Takhleeq is hiring full-time Graphic Designer.
-            </h3>
-            <p className="text-sm font-light text-white">
-              <i>Sept 17 2023</i>
-            </p>
-            <p className="text-white text-md my-2">
-              A startup Takhleeq is a IT and consulting company that is now
-              hiring urgent graphic designers. Send your CVs.
-            </p>
-            <div className="flex flex-row text-[#8838D3] hover:text-white mt-8">
-              <p>Play Video</p>
-              <FaArrowRightLong size={20} className="ml-[10px]" />
-            </div>
-          </div>
-
-          <div className="bg-[url('/Images/news-and-updates-bg-placeholder.png')] bg-no-repeat bg-cover hover:bg-none hover:bg-[#9670FF] p-4 w-[50%] pt-44 pr-20">
-            <div className="bg-[#8838D3] px-3 py-1 text-white text-sm inline-block rounded-sm">
-              <p>Latest</p>
-            </div>
-            <h3 className="text-lg text-white mt-2 font-semibold uppercase">
-              A new startup Takhleeq is hiring full-time Graphic Designer.
-            </h3>
-            <p className="text-sm font-light text-white">
-              <i>Sept 17 2023</i>
-            </p>
-            <p className="text-white text-md my-2">
-              A startup Takhleeq is a IT and consulting company that is now
-              hiring urgent graphic designers. Send your CVs.
-            </p>
-            <div className="flex flex-row text-[#8838D3] hover:text-white mt-8">
-              <p>Play Video</p>
-              <FaArrowRightLong size={20} className="ml-[10px]" />
-            </div>
-          </div>
+        <div className="flex flex-col lg:flex-row ">
+          {blogs.slice(3, 5).map((news) => (
+            <Link
+              href={`/blog/${news.title}`}
+              className="bg-[url('/Images/news-and-updates-bg-placeholder.png')] bg-no-repeat bg-cover hover:bg-none hover:bg-[#9670FF] cursor-pointer p-4 lg:w-[50%] pt-44 pr-20"
+            >
+              <div className="bg-[#8838D3] px-3 py-1 text-white text-sm inline-block rounded-sm">
+                <p>Latest</p>
+              </div>
+              <h3 className="text-lg text-white mt-4 font-semibold uppercase">
+                {news.title}
+              </h3>
+              <p className="text-sm font-light text-white">
+                <i>{news.date}</i>
+              </p>
+              <p className="text-white text-md my-2 mb-8 hidden lg:block">
+              {news.description.slice(0,news.description.length/3)}{"..."}
+              </p>
+            </Link>
+          ))}
         </div>
       </div>
       <div className="flex w-full">

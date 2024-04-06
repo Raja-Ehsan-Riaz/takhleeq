@@ -18,14 +18,14 @@ const NeedConsultation = () => {
           Consultation?
         </span>
       </h2>
-      <div className="flex flex-row">
-        <div className="w-[75%]">
+      <div className="flex flex-col lg:flex-row">
+        <div className="lg:w-[75%]">
           <p>Drop us a line! We are here to answer your questions 24/7.</p>
           <form
             onSubmit={handleSubmit}
             className="mt-4 flex flex-col items-center"
           >
-            <div className="flex flex-row justify-between gap-4 w-full">
+            <div className="flex flex-col lg:flex-row flex-wrap justify-between gap-4 w-full">
               <input
                 type="text"
                 id="full-name"
@@ -78,7 +78,7 @@ const NeedConsultation = () => {
             </button>
           </form>
         </div>
-        <div className="w-[25%] pl-12">
+        <div className="lg:w-[25%] mt-8  lg:mt-0 lg:pl-12">
           <div>
             <h3 className="text-[#8838D3] text-left font-bold text-xl uppercase mb-4">
               Contact{" "}

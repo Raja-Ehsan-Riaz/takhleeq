@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ServicesHero = () => {
   return (
-    <div className="flex h-[70vh] relative overflow-hidden bg-gray-900/50">
+    <div className="flex h-[70vh] relative overflow-hidden bg-gray-900/60">
       <Image
           fill={true}
           style={{ objectFit: "cover" }}

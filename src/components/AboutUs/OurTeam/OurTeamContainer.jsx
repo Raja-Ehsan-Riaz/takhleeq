@@ -25,7 +25,7 @@ const OurTeamContainer = ({ first, coreTeam }) => {
     }
   };
   return (
-    <div className={` ${first ? "pt-28" : ""}  px-[5%] `}>
+    <div className={` ${first ? "pt-28" : "pt-4 pb-28"}  px-[5%] bg-[#7957931A] `}>
       {first ? (
         <>
           <h2 className="uppercase text-4xl  font-bold text-center mb-10">
@@ -49,11 +49,11 @@ const OurTeamContainer = ({ first, coreTeam }) => {
       <h2 className=" text-3xl  font-semibold text-center mt-12">
         {coreTeam ? "Core Team" : "Other Members"}
       </h2>
-      <div className="w-[80%] mx-auto relative">
+      <div className="w-[85%] mx-auto relative">
         <Swiper
           // install Swiper modules
           modules={[Navigation, Pagination, A11y, Autoplay]}
-          slidesPerView={4}
+          slidesPerView={1}
           loop
           autoplay
           ref={swiperRef}
@@ -61,6 +61,18 @@ const OurTeamContainer = ({ first, coreTeam }) => {
             prevEl: ".swiper-button-prev",
             nextEl: ".swiper-button-next",
           }}
+          breakpoints={{
+            650: {
+              slidesPerView: 2,
+            },
+            1000: {
+              slidesPerView: 3,
+            },
+            1330: {
+              slidesPerView: 4,
+            },
+          }}
+
           // navigation
         >
           {coreTeam ? (
@@ -70,6 +82,7 @@ const OurTeamContainer = ({ first, coreTeam }) => {
                   <TeamCard
                     name={member.Name}
                     designation={member.Designation}
+                    picture={member.Picture}
                   />
                 </SwiperSlide>
               ))}
@@ -81,6 +94,7 @@ const OurTeamContainer = ({ first, coreTeam }) => {
                   <TeamCard
                     name={member.Name}
                     designation={member.Designation}
+                    picture={member.Picture}
                   />
                 </SwiperSlide>
               ))}
@@ -88,14 +102,14 @@ const OurTeamContainer = ({ first, coreTeam }) => {
           )}
         </Swiper>
         {!coreTeam && (
-          <div className="swiper-button-prev-container absolute -left-20 top-[40%] cursor-pointer text-[#8838D3] ">
+          <div className="swiper-button-prev-container absolute -left-20 top-[40%] cursor-pointer text-[#8838D3] hidden lg:block ">
             <div className="swiper-button-prev-custom" onClick={goToPrevSlide}>
               {<RiArrowLeftSLine size={50} />}
             </div>
           </div>
         )}
         {!coreTeam && (
-          <div className="swiper-button-next-container absolute -right-20 top-[40%] cursor-pointer text-[#8838D3] ">
+          <div className="swiper-button-next-container absolute -right-20 top-[40%] cursor-pointer text-[#8838D3]  hidden lg:block ">
             <div className="swiper-button-next-custom" onClick={goToNextSlide}>
               {<RiArrowRightSLine size={50} />}
             </div>
