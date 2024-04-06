@@ -13,8 +13,9 @@ const NewsAndUpdates = () => {
       </h2>
       <div className="mb-16">
         <div className="flex flex-col lg:flex-row">
-          {blogs.slice(0, 3).map((news) => (
+          {blogs.slice(0, 3).map((news,idx) => (
             <Link
+            key={idx}
               href={`/blog/${news.title}`}
               className="bg-[url('/Images/news-and-updates-bg-placeholder.png')] hover:bg-none hover:bg-[#9670FF] cursor-pointer p-4 lg:w-[33.33%] pt-36 pr-16"
             >
@@ -32,8 +33,9 @@ const NewsAndUpdates = () => {
         </div>
 
         <div className="flex flex-col lg:flex-row ">
-          {blogs.slice(3, 5).map((news) => (
+          {blogs.slice(3, 5).map((news,idx) => (
             <Link
+            key={idx}
               href={`/blog/${news.title}`}
               className="bg-[url('/Images/news-and-updates-bg-placeholder.png')] bg-no-repeat bg-cover hover:bg-none hover:bg-[#9670FF] cursor-pointer p-4 lg:w-[50%] pt-44 pr-20"
             >
