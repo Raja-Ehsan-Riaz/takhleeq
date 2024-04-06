@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 import askari from "/public/portfolio/askari-2.png";
-import fss from "/public/portfolio/fss.jpg";
 import el from "/public/portfolio/elearning.jpg";
 import sentinal from "/public/portfolio/sentinal.jpg";
 import toyota from "/public/portfolio/toyota.png";
@@ -18,9 +17,9 @@ const WorkShowcase = () => {
         </span>
       </h2>
       <div className="flex flex-wrap justify-center mt-8 mb-12">
-        <div className="w-[50%] p-8">
+        {/* <div className="w-[50%] p-8">
           <Image src={fss} alt="" className="rounded-md cursor-pointer" />
-        </div>
+        </div> */}
         <div className="w-[50%] p-8">
           <Image src={sentinal} alt="" className="rounded-md cursor-pointer" />
         </div>
