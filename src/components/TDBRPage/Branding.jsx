@@ -9,7 +9,7 @@ const Branding = () => {
           </span>
         </h2>
         <p className="text-lg mt-12">
-          At the helm of takhleeq.io's Tech-Driven Branding Revolution (TDBR) is
+          At the helm of takhleeq.io&apos;s Tech-Driven Branding Revolution (TDBR) is
           a dynamic team of visionaries, innovators, and trailblazers. Committed
           to pushing the boundaries of creativity and technology, this team
           utilizes the power of cutting-edge tools and methodologies to redefine
