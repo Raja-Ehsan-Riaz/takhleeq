@@ -17,18 +17,24 @@ const Clients = () => {
     <div className="w-full bg-[#7957931A] flex flex-row">
       <div className="w-[40%] pl-[5%] py-20">
         <h3 className="font-bold text-4xl uppercase">
-        {activeClientData.punchline.split(" ").map((word, index) => {
-          // Check if the word starts with '&'
-          if (word.startsWith("&")) {
-            // Wrap the word in a span tag with the desired style
-            return <span className="text-[#8838D3]" key={index}>{word.slice(1,word.length+1)+" "}</span>;
-          } else {
-            return word + " ";
-          }
-        })}
-
+          {activeClientData.punchline.split(" ").map((word, index) => {
+            // Check if the word starts with '&'
+            if (word.startsWith("&")) {
+              // Wrap the word in a span tag with the desired style
+              return (
+                <span className="text-[#8838D3]" key={index}>
+                  {word.slice(1, word.length + 1) + " "}
+                </span>
+              );
+            } else {
+              return word + " ";
+            }
+          })}
         </h3>
-        <p className="mt-4 mb-10" dangerouslySetInnerHTML={{__html:activeClientData.description}}>
+        <p
+          className="mt-4 mb-10"
+          dangerouslySetInnerHTML={{ __html: activeClientData.description }}
+        >
           {/* {activeClientData && activeClientData.description} */}
         </p>
         <Link href="/clients">
@@ -59,7 +65,7 @@ const Clients = () => {
               }`}
               onClick={() => setActiveClient("Elements Learning")}
             >
-              United Kingdom
+              Islamabad
             </p>
             <p
               className={`cursor-pointer px-2 py-1 my-1 hover:bg-[#8838D3] hover:text-white ${
@@ -89,7 +95,7 @@ const Clients = () => {
               }`}
               onClick={() => setActiveClient("Toyota")}
             >
-              Gawadar
+              Islamabad
             </p>
           </div>
           <div className="border-l-4 border-[#8838D3] text-left font-semibold">

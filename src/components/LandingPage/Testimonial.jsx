@@ -1,21 +1,21 @@
 import Image from "next/image";
 
-const Testimonial = ({ even }) => {
+const Testimonial = ({ even,Name,Designation,Text,Picture }) => {
   return (
     <div
-      className={`mt-16 mb-4  mx-[10%] h-full relative ${
+      className={`mt-16 mb-4  mx-[10%]  lg:h-[25rem] relative shadow-lg ${
         even
           ? "bg-gray-300 text-black"
           : "bg-gradient-to-b from-[#6A4EB8] to-[#B418FB] text-white"
       } `}
     >
-      <div className="relative w-full h-full z-20 flex flex-col items-start justify-between gap-6 p-8 text-lg">
+      <div className="relative w-full h-full z-20 flex flex-col items-start justify-center gap-6 p-8 ">
         <div className="w-full relative">
           <div className="h-32 w-32 rounded-full bg-gray-600 mx-auto overflow-hidden relative">
             <Image
               layout="fill"
               style={{ objectFit: "cover", objectPosition: "20% 0%" }}
-              src="/Images/team-dummy.png"
+              src={Picture}
               className="relative"
             />
           </div>
@@ -32,7 +32,7 @@ const Testimonial = ({ even }) => {
           quam magnam ut voluptatum
         </div>
         <div className="opacity-80">
-          <span className="font-bold">Saqib Malik</span>, CEO Takhleeq
+          <span className="font-bold">{Name}</span>,{" "}{Designation}
         </div>
       </div>
 

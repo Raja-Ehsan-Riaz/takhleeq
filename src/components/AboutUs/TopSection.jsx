@@ -77,7 +77,7 @@ const TopSection = () => {
           className={`h-32 w-32 rounded-full cursor-pointer relative bg-gray-200 shadow-md flex justify-center items-center ${selectedItemIndex===0 && "border-4 border-[#8838D3]/80"}`}
           onClick={() => handleCircleClick(0)}
         >
-          <Image src={Value1} alt="" className="absolute object-contain fill-neutral-50" width={50}/>
+          <Image src={Value1} alt="" className="absolute object-contain filter" width={50}/>
         </div>
         <div className="w-24 border-2 border-gray-900"></div>
         <div
