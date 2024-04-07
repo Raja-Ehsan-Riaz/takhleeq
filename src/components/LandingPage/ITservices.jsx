@@ -6,8 +6,8 @@ import ITServicesImage from "/public/Illustrations/it-service.png";
 
 const ITservices = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between  px-[5%] py-28">
-      <div className="lg:w-[55%] lg:px-8">
+    <div className="flex flex-col lg:flex-row items-center justify-between  px-[5%] py-28 ">
+      <div className="lg:w-[55%] lg:pr-8 ">
         <h2 className="uppercase text-6xl text-left font-bold">
           One-window Stop <br /> to Boost{" "} <br />
           <span className="text-[#8838D3] border-b-8 border-b-black">
@@ -34,7 +34,7 @@ const ITservices = () => {
               your audience.
             </p>
           </div>
-          <div className="flex flex-row items-start mb-20">
+          <div className="flex flex-row items-start mb-12 lg:mb-0">
             <FaRegCheckCircle size={20} color="#8838d3" className="mt-1" />
             <p className="text-lg ml-3">
               Targeted marketing strategies to reach and engage your ideal
@@ -43,12 +43,11 @@ const ITservices = () => {
           </div>
         </div>
       </div>
-      <div className="">
+      <div >
         <Image
           src={ITServicesImage}
           alt="people talking about IT"
           width={600}
-          className=""
         />
       </div>
     </div>

@@ -65,7 +65,7 @@ const ContactForm = (props) => {
           <div className="flex flex-col justify-center items-start text-black mt-2">
             <div className="flex flex-row justify-start items-start gap-4">
               <IoLocation size={35} />
-              <div>Media Lab, IEAC Building, NUST H-12, Islamabad</div>
+              <div>GRC, SEECS, NUST, Sector H-12, Islamabad</div>
             </div>
           </div>
           <h2 className=" text-lg  font-bold text-center text-[#8838D3]">

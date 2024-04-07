@@ -327,5 +327,258 @@
     "link": "#",
     "bg": "yellow-600",
     "portfolio": []
+  },
+  {
+    "name": "Array Tech",
+    "icon":"/arraytech.png",
+    "cover":"",
+    "description": "",
+    "overview": "",
+    "goals": {
+      "description": "",
+      "bullets": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "outcomes": {
+      "description": "",
+      "bullets": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "link": "#",
+    "bg": "",
+    "portfolio": []
+  },
+  {
+    "name": "CC",
+    "icon":"/cc.png",
+    "cover":"",
+    "description": "",
+    "overview": "",
+    "goals": {
+      "description": "",
+      "bullets": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "outcomes": {
+      "description": "",
+      "bullets": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "link": "#",
+    "bg": "",
+    "portfolio": []
+  },
+  {
+    "name": "Rapid Silicon",
+    "icon":"/rapid.png",
+    "cover":"",
+    "description": "",
+    "overview": "",
+    "goals": {
+      "description": "",
+      "bullets": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "outcomes": {
+      "description": "",
+      "bullets": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "link": "#",
+    "bg": "",
+    "portfolio": []
+  },
+  {
+    "name": "truIT",
+    "icon":"/truit.png",
+    "cover":"",
+    "description": "",
+    "overview": "",
+    "goals": {
+      "description": "",
+      "bullets": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "outcomes": {
+      "description": "",
+      "bullets": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "link": "#",
+    "bg": "",
+    "portfolio": []
+  },{
+    "name": "CSM",
+    "icon":"/csm.png",
+    "cover":"",
+    "description": "",
+    "overview": "",
+    "goals": {
+      "description": "",
+      "bullets": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "outcomes": {
+      "description": "",
+      "bullets": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "link": "#",
+    "bg": "",
+    "portfolio": []
+  },{
+    "name": "Danoarts",
+    "icon":"/danoarts.png",
+    "cover":"",
+    "description": "",
+    "overview": "",
+    "goals": {
+      "description": "",
+      "bullets": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "outcomes": {
+      "description": "",
+      "bullets": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "link": "#",
+    "bg": "",
+    "portfolio": []
+  },{
+    "name": "vaulsys",
+    "icon":"/vaulsys.png",
+    "cover":"",
+    "description": "",
+    "overview": "",
+    "goals": {
+      "description": "",
+      "bullets": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "outcomes": {
+      "description": "",
+      "bullets": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "link": "#",
+    "bg": "",
+    "portfolio": []
+  },{
+    "name": "ieg",
+    "icon":"/ieg.png",
+    "cover":"",
+    "description": "",
+    "overview": "",
+    "goals": {
+      "description": "",
+      "bullets": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "outcomes": {
+      "description": "",
+      "bullets": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "link": "#",
+    "bg": "",
+    "portfolio": []
   }
 ]
+

@@ -6,14 +6,14 @@ import RoadMap from "/public/Illustrations/roadmap.png";
 const BusinessStartupPitch = () => {
   return (
     <div className="flex flex-col-reverse lg:flex-row px-[5%] py-16 bg-[#8838D3] text-white">
-      <div className="lg:w-[45%] px-8">
+      <div className="lg:w-[40%]">
         <Image
           src={RoadMap}
           alt="people celebrating business startup success"
           className=""
         />
       </div>
-      <div className="lg:w-[55%] lg:px-8 lg:pt-16">
+      <div className="lg:w-[60%] lg:pl-8 lg:pt-16">
         <h2 className="uppercase text-6xl text-left font-semibold">
           Need a Roadmap For Business&apos;s{" "}
           <span className="text-black border-b-8 border-b-black">Success </span>

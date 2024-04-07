@@ -9,13 +9,13 @@ const ClientsContainer = () => {
 
   const [currentPage, setCurrentPage] = useState(1);
 
-  const totalPages = Math.ceil(clients.length / clientsPerPage);
+  const totalPages = Math.ceil(clients.filter((client) => client.description.length !== 0).length / clientsPerPage);
 
   const startIndex = (currentPage - 1) * clientsPerPage;
 
   const endIndex = startIndex + clientsPerPage;
 
-  const displayedClients = clients.slice(startIndex, endIndex);
+  const displayedClients = clients.filter((client) => client.description.length !== 0).slice(startIndex, endIndex);
 
   const handlePageChange = (newPage) => {
     if (newPage >= 1 && newPage <= totalPages) {

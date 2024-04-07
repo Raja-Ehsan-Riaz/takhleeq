@@ -55,7 +55,7 @@ const OurTeamContainer = ({ first, coreTeam }) => {
           modules={[Navigation, Pagination, A11y, Autoplay]}
           slidesPerView={1}
           loop
-          autoplay
+          autoplay={{delay:2000,pauseOnMouseEnter:true}}
           ref={swiperRef}
           navigation={{
             prevEl: ".swiper-button-prev",

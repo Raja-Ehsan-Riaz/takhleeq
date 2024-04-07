@@ -18,23 +18,23 @@ const WorkShowcase = () => {
         </span>
       </h2>
       <div className="flex flex-col md:flex-row flex-wrap justify-center mt-8 mb-12">
-        <div className="md:w-[50%] p-2 lg:p-8">
+        <div className="md:w-[50%] p-2 lg:p-4">
           <Image src={fss} alt="" className="rounded-md cursor-pointer" />
         </div>
-        <div className="md:w-[50%] p-2 lg:p-8">
+        <div className="md:w-[50%] p-2 lg:p-4">
           <Image src={sentinal} alt="" className="rounded-md cursor-pointer" />
         </div>
-        <div className="md:w-[50%] p-2 lg:p-8">
+        <div className="md:w-[50%] p-2 lg:p-4">
           <Image src={askari} alt="" className="rounded-md cursor-pointer" />
         </div>
-        <div className="md:w-[50%] p-2 lg:p-8">
+        <div className="md:w-[50%] p-2 lg:p-4">
           <Image src={el} alt="" className="rounded-md cursor-pointer" />
         </div>
 
-        <div className="md:w-[50%] p-2 lg:p-8">
+        <div className="md:w-[50%] p-2 lg:p-4">
           <Image src={toyota} alt="" className="rounded-md cursor-pointer" />
         </div>
-        <div className="md:w-[50%] p-2 lg:p-8">
+        <div className="md:w-[50%] p-2 lg:p-4">
           <Image src={truid} alt="" className="rounded-md cursor-pointer" />
         </div>
       </div>
