@@ -7,7 +7,7 @@ const ServiceDetails = ({ punchline, detail, components, strategy }) => {
         <div>{detail}</div>
         <div className="py-6 ml-8">
           <ul className="list-disc  flex flex-col gap-2">
-            {components.map((component,index) => (
+            {components && components.map((component,index) => (
               <li key={index}>
                <span className="font-bold">{component.heading}</span>
                <span className="ml-2">{component.text}</span>

@@ -1,8 +1,5 @@
 import Image from "next/image";
-
-import { FaRegCheckCircle } from "react-icons/fa";
-
-// import ITServicesImage from "/public/Images/it-services-section.png";
+import ITServicesImage from "/public/Images/building.png";
 
 const SupportingClients = () => {
   return (
@@ -21,12 +18,13 @@ const SupportingClients = () => {
           that our expertise and passion for innovation can make.
         </p>
       </div>
-      <div className=" w-full lg:w-[40%] h-[30rem]  bg-[#7957931A]">
-        {/* <Image
+      <div className=" w-full lg:w-[40%] h-[30rem] relative">
+        <Image
           src={ITServicesImage}
           alt="people talking about IT"
           className=""
-        /> */}
+          fill
+        />
       </div>
     </div>
   );

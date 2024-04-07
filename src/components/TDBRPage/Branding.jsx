@@ -1,6 +1,8 @@
+import RocketImage from "../../../public/Images/rocket.png"
+import Image from "next/image";
 const Branding = () => {
   return (
-    <div className="flex flex-col lg:flex-row pr-[5%] lg:pr-[0%] pl-[5%] py-28 gap-12 lg:gap-[10%] items-center overflow-hidden">
+    <div className="flex flex-col lg:flex-row  px-[5%] py-28 gap-12 justify-between items-center overflow-hidden">
       <div className="lg:w-[60%]">
         <h2 className="uppercase text-6xl text-left font-bold">
           Tech-Driven Branding <br />
@@ -25,12 +27,15 @@ const Branding = () => {
           transform.
         </div>
       </div>
-      <div className=" w-full h-[20rem] lg:w-[45%] lg:h-full ">
-        {/* <Image
-          src={ITServicesImage}
+      <div className=" h-[35rem] w-[35rem] overflow-hidden rounded-full   relative ">
+        <Image
+          src={RocketImage}
           alt="people talking about IT"
-          className=""
-        /> */}
+          style={{objectFit:"cover",objectPosition:"0px 50%"}}
+          className="absolute "
+          fill
+
+        />
       </div>
     </div>
   );
