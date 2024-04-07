@@ -16,8 +16,8 @@ const ContactForm = (props) => {
       <h2 className=" text-lg  text-center mt-8">
         Drop us a line! We are here to answer your questions 24/7.
       </h2>
-      <div className="w-[70%] flex mt-6 shadow-xl">
-        <div className="flex flex-col justify-between items-start gap-4 text-white w-1/2 bg-[#6A4EB8] p-8">
+      <div className=" w-full lg:w-[70%] flex flex-col md:flex-row mt-6 shadow-xl">
+        <div className="flex flex-col justify-between items-start gap-4 text-white md:w-1/2 bg-[#6A4EB8] p-8">
           <div className="text-lg font-bold ">Send us a message</div>
           <input
             type="text"
@@ -39,7 +39,7 @@ const ContactForm = (props) => {
             placeholder="Message"
           />
         </div>
-        <div className=" flex flex-col justify-start items-start gap-6 text-white w-1/2 p-8  bg-[#79579D3A]">
+        <div className=" flex flex-col justify-start items-start gap-6 text-white md:w-1/2 p-8  bg-[#79579D3A]">
           <h2 className=" text-lg  font-bold text-center text-[#8838D3]">
             Contact{" "}
             <span className=" text-black border-b-4 border-b-[#8838D3]">

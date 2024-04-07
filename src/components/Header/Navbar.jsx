@@ -27,6 +27,11 @@ function NavBar() {
       name: "Clients",
     },
     {
+      id: 3,
+      href: "/careers",
+      name: "Careers",
+    },
+    {
       id: 6,
       href: "/pricing",
       name: "Pricing",
@@ -105,7 +110,7 @@ function NavBar() {
         <IoIosChatbubbles size={40} color="#6A4DBB" />
         <div className="flex flex-col ml-2">
           <p className="text-sm">CALL ANYTIME</p>
-          <p className="text-md font-medium">0333-1234567</p>
+          <p className="text-md font-medium">0333-8483016</p>
         </div>
       </div>
     </nav>

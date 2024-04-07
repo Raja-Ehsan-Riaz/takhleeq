@@ -8,10 +8,10 @@ const ApplicationForm = (props) => {
       <h2 className=" text-lg  text-center mt-8">
         Fill in the application form:
       </h2>
-      <div className="w-[70%] flex mt-6 shadow-xl">
+      <div className=" w-full lg:w-[70%] flex mt-6 shadow-xl">
         <div className="flex flex-col justify-between items-start gap-8 text-white w-full bg-[#6A4EB8] p-8">
           <div className="text-lg font-bold ">Graphic Designer</div>
-          <div className="flex flex-row justify-between items-center w-full gap-[10%]">
+          <div className="flex flex-col md:flex-row justify-between items-center w-full gap-10 md:gap-[10%]">
             <input
               type="text"
               className="bg-transparent placeholder-white/80 focus:outline-none text-sm border-b border-white/80 w-full p-2 pl-0"
@@ -23,7 +23,7 @@ const ApplicationForm = (props) => {
               placeholder="Email"
             />
           </div>
-          <div className="flex flex-row justify-between items-center w-full gap-[10%]">
+          <div className="flex flex-col md:flex-row justify-between items-center w-full gap-10 md:gap-[10%]">
             <input
               type="number"
               className="bg-transparent placeholder-white/80 focus:outline-none text-sm border-b border-white/80 w-full p-2 pl-0"
@@ -35,7 +35,7 @@ const ApplicationForm = (props) => {
               placeholder="Tel"
             />
           </div>
-          <div className="flex flex-row justify-between items-center w-full gap-[10%]">
+          <div className="flex flex-col md:flex-row justify-between items-center w-full gap-10 md:gap-[10%]">
             <input
               type="text"
               className="bg-transparent placeholder-white/80 focus:outline-none text-sm border-b border-white/80 w-full p-2 pl-0"
@@ -47,7 +47,7 @@ const ApplicationForm = (props) => {
               placeholder="This is a full-time job. Does this work for you?"
             />
           </div>
-          <div className="flex flex-row justify-between items-center w-full gap-[10%]">
+          <div className="flex flex-col md:flex-row justify-between items-center w-full gap-10 md:gap-[10%]">
             <input
               type="text"
               className="bg-transparent placeholder-white/80 focus:outline-none text-sm border-b border-white/80 w-full p-2 pl-0"

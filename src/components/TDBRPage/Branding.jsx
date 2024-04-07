@@ -1,7 +1,7 @@
 const Branding = () => {
   return (
-    <div className="flex flex-row pl-[5%] py-28 gap-[10%] items-center overflow-hidden">
-      <div className="w-[60%]">
+    <div className="flex flex-col lg:flex-row pr-[5%] lg:pr-[0%] pl-[5%] py-28 gap-12 lg:gap-[10%] items-center overflow-hidden">
+      <div className="lg:w-[60%]">
         <h2 className="uppercase text-6xl text-left font-bold">
           Tech-Driven Branding <br />
           <span className="text-[#8838D3] border-b-8 border-b-black">
@@ -15,7 +15,7 @@ const Branding = () => {
           utilizes the power of cutting-edge tools and methodologies to redefine
           the landscape of branding.{" "}
         </p>
-        <div className="text-lg mt-6">
+        <div className="text-lg mt-2 lg:mt-6">
           With a relentless focus on research, experimentation, and
           collaboration, they spearhead initiatives that leverage AI, data
           analytics, and emerging technologies to unlock new possibilities and
@@ -25,7 +25,7 @@ const Branding = () => {
           transform.
         </div>
       </div>
-      <div className="w-[45%] h-full ">
+      <div className=" w-full h-[20rem] lg:w-[45%] lg:h-full ">
         {/* <Image
           src={ITServicesImage}
           alt="people talking about IT"

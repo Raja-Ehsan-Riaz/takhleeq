@@ -21,7 +21,7 @@ const HireUs = () => {
         Choose one of the options below to get an accurate price estimation for
         your project:
       </div>
-      <div className="flex flex-row justify-evenly items-center">
+      <div className="flex flex-row justify-evenly items-center flex-wrap">
         <HireCard src="/Icons&Symbols/pricing/hire.png" />
         <HireCard src="/Icons&Symbols/pricing/brand.png" />
       </div>

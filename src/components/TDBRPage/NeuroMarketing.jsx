@@ -2,11 +2,11 @@ import Image from "next/image";
 import Neuro from "../../../public/Images/neuro.png";
 const NeuroMarketing = () => {
   return (
-    <div className="flex flex-row pr-[5%] py-28 gap-[5%] items-center overflow-hidden">
-      <div className="w-[40%]  ">
+    <div className="flex flex-col lg:flex-row pl-[5%] lg:pl-[0%] lg:pr-[5%] py-28 gap-12 lg:gap-[5%] items-center overflow-hidden">
+      <div className="lg:w-[40%]  ">
         <Image src={Neuro} alt="Man with brain"  />
       </div>
-      <div className="w-[55%]">
+      <div className="w-full lg:w-[55%]">
         <h2 className="uppercase text-6xl text-left text-[#8838D3] font-bold">
           AI Neuro <span className="text-black ">marketing</span> <br />
           <span className="text-black border-b-8 border-b-[#8838D3]">
