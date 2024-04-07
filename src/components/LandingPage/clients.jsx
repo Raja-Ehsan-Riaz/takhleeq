@@ -45,7 +45,7 @@ const Clients = () => {
       </div>
       <div className="w-[60%] relative bg-pak-map-globalcss pr-[5%] py-20 flex flex-col">
         <div className="ml-[30%] mb-20">
-          <p className="font-bold text-9xl text-[#8838D3]">50+</p>
+          <p className="font-bold text-9xl text-[#8838D3]">30+</p>
           <p className="font-bold text-4xl uppercase">
             Globally
             <br />

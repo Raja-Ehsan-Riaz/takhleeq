@@ -1,41 +1,41 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import askari from "/public/portfolio/askari-2.png";
+import askari from "/public/portfolio/Askari Bank/0.jpg";
 import fss from "/public/portfolio/Fauji Security Services FSS/1.JPG";
 import el from "/public/portfolio/elearning.jpg";
 import sentinal from "/public/portfolio/sentinal.jpg";
-import toyota from "/public/portfolio/toyota.png";
+import toyota from "/public/portfolio/Toyota G.T Motors Pvt Limited/3.jpg";
 import truid from "/public/portfolio/truid.png";
 
 const WorkShowcase = () => {
   return (
-    <div className="px-[5%] py-20 text-center flex flex-col items-center">
+    <div className=" px-[5%] py-20 text-center flex flex-col items-center">
       <h2 className="text-[#8838D3] text-left text-4xl uppercase font-bold mb-4">
         Work{" "}
         <span className="text-black border-b-[6px] border-b-[#8838D3]">
           Showcase
         </span>
       </h2>
-      <div className="flex flex-col md:flex-row flex-wrap justify-center mt-8 mb-12">
-        <div className="md:w-[50%] p-2 lg:p-4">
-          <Image src={fss} alt="" className="rounded-md cursor-pointer" />
+      <div className="flex flex-col md:flex-row flex-wrap justify-center mt-8 mb-12 w-full">
+        <div className="w-[35rem] h-[35rem]  relative overflow-hidden m-2">
+          <Image src={fss} alt="" fill style={{objectFit:"cover"}} className="absolute" />
         </div>
-        <div className="md:w-[50%] p-2 lg:p-4">
-          <Image src={sentinal} alt="" className="rounded-md cursor-pointer" />
+        <div className="w-[35rem] h-[35rem]  relative overflow-hidden m-2">
+          <Image src={sentinal} alt="" fill style={{objectFit:"cover"}} className="absolute" />
         </div>
-        <div className="md:w-[50%] p-2 lg:p-4">
-          <Image src={askari} alt="" className="rounded-md cursor-pointer" />
+        <div className="w-[35rem] h-[35rem]  relative overflow-hidden m-2">
+          <Image src={askari} alt="" fill style={{objectFit:"cover"}} className="absolute" />
         </div>
-        <div className="md:w-[50%] p-2 lg:p-4">
-          <Image src={el} alt="" className="rounded-md cursor-pointer" />
+        <div className="w-[35rem] h-[35rem]  relative overflow-hidden m-2">
+          <Image src={el} alt="" fill style={{objectFit:"cover"}} className="absolute" />
         </div>
 
-        <div className="md:w-[50%] p-2 lg:p-4">
-          <Image src={toyota} alt="" className="rounded-md cursor-pointer" />
+        <div className="w-[35rem] h-[35rem]  relative overflow-hidden m-2">
+          <Image src={toyota} alt="" fill style={{objectFit:"cover"}} className="absolute" />
         </div>
-        <div className="md:w-[50%] p-2 lg:p-4">
-          <Image src={truid} alt="" className="rounded-md cursor-pointer" />
+        <div className="w-[35rem] h-[35rem]  relative overflow-hidden m-2">
+          <Image src={truid} alt="" fill style={{objectFit:"cover"}} className="absolute" />
         </div>
       </div>
       <Link href={"/clients"}>

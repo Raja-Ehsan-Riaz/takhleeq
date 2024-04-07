@@ -3,11 +3,7 @@ import Image from "next/image";
 const Testimonial = ({ even,Name,Designation,Text,Picture }) => {
   return (
     <div
-      className={`mt-16 mb-4  mx-[10%]  lg:h-[25rem] relative shadow-lg ${
-        even
-          ? "bg-gray-300 text-black"
-          : "bg-gradient-to-b from-[#6A4EB8] to-[#B418FB] text-white"
-      } `}
+      className={`mt-16 mb-4  mx-[10%]  lg:h-[25rem] relative shadow-lg transition duration-300 group bg-gray-300 text-black hover:bg-gradient-to-b from-[#6A4EB8] to-[#B418FB] hover:text-white `}
     >
       <div className="relative w-full h-full z-20 flex flex-col items-start justify-center gap-6 p-8 ">
         <div className="w-full relative">
@@ -22,8 +18,14 @@ const Testimonial = ({ even,Name,Designation,Text,Picture }) => {
           <Image
             width={80}
             height={80}
-            src={`/Icons&Symbols/Quote-Right${even ? "-Dark" : ""}.png`}
-            className="absolute left-0 -bottom-5 "
+            src={`/Icons&Symbols/Quote-Right.png`}
+            className="absolute left-0 -bottom-5 group-hover:block hidden "
+          />
+          <Image
+            width={80}
+            height={80}
+            src={`/Icons&Symbols/Quote-Right-Dark.png`}
+            className="absolute left-0 -bottom-5 group-hover:hidden "
           />
         </div>
         <div className="opacity-80">
@@ -39,8 +41,14 @@ const Testimonial = ({ even,Name,Designation,Text,Picture }) => {
       <Image
         width={200}
         height={200}
-        src={`/Icons&Symbols/Quote-Right${even ? "-Dark" : ""}.png`}
-        className="absolute right-10 top-0 z-0"
+        src={`/Icons&Symbols/Quote-Right.png`}
+        className="absolute right-10 top-0 z-0 group-hover:block hidden"
+      />
+      <Image
+        width={200}
+        height={200}
+        src={`/Icons&Symbols/Quote-Right-Dark.png`}
+        className="absolute right-10 top-0 z-0 group-hover:hidden"
       />
     </div>
   );

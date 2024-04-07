@@ -1,15 +1,53 @@
+import Image from "next/image";
+import Apply from "../../../public/Icons&Symbols/careers/apply.png";
+import Interview from "../../../public/Icons&Symbols/careers/interview.png";
+import Skills from "../../../public/Icons&Symbols/careers/skills.png";
+import Promise from "../../../public/Icons&Symbols/careers/promise.png";
+
 const TopSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center px-[20%] py-28  bg-[#8838D3] text-white">
+    <div className="flex flex-col items-center justify-center px-[15%] py-28  bg-[#8838D3] text-white">
       <h2 className="uppercase text-5xl text-left font-semibold">
         HOW DO WE{" "}
         <span className="text-black border-b-8 border-b-white"> HIRE?</span>
       </h2>
       <div className="text-lg mt-12 text-center">
-        We specialize in UX/UI design for websites, SaaS, and web/mobile apps,
-        blending the latest UI/UX trends with clients&apos; unique goals. Our designs
-        prioritize intuitiveness, visual appeal, and business impact. Whether
-        it&apos;s improving website functionality, streamlining SaaS.
+        Our company seeks passionate and innovative individuals with diverse
+        skills and a keen understanding of global market trends. Our hiring
+        process, including interviews and skills assessments, is designed to
+        identify candidates who can contribute to our dynamic and culturally
+        diverse team, driving excellence in branding on a global scale.
+      </div>
+      <div className="flex flex-row justify-center w-full items-center mb-8  mt-12">
+        <div className={`h-40 w-40 rounded-full border-4 border-white p-1 `}>
+          <div className="flex flex-col justify-center bg-white items-center rounded-full text-sm gap-2  h-full w-full">
+            <Image src={Apply} alt="" width={40} />
+            <div className="font-bold text-black">Apply</div>
+          </div>
+        </div>
+        <div className="w-24 border-2 border-white"></div>
+        <div className={`h-40 w-40 rounded-full border-4 border-white p-1 `}>
+          <div className="flex flex-col justify-center bg-white items-center rounded-full text-sm gap-2  h-full w-full">
+            <Image src={Interview} alt="" width={50} />
+            <div className="font-bold text-black">Interview</div>
+          </div>
+        </div>
+        <div className="w-24 border-2 border-white"></div>
+        <div className={`h-40 w-40 rounded-full border-4 border-white p-1 `}>
+          <div className="flex flex-col justify-center bg-white items-center rounded-full text-sm gap-2  h-full w-full">
+            <Image src={Skills} alt="" width={40} />
+            <div className="font-bold text-black text-center">
+              Skills <br /> Assessment
+            </div>
+          </div>
+        </div>
+        <div className="w-24 border-2 border-white"></div>
+        <div className={`h-40 w-40 rounded-full border-4 border-white p-1 `}>
+          <div className="flex flex-col justify-center bg-white items-center rounded-full text-sm gap-2  h-full w-full">
+            <Image src={Promise} alt="" width={60} />
+            <div className="font-bold text-black">Our Promise</div>
+          </div>
+        </div>
       </div>
     </div>
   );

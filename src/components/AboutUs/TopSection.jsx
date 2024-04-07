@@ -31,38 +31,8 @@ const TopSection = () => {
     },
     {
       title: "Values",
-      Values: [
-        {
-          title: "Innovation",
-          description:
-            "By pushing boundaries, takhleeq.io unlocks opportunities for growth and innovation.",
-        },
-        {
-          title: "Integrity",
-          description:
-            " At takhleeq.io, honesty and transparency build trust, forming the foundation of our client relationships.",
-        },
-        {
-          title: "Collaboration",
-          description:
-            "We thrive on co-creating impactful experiences that resonate with audiences and drive lasting impressions.",
-        },
-        {
-          title: "Excellence",
-          description:
-            "We consistently deliver exceptional results, setting benchmarks for excellence in every project undertaken. ",
-        },
-        {
-          title: "Customer-Centricity",
-          description:
-            "At takhleeq.io, we specialize in crafting tailored solutions that deliver remarkable experiences, uniquely tailored to each client's needs. ",
-        },
-        {
-          title: "Growth Mindset",
-          description:
-            "Embracing continuous learning, takhleeq.io remains committed to staying ahead of industry trends and innovation. ",
-        },
-      ],
+      description:
+        "At takhleeq.io, innovation fuels our drive, unlocking boundless opportunities for growth and progress. Our commitment to integrity ensures honesty and transparency, fostering trust and robust client relationships. Collaboration lies at the heart of our endeavors, as we strive to co-create impactful experiences that resonate and leave lasting impressions. With a relentless pursuit of excellence, we consistently surpass expectations, setting new standards of achievement in every project.",
     },
   ];
 
@@ -74,31 +44,59 @@ const TopSection = () => {
     <div className="flex flex-col items-center justify-center px-[20%] py-28  bg-[#7957931A]">
       <div className="flex flex-row justify-evenly w-full items-center mb-8 gap-6">
         <div
-          className={`h-32 w-32 rounded-full cursor-pointer relative bg-gray-200 shadow-md flex justify-center items-center ${selectedItemIndex===0 && "border-4 border-[#8838D3]/80"}`}
+          className={`h-32 w-32 rounded-full cursor-pointer relative bg-gray-200 shadow-md flex justify-center items-center ${
+            selectedItemIndex === 0 && "border-4 border-[#8838D3]/80"
+          }`}
           onClick={() => handleCircleClick(0)}
         >
-          <Image src={Value1} alt="" className="absolute object-contain filter" width={50}/>
+          <Image
+            src={Value1}
+            alt=""
+            className="absolute object-contain filter"
+            width={50}
+          />
         </div>
         <div className="w-24 border-2 border-gray-900"></div>
         <div
-          className={`h-32 w-32 rounded-full cursor-pointer relative bg-gray-200 shadow-md flex justify-center items-center ${selectedItemIndex===1  && "border-4 border-[#8838D3]/80"}`}
+          className={`h-32 w-32 rounded-full cursor-pointer relative bg-gray-200 shadow-md flex justify-center items-center ${
+            selectedItemIndex === 1 && "border-4 border-[#8838D3]/80"
+          }`}
           onClick={() => handleCircleClick(1)}
         >
-          <Image src={Value2} alt="" className="absolute object-contain" width={60}/>
+          <Image
+            src={Value2}
+            alt=""
+            className="absolute object-contain"
+            width={60}
+          />
         </div>
         <div className="w-24 border-2 border-gray-900"></div>
         <div
-          className={`h-32 w-32 rounded-full cursor-pointer relative bg-gray-200 shadow-md flex justify-center items-center ${selectedItemIndex===2  && "border-4 border-[#8838D3]/80"}`}
+          className={`h-32 w-32 rounded-full cursor-pointer relative bg-gray-200 shadow-md flex justify-center items-center ${
+            selectedItemIndex === 2 && "border-4 border-[#8838D3]/80"
+          }`}
           onClick={() => handleCircleClick(2)}
         >
-          <Image src={Value4} alt="" className="absolute object-contain" width={40}/>
+          <Image
+            src={Value4}
+            alt=""
+            className="absolute object-contain"
+            width={40}
+          />
         </div>
         <div className="w-24 border-2 border-gray-900"></div>
         <div
-          className={`h-32 w-32 rounded-full cursor-pointer relative bg-gray-200 shadow-md flex justify-center items-center ${selectedItemIndex===3  && "border-4 border-[#8838D3]/80"}`}
+          className={`h-32 w-32 rounded-full cursor-pointer relative bg-gray-200 shadow-md flex justify-center items-center ${
+            selectedItemIndex === 3 && "border-4 border-[#8838D3]/80"
+          }`}
           onClick={() => handleCircleClick(3)}
         >
-          <Image src={Value3} alt="" className="absolute object-contain" width={60}/>
+          <Image
+            src={Value3}
+            alt=""
+            className="absolute object-contain"
+            width={60}
+          />
         </div>
       </div>
       {items.map((item, index) => (
@@ -126,21 +124,7 @@ const TopSection = () => {
               </>
             )}
           </h2>
-          {index === 3 ? (
-            <div className="flex flex-col items-start justify-center mt-12 text-left gap-2">
-              {item.Values.map((value, index) => (
-                <div key={index}>
-                  {" "}
-                  <span className="text-lg font-bold text-[#8838D3]">
-                    {value.title}:
-                  </span>{" "}
-                  <span>{value.description}</span>{" "}
-                </div>
-              ))}
-            </div>
-          ) : (
-            <div className="mt-12">{item.description}</div>
-          )}
+          <div className="mt-12">{item.description}</div>
         </div>
       ))}
     </div>
