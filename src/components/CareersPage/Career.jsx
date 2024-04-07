@@ -18,7 +18,7 @@ const Career = (props) => {
               <div className="text-[#8838D3] font-semibold">Apply Now</div>
             </Link>
           </div>
-          <div>{props.about}</div>
+          <div dangerouslySetInnerHTML={{__html:props.about}}></div>
           <div className=" flex justify-between items-end w-full">
             <div className="flex gap-8 items-center">
               <div className="flex items-center gap-4 py-3 px-8 font-semibold shadow-md bg-white cursor-pointer relative  bg-transparent  text-black  text-sm transition-colors overflow-hidden before:absolute before:-right-[100%] before:top-0 before:z-10 before:h-[100rem] before:w-[200%] before:origin-top-right before:rotate-[15deg] before:hover:rotate-0 before:scale-x-50 before:bg-black before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
