@@ -43,6 +43,11 @@ function NavBar() {
     },
     {
       id: 6,
+      href: "/FAQs",
+      name: "Faqs",
+    },
+    {
+      id: 6,
       href: "/contact-us",
       name: "Contact Us",
     },

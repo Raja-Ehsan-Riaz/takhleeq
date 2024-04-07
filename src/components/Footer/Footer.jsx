@@ -10,7 +10,7 @@ import { RiTwitterXFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <div className=" bg-gradient-to-b from-[#6A4EB8] to-[#B418FB] text-white ">
+    <div className=" bg-[#8838D3] B] text-white ">
       <div className="flex flex-col items-center lg:flex-row gap-24 pt-28 pb-16 mx-[10%]">
         <div className="flex flex-col">
           <Link href={"#"}>
@@ -124,3 +124,6 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+// bg-gradient-to-b from-[#6A4EB8] to-[#B418F

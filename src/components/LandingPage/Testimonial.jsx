@@ -3,7 +3,7 @@ import Image from "next/image";
 const Testimonial = ({ even,Name,Designation,Text,Picture }) => {
   return (
     <div
-      className={`mt-16 mb-4  mx-[10%]  lg:h-[25rem] relative shadow-lg transition duration-300 group bg-gray-300 text-black hover:bg-gradient-to-b from-[#6A4EB8] to-[#B418FB] hover:text-white `}
+      className={`mt-16 mb-4  mx-[10%]  lg:h-[25rem] relative shadow-lg transition duration-300 group bg-gray-300 text-black hover:bg-[#8838D3] hover:text-white `}
     >
       <div className="relative w-full h-full z-20 flex flex-col items-start justify-center gap-6 p-8 ">
         <div className="w-full relative">
@@ -55,3 +55,6 @@ const Testimonial = ({ even,Name,Designation,Text,Picture }) => {
 };
 
 export default Testimonial;
+
+
+// hover:bg-gradient-to-b from-[#6A4EB8] to-[#B418FB]
