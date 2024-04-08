@@ -3,6 +3,7 @@
 import { FaPhone } from "react-icons/fa6";
 import { FaEnvelope } from "react-icons/fa";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import Link from "next/link";
 
 const NeedConsultation = () => {
   const handleSubmit = (e) => {
@@ -32,7 +33,7 @@ const NeedConsultation = () => {
                 name="full-name"
                 placeholder="Full Name"
                 required
-                className="p-4 border border-[#8838D3] rounded-lg bg-transparent"
+                className="p-4 border border-black focus:border-[#8838D3] focus:outline-none  rounded-lg bg-transparent"
               ></input>
               <input
                 type="email"
@@ -40,7 +41,7 @@ const NeedConsultation = () => {
                 name="email"
                 placeholder="Work Email"
                 required
-                className="p-4 border border-[#8838D3] rounded-lg bg-transparent"
+                className="p-4 border border-black focus:border-[#8838D3] focus:outline-none  rounded-lg bg-transparent"
               ></input>
               <input
                 type="text"
@@ -48,14 +49,14 @@ const NeedConsultation = () => {
                 name="company"
                 placeholder="Company"
                 required
-                className="p-4 border border-[#8838D3] rounded-lg bg-transparent"
+                className="p-4 border border-black focus:border-[#8838D3] focus:outline-none  rounded-lg bg-transparent"
               ></input>
               <input
                 type="tel"
                 id="phone-number"
                 name="phone-number"
                 placeholder="Phone Number"
-                className="p-4 border border-[#8838D3] rounded-lg bg-transparent"
+                className="p-4 border border-black focus:border-[#8838D3] focus:outline-none  rounded-lg bg-transparent"
               ></input>
             </div>
             <div className="mt-4 w-full">
@@ -65,7 +66,7 @@ const NeedConsultation = () => {
                 rows={7}
                 required
                 placeholder="How can we help you?"
-                className="p-4 border border-[#8838D3] rounded-lg bg-transparent w-full"
+                className="p-4 border border-black focus:border-[#8838D3] focus:outline-none  rounded-lg bg-transparent w-full"
               ></textarea>
             </div>
             <button
@@ -106,7 +107,7 @@ const NeedConsultation = () => {
               </span>
             </h3>
             <div className="flex flex-row gap-2 my-2 items-center">
-              <p className="uppercase">Get in touch with us</p>
+            <Link href="/contact-us"><p className="uppercase">Get in touch with us</p></Link>
               <IoIosArrowRoundForward size={35} color="#000000" />
             </div>
           </div>
@@ -118,7 +119,7 @@ const NeedConsultation = () => {
               </span>
             </h3>
             <div className="flex flex-row gap-2 my-2 items-center">
-              <p className="uppercase">CHECK OUR OPEN VACANCIES</p>
+             <Link href="/careers"> <p className="uppercase">CHECK OUR OPEN VACANCIES</p></Link>
               <IoIosArrowRoundForward size={35} color="#000000" />
             </div>
           </div>

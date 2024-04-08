@@ -40,7 +40,7 @@ const OtherClients = () => {
             <SwiperSlide 
             key={index}>
               <div
-                className="h-[10rem] w-[20rem] rounded-lg overflow-hidden relative m-auto"
+                className="h-[8rem] w-[15rem] rounded-lg overflow-hidden relative m-auto"
               >
                 <Image
                   src={`/Icons&Symbols/clients${client.icon}`}

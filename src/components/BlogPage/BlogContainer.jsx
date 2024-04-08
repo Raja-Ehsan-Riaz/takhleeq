@@ -52,7 +52,7 @@ const BlogContainer = ({
       <div className="flex flex-col justify-start items-center w-[30%] gap-8">
         <SearchBar />
         <NewsBox blogs={blogs} />
-        <CategoryBox categories={blogs} />
+        {/* <CategoryBox categories={blogs} /> */}
       </div>
     </div>
   );

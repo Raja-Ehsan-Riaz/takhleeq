@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const BrandingRevolution = () => {
   return (
-    <div className="flex flex-col lg:flex-row px-[5%] justify-between items-stretch   py-28  text-white relative overflow-hidden">
+    <div className="flex flex-col lg:flex-row px-[5%] justify-between items-stretch   py-28  text-white relative overflow-hidden  bg-[#7936b7]/30 bg-gradient-to-r from-[#1312149E]/50 via-[#1312149E]/50 to-[#1312149E]/50 ">
       <Image
           fill={true}
           style={{ objectFit: "cover" }}

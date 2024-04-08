@@ -31,8 +31,8 @@ const CareersContainer = () => {
     <div className="px-[5%] py-28">
       <div className="uppercase text-4xl text-left font-bold">Careers</div>
       <div className="flex flex-col justify-center items-center gap-8 my-12">
-        {displayedCareers.map((career) => (
-          <Career {...career} key={career.id} />
+        {displayedCareers.map((career,index) => (
+          <Career {...career} key={index} />
         ))}
 
         <div className="flex items-center text-[#8838D3] mt-6 ">

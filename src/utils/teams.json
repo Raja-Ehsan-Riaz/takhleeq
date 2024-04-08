@@ -1,7 +1,7 @@
 [
   {
     "Name": "Saqib Malik",
-    "Designation": "CEO/Founder",
+    "Designation": "CEO & Founder",
     "Picture": "/Images/Team/Core Team/Saqib Malik.jpg"
   },
   {
@@ -11,24 +11,24 @@
   },
   {
     "Name": "Dr. Wajahat Hussain",
-    "Designation": "CTO  & Head of takhleeq.io Research Lab ",
-    "Picture": "/Images/team-dummy.png"
+    "Designation": "CTO  & RnD Lead ",
+    "Picture": "/Images/Team/Core Team/Dr Wajahat.jpg"
   },
   {
-    "Name": "Mr. Mian Muhammad Idrees",
-    "Designation": "COO & Co-Founder",
+    "Name": "Mr. Mian M. Idrees",
+    "Designation": "Bussiness Partner",
     "Picture": "/Images/Team/Core Team/Mian Muhammad Idrees.jpg"
   },
 
   {
-    "Name": "Ahmed Usman",
+    "Name": "Uraib Asif",
     "Designation": "Project Manager",
-    "Picture": "/Images/team-dummy.png"
+    "Picture": "/Images/Team/Project Managers/Uraib Asif.jpg"
   },
   {
     "Name": "Shaheer Ahmad",
     "Designation": "Project Manager",
-    "Picture": "/Images/team-dummy.png"
+    "Picture": "/Images/Team/Project Managers/Shaheer Malik.jpg"
   },
   {
     "Name": "Zoya Salman",
@@ -36,9 +36,9 @@
     "Picture": "/Images/Team/SMM/Zoya Salman - SMM Manager.jpg"
   },
   {
-    "Name": "Umair Asim",
+    "Name": "Aaila Tahir",
     "Designation": "SMM Managers",
-    "Picture": "/Images/team-dummy.png"
+    "Picture": "/Images/Team/SMM/Aaila Tahir - Marketing Manager.jpg"
   },
   {
     "Name": "Ali Zeb",
@@ -46,24 +46,34 @@
     "Picture": "/Images/Team/Graphics/Ali Zaib - Graphic Designer.jpg"
   },
   {
-    "Name": "Muhammad Hammad",
-    "Designation": "Graphics Designer",
-    "Picture": "/Images/team-dummy.png"
-  },
-  {
     "Name": "Saba Khateeb",
     "Designation": "Graphics Designer",
     "Picture": "/Images/Team/Graphics/Saba Khateeb - Graphics Designer.jpeg"
   },
   {
-    "Name": "Zainab Ikram",
-    "Designation": "Industrial Designer",
+    "Name": "Zainab Akram",
+    "Designation": "Graphics Designer",
     "Picture": "/Images/Team/Graphics/Zainab Akram - Graphics Designer.jpeg"
   },
   {
     "Name": "Zainab Shuja",
-    "Designation": "Industrial Designer",
+    "Designation": "Graphics Designer",
     "Picture": "/Images/Team/Graphics/Zennab Shuja - Graphics Designer.jpg"
+  },
+  {
+    "Name": "Faareha Sajjad",
+    "Designation": "Graphics Designer",
+    "Picture": "/Images/Team/Graphics/Faareha Sajjad - Graphics Designer.jpg"
+  },
+  {
+    "Name": "Izzah Azam",
+    "Designation": "Graphics Designer",
+    "Picture": "/Images/Team/Graphics/Izzah Azam- Illustrator.jpg"
+  },
+  {
+    "Name": "Hajra Humayun",
+    "Designation": "Graphics Designer",
+    "Picture": "/Images/Team/Graphics/Hajra Humayun - Graphics Designer.jpeg"
   },
   {
     "Name": "Ali Mazhar",
@@ -76,39 +86,14 @@
     "Picture": "/Images/Team/Web Development/Raja Ehsan Riaz - Web Developer.jpeg"
   },
   {
-    "Name": "Zain Mughal",
-    "Designation": "Web Developer",
-    "Picture": "/Images/team-dummy.png"
-  },
-  {
     "Name": "Faisal Amin",
     "Designation": "UI/UX Designer",
     "Picture": "/Images/Team/UI-UX/Faisal Amin - UI_UX Designer.jpeg"
   },
   {
-    "Name": "Ahsan Iqbal",
-    "Designation": "UI/UX Designer",
-    "Picture": "/Images/team-dummy.png"
-  },
-  {
-    "Name": "Minahil Shakoor",
-    "Designation": "UI/UX Designer",
-    "Picture": "/Images/team-dummy.png"
-  },
-  {
-    "Name": "Uzair Khan",
-    "Designation": "Videographer & Photographer",
-    "Picture": "/Images/team-dummy.png"
-  },
-  {
     "Name": "Muhammad Abdullah",
     "Designation": "Videographer & Photographer",
     "Picture": "/Images/Team/Media Team/Mohammad Abdullah - Videographer.jpeg"
-  },
-  {
-    "Name": "Rayan Malik",
-    "Designation": "Video & Photo Editor",
-    "Picture": "/Images/team-dummy.png"
   },
   {
     "Name": "Saad Masood",

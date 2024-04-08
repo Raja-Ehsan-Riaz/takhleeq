@@ -11,7 +11,6 @@ const Services = () => {
       <ServicesList upper/>
       <Solutions />
       <ServicesList />
-      <SolutionsVideo />
       <ContactStrip />
     </div>
   );

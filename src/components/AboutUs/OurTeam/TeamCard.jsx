@@ -17,29 +17,29 @@ const TeamCard = ({name,designation,picture}) => {
           <Link href="#">
             <FaSquareFacebook
               size={30}
-              color="#B418FB"
-              className="object-contain"
+              color=""
+              className="object-contain text-white hover:text-[#B418FB]"
             />
           </Link>
           <Link href="#">
             <BiLogoInstagramAlt
               size={35}
-              color="#B418FB"
-              className="object-contain"
+              color=""
+              className="object-contain text-white hover:text-[#B418FB]"
             />
           </Link>
           <Link href="#">
             <RiLinkedinBoxFill
               size={30}
-              color="#B418FB"
-              className="object-contain"
+              color=""
+              className="object-contain text-white hover:text-[#B418FB]"
             />
           </Link>
           <Link href="#">
             <RiTwitterXFill
               size={25}
-              color="#B418FB"
-              className="object-contain bg-white p-1 rounded-sm"
+              color=""
+              className="object-contain  bg-white hover:bg-[#B418FB] p-1 rounded-sm"
             />
           </Link>
         </div>

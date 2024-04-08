@@ -3,8 +3,8 @@ import SingleSolutionCard from "./SingleSolutionCard";
 
 const Solutions = () => {
   return (
-    <div className="bg-[#8838D3] py-24 px-[5%] flex lg:flex-row flex-col justify-between items-center  ">
-      <div className="lg:w-[60%] flex flex-col gap-4 items-start">
+    <div className="bg-[#8838D3] py-28 lg:py-0 px-[5%] lg:px-[0%] lg:pl-[5%] flex lg:flex-row flex-col justify-between items-stretch ">
+      <div className="lg:w-[50%] flex flex-col gap-4 items-start py-0 lg:py-28 lg:pr-8">
         <h2 className="text-white text-left  text-5xl uppercase font-bold mb-10 mt-auto">
           We Shape the perfect <br />
           <span className="text-black border-b-[6px] border-b-[#ffffff]">
@@ -20,11 +20,11 @@ const Solutions = () => {
           a lasting impression on audiences.
         </p>
       </div>
-      <div className="w-full md:w-[30rem] h-[25rem] bg-slate-700 relative overflow-hidden">
+      <div className="w-full md:w-[50%] h-[25rem] lg:h-auto bg-slate-700 relative overflow-hidden">
       <Image
           fill={true}
           style={{ objectFit: "cover" }}
-          src="/Images/services/solutions.png"
+          src="/Images/services/brand-building.png"
           className=" absolute z-0"
         />
       </div>

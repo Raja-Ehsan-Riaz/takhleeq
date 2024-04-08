@@ -44,7 +44,7 @@ const TopSection = () => {
     <div className="flex flex-col items-center justify-center px-[20%] py-28  bg-[#7957931A]">
       <div className="flex flex-row justify-evenly w-full items-center mb-8 gap-6">
         <div
-          className={`h-32 w-32 rounded-full cursor-pointer relative bg-gray-200 shadow-md flex justify-center items-center ${
+          className={`h-32 w-32 rounded-full cursor-pointer relative bg-white shadow-md flex justify-center items-center ${
             selectedItemIndex === 0 && "border-4 border-[#8838D3]/80"
           }`}
           onClick={() => handleCircleClick(0)}
@@ -58,7 +58,7 @@ const TopSection = () => {
         </div>
         <div className="w-24 border-2 border-gray-900"></div>
         <div
-          className={`h-32 w-32 rounded-full cursor-pointer relative bg-gray-200 shadow-md flex justify-center items-center ${
+          className={`h-32 w-32 rounded-full cursor-pointer relative bg-white shadow-md flex justify-center items-center ${
             selectedItemIndex === 1 && "border-4 border-[#8838D3]/80"
           }`}
           onClick={() => handleCircleClick(1)}
@@ -72,7 +72,7 @@ const TopSection = () => {
         </div>
         <div className="w-24 border-2 border-gray-900"></div>
         <div
-          className={`h-32 w-32 rounded-full cursor-pointer relative bg-gray-200 shadow-md flex justify-center items-center ${
+          className={`h-32 w-32 rounded-full cursor-pointer relative bg-white shadow-md flex justify-center items-center ${
             selectedItemIndex === 2 && "border-4 border-[#8838D3]/80"
           }`}
           onClick={() => handleCircleClick(2)}
@@ -86,7 +86,7 @@ const TopSection = () => {
         </div>
         <div className="w-24 border-2 border-gray-900"></div>
         <div
-          className={`h-32 w-32 rounded-full cursor-pointer relative bg-gray-200 shadow-md flex justify-center items-center ${
+          className={`h-32 w-32 rounded-full cursor-pointer relative bg-white shadow-md flex justify-center items-center ${
             selectedItemIndex === 3 && "border-4 border-[#8838D3]/80"
           }`}
           onClick={() => handleCircleClick(3)}
