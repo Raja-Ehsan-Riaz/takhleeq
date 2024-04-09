@@ -8,11 +8,10 @@ function findServiceByTitle(title) {
 }
 
 export default function Service({ params }) {
-    const service = decodeURIComponent(params.slug) ? findServiceByTitle(decodeURIComponent(params.slug.replace(/#/g, "/"))) : null;
-
+    const service = decodeURIComponent(params.slug) ? findServiceByTitle(decodeURIComponent(params.slug).replace(/&/g, "/")) : null;
     return (
         <div>
-            <ServiceHero />
+            <ServiceHero service={service.title} />
             <ServiceContainer service={service} />
         </div>
     );

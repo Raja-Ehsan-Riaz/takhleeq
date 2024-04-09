@@ -1,11 +1,11 @@
-import React from "react";
+import Image from "next/image";
 import { FaComment, FaEye, FaShare } from "react-icons/fa";
 
-const BlogImage = () => {
+const BlogImage = ({picture}) => {
   return (
     <div className="w-full h-[30vw]">
-      <div className="services-hero-bg-globalscss w-full h-[90%] relative text-white">
-        
+      <div className=" w-full h-[90%] relative text-white">
+      <Image src={`/Images/blogs/${picture}`} alt="" fill className="absolute"/>
       </div>
       <div className="flex flex-row justify-between items-center w-full h-[10%] bg-[#BBA2FF] text-[0.7rem] p-6">
         <div className="flex gap-4 items-center">

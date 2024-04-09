@@ -1,3 +1,4 @@
+import Link from "next/link";
 const ServicesBox = ({ services }) => {
     return (
       <div className="flex flex-col w-full rounded-md overflow-hidden">
@@ -10,9 +11,12 @@ const ServicesBox = ({ services }) => {
                index% 2 === 0 ? "bg-gray-200" : "bg-gray-300"
               }  p-4 `}
             >
+              <Link href={`/service/${service.title.replace(/\//g, "&")}`}>
+                
               <div className="font-bold ">
-                Service
+                {service.title}
               </div>
+              </Link>
             </div>
           );
         })}

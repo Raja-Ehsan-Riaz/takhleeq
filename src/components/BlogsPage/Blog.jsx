@@ -1,5 +1,6 @@
 import Link from "next/link";
-import React from "react";
+import Image from"next/image";
+// import React from "react";
 import { FaComment, FaEye, FaShare } from "react-icons/fa";
 
 const Blog = ({ title, images, date }) => {
@@ -15,7 +16,8 @@ const Blog = ({ title, images, date }) => {
   return (
     <div className="w-full h-[30vw] hover:shadow-lg transition duration-500 shadow-black ">
       <Link className="w-full h-full" href={`/blog/${title}`}>
-        <div className="services-hero-bg-globalscss w-full h-[90%] relative text-white">
+        <div className=" w-full h-[90%] relative text-white">
+          <Image src={`/Images/blogs/${images[0]}`} alt="" fill className="absolute"/>
           <div className="flex flex-col justify-between items-start  absolute bottom-0 left-0 p-4">
             <button className="p-2 bg-white mb-4 rounded-lg text-black text-[0.6rem]">
               {daysAgo == 0 ? (
