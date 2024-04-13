@@ -49,11 +49,11 @@ const ContactForm = (props) => {
           <div className="flex flex-col gap-2 justify-center items-start text-black mt-2">
             <div className="flex flex-row justify-start items-center gap-4">
               <FaPhone size={25} />
-              <div className="ml-1">0333-123467</div>
+              <div className="ml-1">0333-8483016</div>
             </div>
             <div className="flex flex-row justify-start items-center gap-4">
               <IoMailOutline size={30} />
-              <div>contact@takhleeq.com</div>
+              <div>hr@takhleeq.io</div>
             </div>
           </div>
           <h2 className=" text-lg  font-bold text-center text-[#8838D3]">

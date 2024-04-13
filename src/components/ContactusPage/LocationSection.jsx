@@ -17,11 +17,11 @@ const LocationSection = () => {
             <div className="flex justify-between gap-6">
               <div className="flex flex-row justify-start items-center gap-4">
                 <IoMailOutline size={20} />
-                <div>contact@takhleeq.com</div>
+                <div>hr@takhleeq.io</div>
               </div>
               <div className="flex flex-row justify-start items-center gap-4">
                 <FaPhone size={15} />
-                <div className="ml-1">0333-123467</div>
+                <div className="ml-1">0333-8483016</div>
               </div>
             </div>
           </div>
@@ -40,11 +40,11 @@ const LocationSection = () => {
             <div className="flex justify-between gap-6">
               <div className="flex flex-row justify-start items-center gap-4">
                 <IoMailOutline size={20} />
-                <div>contact@takhleeq.com</div>
+                <div>hr@takhleeq.io</div>
               </div>
               <div className="flex flex-row justify-start items-center gap-4">
                 <FaPhone size={15} />
-                <div className="ml-1">0333-123467</div>
+                <div className="ml-1">0333-8483016</div>
               </div>
             </div>
           </div>

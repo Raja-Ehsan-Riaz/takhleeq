@@ -3,6 +3,12 @@ import HireCard from "./HireCard";
 import Link from "next/link";
 
 const HireUs = () => {
+
+  const data = [
+    {title:"Hire Our Team",text:"Hire the team at takhleeq.io, to elevate your brand with cutting-edge design, strategic branding, and unparalleled creative solutions."},
+    {title:"Rebuild Your Brand",text:"Rebuild your brand with takhleeq.io. We will converge visionary design and strategic branding to transform your identity into a compelling and memorable narrative"},
+  ]
+
   return (
     <div className="py-28 px-[5%]">
       <div className="flex justify-between items-start">
@@ -22,8 +28,8 @@ const HireUs = () => {
         your project:
       </div>
       <div className="flex flex-row justify-evenly items-center flex-wrap">
-        <HireCard src="/Icons&Symbols/pricing/hire.png" />
-        <HireCard src="/Icons&Symbols/pricing/brand.png" />
+        <HireCard src="/Icons&Symbols/pricing/hire.png" heading={data[0].title} text={data[0].text} />
+        <HireCard src="/Icons&Symbols/pricing/brand.png"  heading={data[1].title} text={data[1].text} />
       </div>
     </div>
   );

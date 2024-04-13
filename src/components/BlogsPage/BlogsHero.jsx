@@ -1,6 +1,13 @@
+import Image from "next/image";
 const BlogsHero = () => {
     return (
-      <div className="services-hero-bg-globalscss flex h-[70vh]">
+      <div className="flex h-[70vh] relative overflow-hidden bg-gray-900/70 ">
+        <Image
+          fill={true}
+          style={{ objectFit: "cover" }}
+          src="/Images/Heros/blogs.jpg"
+          className=" absolute -z-10"
+        />
         <h1 className="text-[#8838D3] text-center mx-auto text-5xl uppercase font-bold mb-10 mt-auto">
           News & 
           <br />

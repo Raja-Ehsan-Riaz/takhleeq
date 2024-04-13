@@ -15,7 +15,7 @@ const Offer = () => {
       src: "/Icons&Symbols/offer/digital-marketing.png",
     },
     {
-      title: "Industrial Factory",
+      title: "Industrial Design",
       src: "/Icons&Symbols/offer/industrial-factory.png",
     },
     { title: "Media Services", src: "/Icons&Symbols/offer/media-services.png" },

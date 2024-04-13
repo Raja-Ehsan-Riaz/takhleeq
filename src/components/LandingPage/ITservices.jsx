@@ -2,12 +2,12 @@ import Image from "next/image";
 
 import { FaRegCheckCircle } from "react-icons/fa";
 
-import ITServicesImage from "/public/Images/purple-arrow.png";
+import ITServicesImage from "/public/Images/target.png";
 
 const ITservices = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-stretch justify-center  px-[5%] lg:px-[0%] lg:pl-[5%] py-28 lg:py-0  ">
-      <div className="lg:w-[55%] lg:pr-8 py-0 lg:py-28">
+    <div className="flex flex-col lg:flex-row items-center justify-center  px-[5%]  lg:px-[0%] lg:pl-[5%]  py-28 lg:py-0   ">
+      <div className="lg:w-[55%] lg:pr-8 lg:py-28 py-0">
         <h2 className="uppercase text-6xl text-left font-bold">
           One-window Stop <br /> to Boost{" "} <br />
           <span className="text-[#8838D3] border-b-8 border-b-black">
@@ -47,9 +47,6 @@ const ITservices = () => {
         <Image
           src={ITServicesImage}
           alt="people talking about IT"
-          style={{objectFit:"cover"}}
-          className="absolute"
-          fill
         />
       </div>
     </div>
