@@ -1,16 +1,18 @@
-const ClientHero = ({title}) => {
-    return (
-      <div className="services-hero-bg-globalscss flex h-[70vh]">
-        <h1 className="text-[#8838D3] text-center mx-auto text-5xl uppercase font-bold mb-10 mt-auto">
-          {/* {title.split(" ")[0]}
-          <br />
-          <span className="text-white border-b-[6px] border-b-[#8838D3]">
-            {title.split(" ")[1]}
-          </span> */}
-          {title}
-        </h1>
-      </div>
-    );
-  };
-  
-  export default ClientHero;
+import Image from "next/image";
+const ClientHero = ({ title, images }) => {
+  return (
+    <div className="flex h-[70vh] relative overflow-hidden bg-[#7936b7]/30 bg-gradient-to-r from-[#1312149E]/50 via-[#1312149E]/50 to-[#1312149E]/50 ">
+      <Image
+        fill={true}
+        style={{ objectFit: "cover", objectPosition: "0px 10%" }}
+        src={images}
+        className=" absolute -z-10"
+      />
+      <h1 className="text-white text-center mx-auto text-5xl uppercase font-bold mb-10 mt-auto">
+        {title}
+      </h1>
+    </div>
+  );
+};
+
+export default ClientHero;

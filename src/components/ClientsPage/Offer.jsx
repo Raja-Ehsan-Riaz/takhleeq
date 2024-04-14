@@ -27,7 +27,7 @@ const Offer = () => {
   ];
   return (
     <div className="flex flex-col items-center justify-center px-[5%] py-28  bg-[#8838D3] text-white">
-      <h2 className="uppercase text-4xl text-left font-semibold">
+      <h2 className="uppercase text-5xl text-left font-semibold">
         WHAT DO WE <span className="text-black"> OFFER?</span>
       </h2>
       <div className="text-lg mt-4 text-center">
@@ -35,7 +35,12 @@ const Offer = () => {
         blending the latest UI/UX trends with clients&apos; unique goals.
       </div>
       <div className="flex flex-wrap justify-center gap-6 items-center  mt-12">
-        {offers.map((offer, index) => (
+        {offers.slice(0, 4).map((offer, index) => (
+          <OfferCard title={offer.title} src={offer.src} key={index} />
+        ))}
+      </div>
+      <div className="flex flex-wrap justify-center gap-6 items-center mt-6">
+        {offers.slice(4).map((offer, index) => (
           <OfferCard title={offer.title} src={offer.src} key={index} />
         ))}
       </div>

@@ -17,7 +17,7 @@ const NewsAndUpdates = () => {
             <Link
               key={idx}
               href={`/blog/${news.title}`}
-              className={`relative bg-[#7936b7]/30  hover:bg-[#9670FF] cursor-pointer p-4 lg:w-[33.33%] pt-36 pr-16`}
+              className={`relative bg-gray-900/50  hover:bg-[#8838D3] cursor-pointer p-4 lg:w-[33.33%] pt-36 pr-16`}
             >
               <Image
                 fill={true}
@@ -25,7 +25,7 @@ const NewsAndUpdates = () => {
                 src={`/Images/Blogs/${news.images[0]}`}
                 className=" absolute -z-10"
               />
-              <div className="bg-[#8838D3] px-3 py-1 text-white text-sm inline-block rounded-sm">
+              <div className="bg-[#8838D3] px-3 py-1 text-white text-sm inline-block  border-white border-2 rounded-lg">
                 <p>Latest</p>
               </div>
               <h3 className="text-lg text-white mt-4 font-semibold uppercase">
@@ -43,7 +43,7 @@ const NewsAndUpdates = () => {
             <Link
               key={idx}
               href={`/blog/${news.title}`}
-              className={`relative bg-[#7936b7]/30  hover:bg-[#9670FF] cursor-pointer p-4 lg:w-[50%] pt-44 pr-20`}
+              className={`relative bg-gray-900/50  hover:bg-[#8838D3] cursor-pointer p-4 lg:w-[50%] pt-44 pr-20`}
             >
               <Image
                 fill={true}
@@ -51,7 +51,7 @@ const NewsAndUpdates = () => {
                 src={`/Images/Blogs/${news.images[0]}`}
                 className=" absolute -z-10"
               />
-              <div className="bg-[#8838D3] px-3 py-1 text-white text-sm inline-block rounded-sm">
+              <div className="bg-[#8838D3] px-3 py-1 text-white text-sm inline-block  border-white border-2 rounded-lg">
                 <p>Latest</p>
               </div>
               <h3 className="text-lg text-white mt-4 font-semibold uppercase">

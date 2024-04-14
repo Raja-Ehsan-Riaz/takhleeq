@@ -4,7 +4,7 @@ import Link from "next/link";
 const SingleServiceCard = ({ title, description, icon }) => {
   return (
     <div className="md:w-[25rem] p-8">
-      <div className="bg-[#f8e8ff] rounded-lg px-6 py-8 flex flex-col items-center justify-between   h-[500px] ">
+      <div className="bg-[#f8e8ff] rounded-lg px-4 py-8 flex flex-col items-center justify-between   h-[500px] transform hover:scale-105 duration-300 ">
         <div>
           <h3 className="text-2xl font-bold text-[#8838D3] text-center uppercase">
             {title}

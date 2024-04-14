@@ -15,7 +15,7 @@ export default function Client({ params }) {
     const client = decodeURIComponent(params.slug) ? findClientByTitle(decodeURIComponent(params.slug.replace(/#/g, "/"))) : null;
     return (
         <div>
-            <ClientHero title={client.name} />
+            <ClientHero title={client.name} images={client.cover} />
             <OverView description={client.description} image={client.icon} />
             <ServicesProvided/>
             <Goals goals={client.goals}/>

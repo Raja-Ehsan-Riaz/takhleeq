@@ -1,17 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import RoadMap from "/public/Illustrations/roadmap.png";
+import RoadMap from "/public/Images/RoadMap.png";
 
 const BusinessStartupPitch = () => {
   return (
-    <div className="flex flex-col-reverse lg:flex-row px-[5%] py-16 lg:py-6 justify-stretch bg-[#8838D3] text-white">
-      <div className="lg:w-[40%] h-[30rem]  lg:h-auto relative">
+    <div className="flex flex-col-reverse lg:flex-row px-[5%] lg:px-[0%] lg:pr-[5%] py-16 lg:py-0 justify-stretch bg-[#8838D3] text-white">
+      <div className="lg:w-[40%]h-[30rem]  lg:h-auto relative flex justify-end items-end">
         <Image
-        fill
           src={RoadMap}
+          width={600}
+          className=""
           alt="people celebrating business startup success"
-          className="absolute"
         />
       </div>
       <div className="lg:w-[60%] lg:pl-8 lg:py-28">
