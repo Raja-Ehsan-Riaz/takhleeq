@@ -90,13 +90,12 @@ const NeedConsultation = () => {
             <div className="flex flex-row gap-4 pl-2 mt-4 mb-2">
               <FaPhone size={25} color="#000000" />
               <div>
-                <p>0333-1234567</p>
-                <p>0333-1234567</p>
+                <p>0333-8483016</p>
               </div>
             </div>
             <div className="flex flex-row items-center gap-4 pl-2">
               <FaEnvelope size={25} color="#000000" />
-              <p>contact@takhleeq.com</p>
+              <p>hr@takhleeq.io</p>
             </div>
           </div>
           <div className="mt-12">
