@@ -2,11 +2,12 @@ import Image from "next/image";
 import { FaComment, FaEye, FaShare } from "react-icons/fa";
 
 const BlogImage = ({ picture }) => {
+  console.log(picture)
   return (
     <div className="w-full h-[30vw] ">
       <div className=" w-full h-[90%] relative text-white">
         <Image
-          src={`/Images/blogs/${picture}`}
+          src={`/Images/Blogs/${picture}`}
           alt=""
           fill
           className="absolute"

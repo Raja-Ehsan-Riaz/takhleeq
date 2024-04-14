@@ -18,7 +18,7 @@ const Blog = ({ title, images, date }) => {
       <Link className="w-full h-full  " href={`/blog/${title}`}>
         <div className=" w-full h-[90%] relative text-white bg-gray-900/20">
           <Image
-            src={`/Images/blogs/${images[0]}`}
+            src={`/Images/Blogs/${images[0]}`}
             alt=""
             fill
             className="absolute -z-10"
