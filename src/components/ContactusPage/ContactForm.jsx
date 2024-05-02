@@ -11,7 +11,7 @@ const ContactForm = (props) => {
     <div className="flex flex-col justify-center items-center px-[5%] py-28">
       <h2 className="uppercase text-4xl  font-bold text-center">
         get in{" "}
-        <span className="text-[#8838D3] border-b-8 border-b-black">touch</span>
+        <span className="text-[#8838D3] ">touch</span>
       </h2>
       <h2 className=" text-lg  text-center mt-8">
         Drop us a line! We are here to answer your questions 24/7.
@@ -42,11 +42,11 @@ const ContactForm = (props) => {
         <div className=" flex flex-col justify-start items-start gap-6 text-white md:w-1/2 p-8  bg-[#79579D3A]">
           <h2 className=" text-lg  font-bold text-center text-[#8838D3]">
             Contact{" "}
-            <span className=" text-black border-b-4 border-b-[#8838D3]">
+            <span className=" text-black">
               Details
             </span>
           </h2>
-          <div className="flex flex-col gap-2 justify-center items-start text-black mt-2">
+          <div className="flex flex-col gap-4 justify-center items-start text-black ">
             <div className="flex flex-row justify-start items-center gap-4">
               <FaPhone size={25} />
               <div className="ml-1">0333-8483016</div>
@@ -58,19 +58,19 @@ const ContactForm = (props) => {
           </div>
           <h2 className=" text-lg  font-bold text-center text-[#8838D3]">
             Office{" "}
-            <span className=" text-black border-b-4 border-b-[#8838D3]">
+            <span className=" text-black">
               Location
             </span>
           </h2>
-          <div className="flex flex-col justify-center items-start text-black mt-2">
+          <div className="flex flex-col justify-center items-start text-black ">
             <div className="flex flex-row justify-start items-start gap-4">
               <IoLocation size={35} />
-              <div>GRC, SEECS, NUST, Sector H-12, Islamabad</div>
+              <div>Takhleeq, Sector H-12, Islamabad</div>
             </div>
           </div>
           <h2 className=" text-lg  font-bold text-center text-[#8838D3]">
             Social{" "}
-            <span className=" text-black border-b-4 border-b-[#8838D3]">
+            <span className=" text-black">
               Media
             </span>
           </h2>
@@ -84,12 +84,12 @@ const ContactForm = (props) => {
             <Link href={"#"}>
               <IoLogoLinkedin size={35} className="object-contain" />
             </Link>
-            <Link href={"#"} className="bg-[#8838D3] rounded-md">
+            {/* <Link href={"#"} className="bg-[#8838D3] rounded-md">
               <RiTwitterXFill
                 size={30}
                 className="object-contain text-gray-300 p-1 rounded-sm"
               />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

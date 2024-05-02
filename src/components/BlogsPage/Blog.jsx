@@ -16,7 +16,7 @@ const Blog = ({ title, images, date }) => {
   return (
     <div className="w-full h-[30vw] hover:shadow-lg transition duration-500 shadow-black ">
       <Link className="w-full h-full  " href={`/blog/${title}`}>
-        <div className=" w-full h-[90%] relative text-white bg-gray-900/20">
+        <div className=" w-full h-[100%] relative text-white bg-gray-900/20">
           <Image
             src={`/Images/Blogs/${images[0]}`}
             alt=""
@@ -38,7 +38,7 @@ const Blog = ({ title, images, date }) => {
           </div>
         </div>
       </Link>
-      <div className="flex flex-row justify-between items-center w-full h-[10%] bg-[#BBA2FF] text-[0.7rem] p-6">
+      {/* <div className="flex flex-row justify-between items-center w-full h-[10%] bg-[#BBA2FF] text-[0.7rem] p-6">
         <div className="flex gap-4 items-center">
           <div className="h-10 w-10 rounded-full overflow-hidden  relative ">
             <Image
@@ -49,7 +49,7 @@ const Blog = ({ title, images, date }) => {
             />
           </div>
           <div className="italic text-sm"> Saqib Malik</div>
-        </div>
+        </div> */}
         {/* <div className="flex gap-4 items-center">
           <div className="flex gap-2  items-center">
             <FaEye size={20} />
@@ -64,7 +64,7 @@ const Blog = ({ title, images, date }) => {
             <div>Share</div>
           </div>
         </div> */}
-      </div>
+      {/* </div> */}
     </div>
   );
 };

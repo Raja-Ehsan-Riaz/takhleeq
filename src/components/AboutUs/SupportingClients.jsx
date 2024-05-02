@@ -5,13 +5,11 @@ const SupportingClients = () => {
   return (
     <div className="flex flex-col lg:flex-row items-stretch justify-between px-[5%] lg:px-[0%] lg:pl-[5%] ">
       <div className="lg:w-[55%] py-28">
-        <h2 className="uppercase text-5xl lg:text-6xl text-left font-semibold">
-          Transforming Visions Into Vibrant{" "}
-          <span className="text-[#8838D3] border-b-8 border-b-black">
+        <h2 className="uppercase text-5xl  text-left font-bold">
+          Transforming <span className="text-[#8838D3] ">Visions </span> <br />  Into   Vibrant{" "}
             Brands
-          </span>
         </h2>
-        <p className="text-lg mb-12 lg:mb-0 mt-12">
+        <p className="text-lg mb-12 lg:mb-0 mt-6">
           takhleeq.io is not just another branding company in Pakistan. What
           sets us apart is our relentless focus on research and development. Our
           team is always exploring new trends, technologies, and insights to

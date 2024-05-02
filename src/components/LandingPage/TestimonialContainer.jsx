@@ -12,10 +12,10 @@ import testimonials from "../../utils/testimonials.json";
 
 const TestimonialContainer = () => {
   return (
-    <div className=" py-28 ">
+    <div className=" py-20 ">
       <h2 className=" px-[5%] uppercase  text-[#8838D3] text-4xl  font-bold text-left">
         What Clients{"  "}
-        <span className="text-black border-b-8 border-b-[#8838D3]">Say</span>
+        <span className="text-black ">Say</span>
       </h2>
       <div className=" mx-auto px-[5%]">
         <Swiper

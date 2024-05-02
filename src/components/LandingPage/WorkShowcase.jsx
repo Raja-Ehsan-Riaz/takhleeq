@@ -13,11 +13,11 @@ const WorkShowcase = () => {
     <div className="  py-20 text-center flex flex-col items-start">
       <h2 className="text-[#8838D3] text-left text-4xl uppercase font-bold mb-4 px-[5%]">
         Work{" "}
-        <span className="text-black border-b-[6px] border-b-[#8838D3]">
+        <span className="text-black ">
           Showcase
         </span>
       </h2>
-      <div className="flex flex-row flex-wrap gap-2 justify-center mt-8 mb-12 w-full text-white font-bold">
+      <div className="flex flex-row flex-wrap gap-2 justify-center mt-4 mb-12 w-full text-white font-bold">
         <Link
           href={"/client/Fauji Security Services FSS"}
           className="w-[29rem] lg:w-[30%] h-[20rem]  relative overflow-hidden m-2 transform duration-500 hover:scale-110 hover:z-40 group"
@@ -130,7 +130,7 @@ const WorkShowcase = () => {
       </div>
       <Link href={"/clients"}  className="m-auto">
         <div className="px-12 py-4   focus:outline-none   relative border border-[#8838D3] bg-[#8838D3] text-white cursor-pointer font-bold text-sm transition-colors overflow-hidden before:absolute before:-right-[100%] before:top-0 before:z-10 before:h-[100rem] before:w-[200%] before:origin-top-right before:rotate-[15deg] before:hover:rotate-0 before:scale-x-50 before:bg-white before:transition-transform before:duration-300 before:content-[''] hover:text-[#8838D3] before:hover:scale-x-100">
-          <div className="relative z-20">Learn More</div>
+          <div className="relative z-20">Explore More</div>
         </div>
       </Link>
     </div>

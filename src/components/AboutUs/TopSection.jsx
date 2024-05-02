@@ -41,8 +41,8 @@ const TopSection = () => {
     setSelectedItemIndex(index);
   };
   return (
-    <div className="flex flex-col items-center justify-center px-[20%] py-28  bg-[#7957931A]">
-      <div className="flex flex-row justify-evenly w-full items-center mb-8 gap-6">
+    <div className="flex flex-col items-center justify-center lg:px-[10%] py-28  bg-[#7957931A]">
+      <div className="flex flex-row justify-center gap-6 w-full items-center mb-8">
         <div
           className={`h-32 w-32 rounded-full cursor-pointer relative bg-white shadow-md flex justify-center items-center ${
             selectedItemIndex === 0 && "border-4 border-[#8838D3]/80"
@@ -102,7 +102,7 @@ const TopSection = () => {
       {items.map((item, index) => (
         <div
           key={index}
-          className={`text-lg mt-8 text-center  ${
+          className={`text-lg mt-8 lg:px-[10%] text-center  ${
             selectedItemIndex === index ? "change-item" : "hidden"
           }`}
         >
@@ -111,14 +111,14 @@ const TopSection = () => {
               <>
                 {" "}
                 Takhleeq is{" "}
-                <span className="text-[#8838D3] border-b-8 border-b-black">
+                <span className="text-[#8838D3] ">
                   born
                 </span>
               </>
             ) : (
               <>
                 {" "}
-                <span className="text-[#8838D3] border-b-8 border-b-black">
+                <span className="text-[#8838D3] ">
                   {item.title}
                 </span>
               </>

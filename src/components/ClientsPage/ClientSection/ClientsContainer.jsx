@@ -28,7 +28,7 @@ const ClientsContainer = () => {
   };
   return (
     <div className="py-28 px-[5%]">
-      <h2 className="uppercase text-4xl text-[#8838D3]  font-bold text-center">
+      <h2 className="uppercase text-5xl text-[#8838D3]  font-bold text-center">
         WE CRAFT{" "}
         <span className="text-black">
           COMPANIES THAT ARE <br />

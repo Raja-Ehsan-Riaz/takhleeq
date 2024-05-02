@@ -3,7 +3,7 @@ const ApplicationForm = (props) => {
     <div className="flex flex-col justify-center items-center px-[5%] py-28 bg-[#7957931A] ">
       <h2 className="uppercase text-4xl  font-bold text-center">
         Application{" "}
-        <span className="text-[#8838D3] border-b-8 border-b-black">Form</span>
+        <span className="text-[#8838D3]">Form</span>
       </h2>
       <h2 className=" text-lg  text-center mt-8">
         Fill in the application form:

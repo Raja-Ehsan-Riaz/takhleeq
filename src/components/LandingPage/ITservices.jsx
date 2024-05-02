@@ -8,13 +8,13 @@ const ITservices = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-center  px-[5%]  lg:px-[0%] lg:pl-[5%]  py-28 lg:py-0   ">
       <div className="lg:w-[55%] lg:pr-8 lg:py-28 py-0">
-        <h2 className="uppercase text-6xl text-left font-bold">
+        <h2 className="uppercase text-5xl text-left font-bold">
           One-window Stop <br /> to Boost{" "} <br />
-          <span className="text-[#8838D3] border-b-8 border-b-black">
+          <span className="text-[#8838D3]">
             Your Business
           </span>
         </h2>
-        <p className="text-lg mt-12">
+        <p className="text-lg mt-6">
           Looking to give your business a boost? With takhleeq.io, you can
           streamline your business growth and achieve your goals with
           confidence.{" "}

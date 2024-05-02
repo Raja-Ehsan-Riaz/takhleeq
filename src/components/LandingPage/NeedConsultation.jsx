@@ -13,9 +13,9 @@ const NeedConsultation = () => {
 
   return (
     <div className="w-full bg-[#7957931A] px-[5%] py-20">
-      <h2 className="text-[#8838D3] text-left text-4xl uppercase font-bold mb-10">
+      <h2 className="text-[#8838D3] text-left text-4xl uppercase font-bold mb-6">
         Need{" "}
-        <span className="text-black border-b-[6px] border-b-[#8838D3]">
+        <span className="text-black ">
           Consultation?
         </span>
       </h2>
@@ -71,7 +71,7 @@ const NeedConsultation = () => {
             </div>
             <button
               type="submit"
-              className=" px-12 py-4 mt-4  focus:outline-none   relative border border-[#8838D3] bg-[#8838D3] text-white cursor-pointer font-bold text-sm transition-colors overflow-hidden before:absolute before:-right-[100%] before:top-0 before:z-10 before:h-[100rem] before:w-[200%] before:origin-top-right before:rotate-[15deg] before:hover:rotate-0 before:scale-x-50 before:bg-white before:transition-transform before:duration-300 before:content-[''] hover:text-[#8838D3] before:hover:scale-x-100"
+              className=" px-12 py-4 mt-6  focus:outline-none   relative border border-[#8838D3] bg-[#8838D3] text-white cursor-pointer font-bold text-sm transition-colors overflow-hidden before:absolute before:-right-[100%] before:top-0 before:z-10 before:h-[100rem] before:w-[200%] before:origin-top-right before:rotate-[15deg] before:hover:rotate-0 before:scale-x-50 before:bg-white before:transition-transform before:duration-300 before:content-[''] hover:text-[#8838D3] before:hover:scale-x-100"
             >
               <div className="relative z-20">
               Submit
@@ -83,7 +83,7 @@ const NeedConsultation = () => {
           <div>
             <h3 className="text-[#8838D3] text-left font-bold text-xl uppercase mb-4">
               Contact{" "}
-              <span className="text-black border-b-[3px] border-b-[#8838D3]">
+              <span className="text-black ">
                 Details
               </span>
             </h3>
@@ -98,10 +98,10 @@ const NeedConsultation = () => {
               <p>hr@takhleeq.io</p>
             </div>
           </div>
-          <div className="mt-12">
+          <div className="mt-10">
             <h3 className="text-[#8838D3] text-left font-bold text-xl uppercase">
               Press{" "}
-              <span className="text-black border-b-[3px] border-b-[#8838D3]">
+              <span className="text-black ">
                 Inquiries
               </span>
             </h3>
@@ -110,10 +110,10 @@ const NeedConsultation = () => {
               <IoIosArrowRoundForward size={35} color="#000000" />
             </div>
           </div>
-          <div className="mt-12">
+          <div className="mt-8">
             <h3 className="text-[#8838D3] text-left font-bold text-xl uppercase">
               Join Our{" "}
-              <span className="text-black border-b-[3px] border-b-[#8838D3]">
+              <span className="text-black ">
                 Team
               </span>
             </h3>

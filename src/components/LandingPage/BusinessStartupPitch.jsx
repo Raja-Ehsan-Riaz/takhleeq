@@ -5,8 +5,8 @@ import RoadMap from "/public/Images/RoadMap.png";
 
 const BusinessStartupPitch = () => {
   return (
-    <div className="flex flex-col-reverse lg:flex-row px-[5%] lg:px-[0%] lg:pr-[5%] py-16 lg:py-0 justify-stretch bg-[#8838D3] text-white">
-      <div className="lg:w-[40%]h-[30rem]  lg:h-auto relative flex justify-end items-end">
+    <div className="flex flex-col-reverse lg:flex-row px-[5%] lg:px-[0%] lg:pr-[5%] py-16 lg:py-0 justify-between bg-[#8838D3] text-white">
+      <div className="lg:w-[40%] h-[30rem]  lg:h-auto relative flex justify-end items-end">
         <Image
           src={RoadMap}
           width={600}
@@ -14,13 +14,13 @@ const BusinessStartupPitch = () => {
           alt="people celebrating business startup success"
         />
       </div>
-      <div className="lg:w-[60%] lg:pl-8 lg:py-28">
-        <h2 className="uppercase text-6xl text-left font-semibold">
-          Need a Roadmap For Business&apos;s{" "}
-          <span className="text-black border-b-8 border-b-black">Success </span>
+      <div className="lg:w-[55%] lg:pl-8 lg:py-28">
+        <h2 className="uppercase text-5xl text-left font-bold">
+          Need a Roadmap For <br /> Business&apos;s{" "}
+          <span className="text-black">Success </span>
           ?
         </h2>
-        <p className="text-lg mt-12">
+        <p className="text-lg mt-6">
           At takhleeq.io, we specialize in crafting personalized roadmaps for
           businesses of all sizes. Whether you&apos;re a startup or an established
           enterprise, our expertise in branding and digital services ensures a

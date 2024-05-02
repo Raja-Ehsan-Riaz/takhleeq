@@ -6,12 +6,12 @@ import Promise from "../../../public/Icons&Symbols/careers/promise.png";
 
 const TopSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center px-[15%] py-28  bg-[#8838D3] text-white">
-      <h2 className="uppercase text-5xl text-left font-semibold">
+    <div className="flex flex-col items-center justify-center px-[15%] py-28 bg-gray-100 text-black">
+      <h2 className="uppercase text-5xl text-left font-bold">
         HOW DO WE{" "}
-        <span className="text-black border-b-8 border-b-white"> HIRE?</span>
+        <span className="text-[#8838D3]"> HIRE?</span>
       </h2>
-      <div className="text-lg mt-12 text-center">
+      <div className="text-lg mt-8 text-center">
         Our company seeks passionate and innovative individuals with diverse
         skills and a keen understanding of global market trends. Our hiring
         process, including interviews and skills assessments, is designed to

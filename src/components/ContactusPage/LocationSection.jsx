@@ -5,7 +5,7 @@ import { IoLocation, IoMailOutline } from "react-icons/io5";
 const LocationSection = () => {
   return (
     <div className="flex flex-col lg:flex-row justify-center items-stretch px-[5%] gap-12 lg:gap-[5%] mb-16">
-      <div className="flex flex-col gap-4 justify-between items-start lg:w-[50%] ">
+      <div className="flex flex-col gap-8 justify-start items-start lg:w-[50%] ">
         <div className="flex flex-col sm:flex-row  sm:border-l-8 border-[#8838D3] w-full">
           <div className="flex flex-col sm:w-[90%] items-start justify-between p-6 px-8 bg-[#79579D3A]">
             <div className="uppercase font-bold text-xl text-[#8838D3] mb-2">
@@ -17,7 +17,7 @@ const LocationSection = () => {
             <div className="flex justify-between gap-6">
               <div className="flex flex-row justify-start items-center gap-4">
                 <IoMailOutline size={20} />
-                <div>hr@takhleeq.io</div>
+                <div>info@takhleeq.io</div>
               </div>
               <div className="flex flex-row justify-start items-center gap-4">
                 <FaPhone size={15} />
@@ -40,7 +40,7 @@ const LocationSection = () => {
             <div className="flex justify-between gap-6">
               <div className="flex flex-row justify-start items-center gap-4">
                 <IoMailOutline size={20} />
-                <div>hr@takhleeq.io</div>
+                <div>info@takhleeq.io</div>
               </div>
               <div className="flex flex-row justify-start items-center gap-4">
                 <FaPhone size={15} />
@@ -52,7 +52,7 @@ const LocationSection = () => {
             <IoLocation size={30} color="white" />
           </div>
         </div>
-        <div className="flex flex-col sm:flex-row  sm:border-l-8 border-[#8838D3] w-full">
+        {/* <div className="flex flex-col sm:flex-row  sm:border-l-8 border-[#8838D3] w-full">
           <div className="flex flex-col sm:w-[90%] items-start justify-between p-6 px-8 bg-[#79579D3A]">
             <div className="uppercase font-bold text-xl text-[#8838D3] mb-2">
               United Kingdom
@@ -72,7 +72,7 @@ const LocationSection = () => {
           <div className="flex justify-center items-center p-4 bg-[#79579D3A]/80 flex-grow">
             <IoLocation size={30} color="white" />
           </div>
-        </div>
+        </div> */}
       </div>
       <div className=" w-full lg:w-[40%] h-[30rem] bg-[#79579D3A]"></div>
     </div>

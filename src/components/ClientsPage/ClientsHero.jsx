@@ -13,7 +13,7 @@ const ClientsHero = () => {
           Clients 
           <br />
           at {" "}
-          <span className="text-white border-b-[6px] border-b-[#8838D3]">
+          <span className="text-white ">
             Takhleeq
           </span>
         </h1>

@@ -4,10 +4,10 @@ import Image from "next/image";
 
 const NewsAndUpdates = () => {
   return (
-    <div className="px-[5%] py-28 bg-[#7957931A]">
+    <div className="px-[5%] py-24 bg-[#7957931A]">
       <h2 className="text-[#8838D3] text-left text-4xl uppercase font-bold mb-10">
         News and{" "}
-        <span className="text-black border-b-[6px] border-b-[#8838D3]">
+        <span className="text-black">
           updates
         </span>
       </h2>
@@ -17,7 +17,7 @@ const NewsAndUpdates = () => {
             <Link
               key={idx}
               href={`/blog/${news.title}`}
-              className={`relative bg-gray-900/50  hover:bg-[#8838D3] cursor-pointer p-4 lg:w-[33.33%] pt-36 pr-16`}
+              className={`relative bg-gray-900/50  hover:bg-[#8838D3]/90 cursor-pointer p-4 lg:w-[33.33%] pt-36 pr-16`}
             >
               <Image
                 fill={true}
@@ -43,7 +43,7 @@ const NewsAndUpdates = () => {
             <Link
               key={idx}
               href={`/blog/${news.title}`}
-              className={`relative bg-gray-900/50  hover:bg-[#8838D3] cursor-pointer p-4 lg:w-[50%] pt-44 pr-20`}
+              className={`relative bg-gray-900/50  hover:bg-[#8838D3]/90 cursor-pointer p-4 lg:w-[50%] pt-44 pr-20`}
             >
               <Image
                 fill={true}
@@ -71,7 +71,7 @@ const NewsAndUpdates = () => {
       <div className="flex w-full">
         <Link href={"/blogs"} className="mx-auto">
           <div className="px-12 py-4   focus:outline-none  relative  border border-[#8838D3] bg-[#8838D3] text-white cursor-pointer font-bold text-sm transition-colors overflow-hidden before:absolute before:-right-[100%] before:top-0 before:z-10 before:h-[100rem] before:w-[200%] before:origin-top-right before:rotate-[15deg] before:hover:rotate-0 before:scale-x-50 before:bg-white before:transition-transform before:duration-300 before:content-[''] hover:text-[#8838D3] before:hover:scale-x-100">
-            <div className="relative  z-20">Learn More</div>
+            <div className="relative  z-20">Explore More</div>
           </div>
         </Link>
       </div>
