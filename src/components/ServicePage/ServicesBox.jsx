@@ -1,9 +1,9 @@
 import Link from "next/link";
-const ServicesBox = ({ services }) => {
+const ServicesBox = ({ services ,title }) => {
     return (
       <div className="flex flex-col w-full rounded-md overflow-hidden">
         <div className="font-bold bg-[#b09edd] p-4 text-xl">Other Services</div>
-        {services.slice(0, 3).map((service,index) => {
+        {services.filter((service)=>(service.title!=title)).slice(0, 3).map((service,index) => {
           return (
             <div
               key={index}
@@ -13,7 +13,7 @@ const ServicesBox = ({ services }) => {
             >
               <Link href={`/service/${service.title.replace(/\//g, "&")}`}>
                 
-              <div className="font-bold ">
+              <div className="font-semibold ">
                 {service.title}
               </div>
               </Link>

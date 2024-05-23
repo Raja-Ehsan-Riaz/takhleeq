@@ -16,11 +16,12 @@ export default function Client({ params }) {
     return (
         <div>
             <ClientHero title={client.name} images={client.cover} />
-            <OverView description={client.description} image={client.icon} />
-            <ServicesProvided/>
-            <Goals goals={client.goals}/>
-            <Outcomes outcomes={client.outcomes}/>
-            <Portfolio title={client.name} portfolio={client.portfolio} bg={client.bg}/>
+            <OverView description={client.description} image={client.icon} link={client.link} />
+            {/* <ServicesProvided /> */}
+            <Goals goals={client.goals} />
+            <Outcomes outcomes={client.outcomes} />
+            {client.portfolio.length != 0 ?
+                <Portfolio title={client.name} portfolio={client.portfolio} bg={client.bg} /> : <></>}
         </div>
     );
 }

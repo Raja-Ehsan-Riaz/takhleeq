@@ -20,20 +20,20 @@ const NeedConsultation = () => {
         </span>
       </h2>
       <div className="flex flex-col lg:flex-row">
-        <div className="lg:w-[75%]">
+        <div className=" w-full">
           <p>Drop us a line! We are here to answer your questions 24/7.</p>
           <form
             onSubmit={handleSubmit}
-            className="mt-4 flex flex-col items-center"
+            className="mt-4  flex flex-col items-center"
           >
-            <div className="flex flex-col lg:flex-row flex-wrap justify-between gap-4 w-full">
+            <div className="flex flex-col lg:flex-row justify-between gap-4 w-full">
               <input
                 type="text"
                 id="full-name"
                 name="full-name"
                 placeholder="Full Name"
                 required
-                className="p-4 border border-black focus:border-[#8838D3] focus:outline-none  rounded-lg bg-transparent"
+                className="p-4 border w-full  border-black focus:border-[#8838D3] focus:outline-none  rounded-lg bg-transparent"
               ></input>
               <input
                 type="email"
@@ -41,7 +41,7 @@ const NeedConsultation = () => {
                 name="email"
                 placeholder="Work Email"
                 required
-                className="p-4 border border-black focus:border-[#8838D3] focus:outline-none  rounded-lg bg-transparent"
+                className="p-4 border w-full border-black focus:border-[#8838D3] focus:outline-none  rounded-lg bg-transparent"
               ></input>
               <input
                 type="text"
@@ -49,14 +49,14 @@ const NeedConsultation = () => {
                 name="company"
                 placeholder="Company"
                 required
-                className="p-4 border border-black focus:border-[#8838D3] focus:outline-none  rounded-lg bg-transparent"
+                className="p-4 border w-full border-black focus:border-[#8838D3] focus:outline-none  rounded-lg bg-transparent"
               ></input>
               <input
                 type="tel"
                 id="phone-number"
                 name="phone-number"
                 placeholder="Phone Number"
-                className="p-4 border border-black focus:border-[#8838D3] focus:outline-none  rounded-lg bg-transparent"
+                className="p-4 border w-full border-black focus:border-[#8838D3] focus:outline-none  rounded-lg bg-transparent"
               ></input>
             </div>
             <div className="mt-4 w-full">
@@ -79,7 +79,7 @@ const NeedConsultation = () => {
             </button>
           </form>
         </div>
-        <div className="lg:w-[25%] mt-8  lg:mt-0 lg:pl-12">
+        {/* <div className="lg:w-[25%] mt-8  lg:mt-0 lg:pl-12">
           <div>
             <h3 className="text-[#8838D3] text-left font-bold text-xl uppercase mb-4">
               Contact{" "}
@@ -122,7 +122,7 @@ const NeedConsultation = () => {
               <IoIosArrowRoundForward size={35} color="#000000" />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

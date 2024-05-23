@@ -9,13 +9,8 @@ const CareerHero = () => {
           src="/Images/Heros/career.jpg"
           className=" absolute -z-10"
         />
-        <h1 className="text-[#8838D3] text-center mx-auto text-5xl uppercase font-bold mb-10 mt-auto">
-          Careers 
-          <br />
-          at {" "}
-          <span className="text-white">
-            Takhleeq
-          </span>
+        <h1 className="text-[#8838D3] text-center mx-auto text-4xl md:text-5xl uppercase font-bold mb-10 mt-auto">
+          Careers
         </h1>
       </div>
     );

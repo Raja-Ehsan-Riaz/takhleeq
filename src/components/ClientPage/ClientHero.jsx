@@ -1,14 +1,14 @@
 import Image from "next/image";
 const ClientHero = ({ title, images }) => {
   return (
-    <div className="flex h-[70vh] relative overflow-hidden bg-[#7936b7]/30 bg-gradient-to-r from-[#1312149E]/50 via-[#1312149E]/50 to-[#1312149E]/50 ">
+    <div className="flex h-[70vh] relative overflow-hidden p-2 bg-[#7936b7]/30 bg-gradient-to-r from-[#1312149E]/50 via-[#1312149E]/50 to-[#1312149E]/50 ">
       <Image
         fill={true}
-        style={{ objectFit: "cover", objectPosition: "0px 10%" }}
+        style={{ objectFit: "cover", objectPosition: "0px 30%" }}
         src={images}
         className=" absolute -z-10"
       />
-      <h1 className="text-white text-center mx-auto text-5xl uppercase font-bold mb-10 mt-auto">
+      <h1 className="text-white text-center mx-auto text-4xl md:text-5xl uppercase font-bold mb-10 mt-auto">
         {title}
       </h1>
     </div>

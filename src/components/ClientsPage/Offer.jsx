@@ -1,4 +1,12 @@
+"use client";
 import OfferCard from "./OfferCard";
+import { Navigation, Pagination, A11y, Autoplay } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 const Offer = () => {
   const offers = [
@@ -26,23 +34,38 @@ const Offer = () => {
     { title: "UIUX Design", src: "/Icons&Symbols/offer/uiux-design.png" },
   ];
   return (
-    <div className="flex flex-col items-center justify-center px-[5%] py-28  bg-gray-100 text-black">
-      <h2 className="uppercase text-5xl text-left font-bold">
+    <div className="flex flex-col items-center justify-center px-[5%] py-16 md:py-28  bg-gray-200 text-black">
+      <h2 className="uppercase text-4xl text-center md:text-5xl font-bold">
         WHAT DO WE <span className="text-[#8838D3]"> OFFER?</span>
       </h2>
-      <div className="text-lg mt-4 text-center">
+      <div className="text-lg mt-8 text-justify md:text-center ">
         We specialize in UX/UI design for websites, SaaS, and web/mobile apps,
         blending the latest UI/UX trends with clients&apos; unique goals.
       </div>
-      <div className="flex flex-wrap justify-center gap-8 lg:gap-16 items-center  mt-12">
-        {offers.slice(0, 4).map((offer, index) => (
-          <OfferCard title={offer.title} src={offer.src} key={index} />
-        ))}
-      </div>
-      <div className="flex flex-wrap justify-center gap-8 lg:gap-16 items-center mt-6">
-        {offers.slice(4).map((offer, index) => (
-          <OfferCard title={offer.title} src={offer.src} key={index} />
-        ))}
+      <div className=" w-full mt-12 mx-auto px-[15%]">
+        <Swiper
+          // install Swiper modules
+          modules={[Navigation, Pagination, A11y, Autoplay]}
+          slidesPerView={1}
+          autoplay={{ delay: 2000, pauseOnMouseEnter: true }}
+          loop={true}
+          breakpoints={{
+            // when window width is >= 768px
+            1100: {
+              slidesPerView: 4,
+            },
+            500: {
+              slidesPerView: 2,
+            },
+            
+          }}
+        >
+          {offers.map((offer, index) => (
+            <SwiperSlide key={index}>
+              <OfferCard title={offer.title} src={offer.src} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </div>
   );

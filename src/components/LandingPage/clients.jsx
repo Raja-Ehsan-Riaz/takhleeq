@@ -14,8 +14,8 @@ const Clients = () => {
   );
 
   return (
-    <div className="w-full bg-[#7957931A] flex flex-row">
-      <div className="w-[40%] pl-[5%] py-20">
+    <div className="w-full bg-[#7957931A] flex flex-col-reverse lg:flex-row">
+      <div className="lg:w-[40%] px-4 lg:px-0 lg:pl-[5%]  py-0 pb-12 lg:py-20">
         <h3 className="font-bold text-4xl uppercase">
           {activeClientData.punchline.split(" ").map((word, index) => {
             // Check if the word starts with '&'
@@ -32,7 +32,7 @@ const Clients = () => {
           })}
         </h3>
         <p
-          className="mt-4 mb-10"
+          className="mt-4 mb-10 text-justify md:text-left"
           dangerouslySetInnerHTML={{ __html: activeClientData.description }}
         >
           {/* {activeClientData && activeClientData.description} */}
@@ -43,7 +43,7 @@ const Clients = () => {
           </button>
         </Link>
       </div>
-      <div className="w-[60%] relative bg-pak-map-globalcss pr-[5%] py-20 flex flex-col">
+      <div className="w-[60%] relative bg-pak-map-globalcss pr-[5%]  py-20 pb-8 lg:pb-20 flex flex-col">
         <div className="ml-[15%] mb-20">
           <p className="font-bold text-9xl text-[#8838D3]">30+</p>
           <p className="font-bold text-4xl uppercase">

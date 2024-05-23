@@ -98,8 +98,8 @@ const FAQ = () => {
   };
 
   return (
-    <div className="w-[90%] m-auto">
-      <div className="flex justify-evenly items-center gap-8">
+    <div className=" w-full md:w-[90%] m-auto">
+      <div className="flex flex-col md:flex-row  justify-evenly items-center gap-8">
         {tabs.map((tab, index) => (
           <button
             key={index}
@@ -108,7 +108,7 @@ const FAQ = () => {
               activeTab === index
                 ? "bg-[#8838D3] text-white"
                 : "bg-white text-[#8838D3]"
-            } p-6 rounded-lg focus:outline-none  w-[25rem] relative   font-bold text-sm transition-colors overflow-hidden before:absolute before:-right-[100%] before:top-0 before:z-10 before:h-[100rem] before:w-[200%] before:origin-top-right before:rotate-[15deg] before:hover:rotate-0 before:scale-x-50 before:bg-[#8838D3] before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100`}
+            } p-6 rounded-lg focus:outline-none w-[20rem]  md:w-[25rem] relative   font-bold text-sm transition-colors overflow-hidden before:absolute before:-right-[100%] before:top-0 before:z-10 before:h-[100rem] before:w-[200%] before:origin-top-right before:rotate-[15deg] before:hover:rotate-0 before:scale-x-50 before:bg-[#8838D3] before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100`}
           >
             <div className="relative z-20">{tab}</div>
           </button>
@@ -118,12 +118,12 @@ const FAQ = () => {
         return (
           <div
             key={index}
-            className={`p-4 rounded-b-lg mt-8 ${
+            className={`py-4 md:p-4 rounded-b-lg mt-8 ${
               activeTab === index ? "change-item" : "hidden"
             }`}
           >
             {item.map((faq, index) => (
-              <div key={index} className="mb-8 relative pr-8">
+              <div key={index} className="mb-8 relative pr-8 text-sm md:text-base">
                 <div className="absolute right-2 top-2">
                   <IoIosArrowDown
                     className={`text-black duration-500 transition-transform ${
@@ -134,7 +134,7 @@ const FAQ = () => {
                 </div>
                 <div
                   onClick={() => handleQuestionClick(index)}
-                  className={`cursor-pointer font-semibold border-l-8 border-[#8838D3]  p-4 ${
+                  className={`cursor-pointer font-semibold border-l-8 border-[#8838D3]   p-4 ${
                     activeQuestion === index ? "text-black" : "text-black"
                   }`}
                 >

@@ -41,60 +41,60 @@ const TopSection = () => {
     setSelectedItemIndex(index);
   };
   return (
-    <div className="flex flex-col items-center justify-center lg:px-[10%] py-28  bg-[#7957931A]">
-      <div className="flex flex-row justify-center gap-6 w-full items-center mb-8">
+    <div className="flex flex-col items-center justify-center lg:px-[5%] py-16 md:py-28  bg-[#7957931A]">
+      <div className="flex flex-row justify-center gap-[1%] sm:gap-2 md:gap-6 w-full items-center mb-2 md:mb-8">
         <div
-          className={`h-32 w-32 rounded-full cursor-pointer relative bg-white shadow-md flex justify-center items-center ${
-            selectedItemIndex === 0 && "border-4 border-[#8838D3]/80"
+          className={`h-16 sm:h-32 w-16 sm:w-32 rounded-full cursor-pointer relative bg-white shadow-md flex justify-center items-center ${
+            selectedItemIndex === 0 && "border-2 sm:border-4 border-[#8838D3]/80"
           }`}
           onClick={() => handleCircleClick(0)}
         >
           <Image
             src={Value1}
             alt=""
-            className="absolute object-contain filter"
+            className="absolute object-contain filter w-8 md:w-12"
             width={50}
           />
         </div>
-        <div className="w-24 border-2 border-gray-900"></div>
+        <div className=" w-6 sm:w-12 lg:w-24 border-2 border-gray-900"></div>
         <div
-          className={`h-32 w-32 rounded-full cursor-pointer relative bg-white shadow-md flex justify-center items-center ${
-            selectedItemIndex === 1 && "border-4 border-[#8838D3]/80"
+          className={`h-16 sm:h-32 w-16 sm:w-32 rounded-full cursor-pointer relative bg-white shadow-md flex justify-center items-center ${
+            selectedItemIndex === 1 && "border-2 sm:border-4 border-[#8838D3]/80"
           }`}
           onClick={() => handleCircleClick(1)}
         >
           <Image
             src={Value2}
             alt=""
-            className="absolute object-contain"
+            className="absolute object-contain w-10 md:w-16"
             width={60}
           />
         </div>
-        <div className="w-24 border-2 border-gray-900"></div>
+        <div className=" w-6 sm:w-12 lg:w-24 border-2 border-gray-900"></div>
         <div
-          className={`h-32 w-32 rounded-full cursor-pointer relative bg-white shadow-md flex justify-center items-center ${
-            selectedItemIndex === 2 && "border-4 border-[#8838D3]/80"
+          className={`h-16 sm:h-32 w-16 sm:w-32 rounded-full cursor-pointer relative bg-white shadow-md flex justify-center items-center ${
+            selectedItemIndex === 2 && "border-2 sm:border-4 border-[#8838D3]/80"
           }`}
           onClick={() => handleCircleClick(2)}
         >
           <Image
             src={Value4}
             alt=""
-            className="absolute object-contain"
+            className="absolute object-contain w-6 md:w-12"
             width={40}
           />
         </div>
-        <div className="w-24 border-2 border-gray-900"></div>
+        <div className=" w-6 sm:w-12 lg:w-24 border-2 border-gray-900"></div>
         <div
-          className={`h-32 w-32 rounded-full cursor-pointer relative bg-white shadow-md flex justify-center items-center ${
-            selectedItemIndex === 3 && "border-4 border-[#8838D3]/80"
+          className={`h-16 sm:h-32 w-16 sm:w-32 rounded-full cursor-pointer relative bg-white shadow-md flex justify-center items-center ${
+            selectedItemIndex === 3 && "border-2 sm:border-4 border-[#8838D3]/80"
           }`}
           onClick={() => handleCircleClick(3)}
         >
           <Image
             src={Value3}
             alt=""
-            className="absolute object-contain"
+            className="absolute object-contain w-10 md:w-16"
             width={60}
           />
         </div>
@@ -102,11 +102,11 @@ const TopSection = () => {
       {items.map((item, index) => (
         <div
           key={index}
-          className={`text-lg mt-8 lg:px-[10%] text-center  ${
+          className={`text-lg mt-8 px-4 lg:px-[10%] text-center  ${
             selectedItemIndex === index ? "change-item" : "hidden"
           }`}
         >
-          <h2 className="uppercase text-5xl text-center font-semibold">
+          <h2 className="uppercase text-4xl md:text-5xl text-center font-semibold">
             {index === 0 ? (
               <>
                 {" "}
@@ -124,7 +124,7 @@ const TopSection = () => {
               </>
             )}
           </h2>
-          <div className="mt-12">{item.description}</div>
+          <div className=" mt-4 md:mt-12 text-justify md:text-left">{item.description}</div>
         </div>
       ))}
     </div>

@@ -28,7 +28,7 @@ const Testimonial = ({ even,Name,Designation,Text,Picture }) => {
             className="absolute left-0 -bottom-5 group-hover:hidden "
           />
         </div>
-        <div className="opacity-80">
+        <div className="opacity-80 ">
         {Text}
         </div>
         <div className="opacity-80">

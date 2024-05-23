@@ -8,7 +8,7 @@ import { RiTwitterXFill } from "react-icons/ri";
 
 const ContactForm = (props) => {
   return (
-    <div className="flex flex-col justify-center items-center px-[5%] py-28">
+    <div className="flex flex-col justify-center items-center px-[5%] py-16 md:py-28">
       <h2 className="uppercase text-4xl  font-bold text-center">
         get in{" "}
         <span className="text-[#8838D3] ">touch</span>

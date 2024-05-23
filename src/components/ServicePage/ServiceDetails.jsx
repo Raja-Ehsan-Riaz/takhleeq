@@ -8,7 +8,7 @@ const ServiceDetails = ({
 }) => {
   return (
     <>
-      <div className="w-full h-[30vw]  relative overflow-hidden">
+      <div className="w-full h-[15rem] md:h-[30vw]  relative overflow-hidden">
         <Image
           fill={true}
           style={{ objectFit: "cover", objectPosition: "0px 10%" }}
@@ -17,7 +17,7 @@ const ServiceDetails = ({
         />
       </div>
       <div>
-        <div className="text-4xl font-bold mb-4">{punchline}</div>
+        <div className="text-3xl lg:text-4xl font-bold mb-4">{punchline}</div>
         <div>{detail}</div>
         <div className="py-6 ml-8">
           <ul className="list-disc  flex flex-col gap-2">
@@ -31,7 +31,7 @@ const ServiceDetails = ({
           </ul>
         </div>
       </div>
-      <div className="w-full h-[30vw]  relative overflow-hidden">
+      <div className="w-full h-[15rem] md:h-[30vw]  relative overflow-hidden">
         <Image
           fill={true}
           style={{ objectFit: "cover", objectPosition: "0px 10%" }}

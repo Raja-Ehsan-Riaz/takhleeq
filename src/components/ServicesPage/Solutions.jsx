@@ -3,15 +3,15 @@ import SingleSolutionCard from "./SingleSolutionCard";
 
 const Solutions = () => {
   return (
-    <div className="bg-[#8838D3] py-28 lg:py-0 px-[5%] lg:px-[0%] lg:pl-[5%] flex lg:flex-row flex-col justify-between items-stretch ">
-      <div className="lg:w-[45%] flex flex-col gap-4 items-start py-0 lg:py-28 lg:pr-8">
-        <h2 className="text-white text-left  text-5xl uppercase font-bold mb-10 mt-auto">
+    <div className="bg-[#8838D3] py-0 pt-16 md:py-28 lg:py-0  lg:px-[0%] lg:pl-[5%] flex lg:flex-row flex-col justify-between items-stretch ">
+      <div className="lg:w-[45%] flex flex-col gap-4 items-start px-[5%] lg:px-0 py-0 lg:py-28 lg:pr-8">
+        <h2 className="text-white text-left  text-4xl md:text-5xl uppercase font-bold md:mb-10 mt-auto">
           We Shape the perfect <br />
           <span className="text-black ">
             solutions
           </span>
         </h2>
-        <p className=" text-white mb-12 lg:mb-0">
+        <p className=" text-white mb-12 lg:mb-0 text-justify md:text-left">
           Takhleeq excels in digital marketing with data-driven strategies,
           crafts intuitive high-performance websites in web development, and
           specializes in creating visually captivating UI/UX designs for

@@ -32,8 +32,8 @@ const BlogsContainer = () => {
   };
 
   return (
-    <div className="flex items-start gap-12 py-28 px-[10%]">
-      <div className="flex flex-col justify-start items-center w-[70%] gap-12">
+    <div className="flex items-start flex-col lg:flex-row gap-12 py-16 md:py-28 px-4 md:px-[10%]">
+      <div className="flex flex-col justify-start items-center w-full lg:w-[70%] gap-12">
         {displayedBlogs.map((blog, index) => (
           <Blog key={index} {...blog} />
         ))}
@@ -64,7 +64,7 @@ const BlogsContainer = () => {
           />
         </div>
       </div>
-      <div className="flex flex-col justify-start items-center w-[30%] gap-8">
+      <div className="flex flex-col justify-start items-center lg:w-[30%] gap-8">
         {/* <SearchBar /> */}
         <NewsBox blogs={blogs} />
       </div>

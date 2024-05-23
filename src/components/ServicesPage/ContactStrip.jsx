@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const ContactStrip = () => {
   return (
-    <div className="flex flex-row items-center py-16 bg-[#9670FF] px-[10%] justify-between">
+    <div className="flex flex-col gap-8 md:gap-0 md:flex-row items-center py-16 bg-[#9670FF] px-[10%] justify-between">
       <p className="text-white text-4xl font-bold uppercase">
         like what you see?{" "}
         <span className="text-black">Let&apos;s work</span>

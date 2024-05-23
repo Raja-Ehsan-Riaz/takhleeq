@@ -2,15 +2,15 @@ import RocketImage from "../../../public/Images/rocket.png"
 import Image from "next/image";
 const Branding = () => {
   return (
-    <div className="flex flex-col lg:flex-row  px-[5%] py-28 gap-12 justify-between items-center overflow-hidden">
+    <div className="flex flex-col lg:flex-row  px-[5%] py-20 gap-16 justify-between items-center overflow-hidden">
       <div className="lg:w-[60%]">
-        <h2 className="uppercase text-6xl text-left font-bold">
+        <h2 className="uppercase text-5xl text-left font-bold">
           Tech-Driven Branding <br />
-          <span className="text-[#8838D3] border-b-8 border-b-black">
+          <span className="text-[#8838D3]">
             Revolution
           </span>
         </h2>
-        <p className="text-lg mt-12">
+        <p className="text-lg mt-4">
           At the helm of takhleeq.io&apos;s Tech-Driven Branding Revolution (TDBR) is
           a dynamic team of visionaries, innovators, and trailblazers. Committed
           to pushing the boundaries of creativity and technology, this team

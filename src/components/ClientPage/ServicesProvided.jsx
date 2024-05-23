@@ -43,7 +43,7 @@ const ServicesProvided = () => {
   };
 
   return (
-    <div className="flex flex-row justify-center items-center px-[5%] py-28 text-white ">
+    <div className="flex flex-row justify-center items-center px-[5%] py-16 lg:py-28 text-white ">
       {servicesData.map((service, index) => (
         <div
           key={index}

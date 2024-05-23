@@ -26,7 +26,8 @@
       ]
     },
     "link": "#",
-    "portfolio": ["0", "1", "4", "3", "2"]
+    "portfolio": ["0", "1", "4", "3"],
+    "services":["branding", "UI UX design", "website development", "social media marketing", "media services", "creative designs","content creation","industrial design"]
   },
   {
     "name": "truID Technologies Pvt. Ltd",
@@ -58,7 +59,8 @@
       ]
     },
     "link": "#",
-    "portfolio": ["0", "1", "2", "3"]
+    "portfolio": ["0", "1", "2", "3"],
+    "services":["website development", "UI UX design", "branding", "media services", "product video", "social media marketing","creative designs"]
   },
   {
     "name": "Toyota G.T Motors Pvt Limited",
@@ -89,7 +91,8 @@
       ]
     },
     "link": "#",
-    "portfolio": ["1", "2", "3"]
+    "portfolio": ["1", "2", "3"],
+    "services":["website development", "social media marketing"]
   },
   {
     "name": "Sentinel AI",
@@ -118,7 +121,8 @@
       ]
     },
     "link": "#",
-    "portfolio": ["0"]
+    "portfolio": ["0"],
+    "services":[]
   },
   {
     "name": "Fauji Security Services FSS",
@@ -147,7 +151,8 @@
       ]
     },
     "link": "#",
-    "portfolio": ["0", "1"]
+    "portfolio": ["0", "1"],
+    "services":["UI UX design"]
   },
   {
     "name": "Murabbi",
@@ -181,7 +186,8 @@
       ]
     },
     "link": "#",
-    "portfolio": []
+    "portfolio": [],
+    "services":["branding", "UI UX design", "website development", "social media marketing", "media services", "creative designs" ]
   },
   {
     "name": "Askari Bank",
@@ -218,10 +224,11 @@
       ]
     },
     "link": "#",
-    "portfolio": ["0", "1"]
+    "portfolio": ["0", "1"],
+    "services":[ "UI UX design" ]
   },
   {
-    "name": "Health Smart Solutions",
+    "name": "Health Smart Services",
     "icon": "/hss.png",
     "cover": "/Images/Heros/Clients/hss.jpg",
     "description": "Health Smart Solutions is a leading healthcare technology company dedicated to revolutionizing the healthcare industry through innovative solutions. By leveraging cutting-edge technologies such as artificial intelligence, machine learning, and data analytics, Health Smart Solutions aims to enhance patient care, optimize operational efficiency, and improve clinical outcomes. With a focus on delivering cost-effective and scalable solutions, the company collaborates with healthcare providers and organizations to address the evolving needs of the industry.",
@@ -253,7 +260,8 @@
       ]
     },
     "link": "#",
-    "portfolio": []
+    "portfolio": [],
+    "services":["website development","UI UX design", "branding", "company profile"]
   },
   {
     "name": "BCube",
@@ -285,7 +293,8 @@
       ]
     },
     "link": "#",
-    "portfolio": []
+    "portfolio": [],
+    "services":["product video", "motion graphics", "3D visualization"]
   },
   {
     "name": "Benz Edition",
@@ -316,7 +325,8 @@
       ]
     },
     "link": "#",
-    "portfolio": []
+    "portfolio": [],
+    "services":["product video", "video editing"]
   },
   {
     "name": "Array Tech",
@@ -333,7 +343,8 @@
       "bullets": ["", "", "", "", "", ""]
     },
     "link": "#",
-    "portfolio": []
+    "portfolio": [],
+    "services":[]
   },
   {
     "name": "CC",
@@ -350,7 +361,8 @@
       "bullets": ["", "", "", "", "", ""]
     },
     "link": "#",
-    "portfolio": []
+    "portfolio": [],
+    "services":[]
   },
   {
     "name": "Rapid Silicon",
@@ -367,7 +379,8 @@
       "bullets": ["", "", "", "", "", ""]
     },
     "link": "#",
-    "portfolio": []
+    "portfolio": [],
+    "services":[]
   },
   {
     "name": "truIT",
@@ -384,7 +397,8 @@
       "bullets": ["", "", "", "", "", ""]
     },
     "link": "#",
-    "portfolio": []
+    "portfolio": [],
+    "services":[]
   },
   {
     "name": "CSM",
@@ -401,7 +415,8 @@
       "bullets": ["", "", "", "", "", ""]
     },
     "link": "#",
-    "portfolio": []
+    "portfolio": [],
+    "services":[]
   },
   {
     "name": "Danoarts",
@@ -418,7 +433,8 @@
       "bullets": ["", "", "", "", "", ""]
     },
     "link": "#",
-    "portfolio": []
+    "portfolio": [],
+    "services":[]
   },
   {
     "name": "vaulsys",
@@ -435,7 +451,8 @@
       "bullets": ["", "", "", "", "", ""]
     },
     "link": "#",
-    "portfolio": []
+    "portfolio": [],
+    "services":[]
   },
   {
     "name": "ieg",
@@ -452,6 +469,7 @@
       "bullets": ["", "", "", "", "", ""]
     },
     "link": "#",
-    "portfolio": []
+    "portfolio": [],
+    "services":[]
   }
 ]

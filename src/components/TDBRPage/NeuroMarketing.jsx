@@ -7,13 +7,13 @@ const NeuroMarketing = () => {
         <Image src={Neuro} alt="Man with brain"  />
       </div>
       <div className="w-full lg:w-[55%]">
-        <h2 className="uppercase text-6xl text-left text-[#8838D3] font-bold">
+        <h2 className="uppercase text-5xl text-left text-[#8838D3] font-bold">
           AI Neuro <span className="text-black ">marketing</span> <br />
-          <span className="text-black border-b-8 border-b-[#8838D3]">
+          <span className="text-black">
             Engines
           </span>
         </h2>
-        <p className="text-lg mt-12">
+        <p className="text-lg mt-4">
           Neuromarketing is a burgeoning field that applies neuroscience
           principles to understand and influence consumer behavior. By utilizing
           techniques such as brain imaging, eye tracking, and biometrics,

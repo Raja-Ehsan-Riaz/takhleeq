@@ -6,9 +6,9 @@ import ITServicesImage from "/public/Images/target.png";
 
 const ITservices = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center  px-[5%]  lg:px-[0%] lg:pl-[5%]  py-28 lg:py-0   ">
+    <div className="flex flex-col lg:flex-row items-center justify-center  px-[5%]  lg:px-[0%] lg:pl-[5%] py-16  md:py-28 lg:py-0   ">
       <div className="lg:w-[55%] lg:pr-8 lg:py-28 py-0">
-        <h2 className="uppercase text-5xl text-left font-bold">
+        <h2 className="uppercase text-4xl md:text-5xl text-left font-bold">
           One-window Stop <br /> to Boost{" "} <br />
           <span className="text-[#8838D3]">
             Your Business
@@ -43,7 +43,7 @@ const ITservices = () => {
           </div>
         </div>
       </div>
-      <div className="relative w-full h-[30rem] lg:w-[45%] lg:h-auto" >
+      <div className="relative w-full md:h-[30rem] lg:w-[45%] lg:h-auto" >
         <Image
           src={ITServicesImage}
           alt="people talking about IT"

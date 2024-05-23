@@ -12,7 +12,7 @@ import testimonials from "../../utils/testimonials.json";
 
 const TestimonialContainer = () => {
   return (
-    <div className=" py-20 ">
+    <div id="testimonials" className=" py-16 md:py-20 ">
       <h2 className=" px-[5%] uppercase  text-[#8838D3] text-4xl  font-bold text-left">
         What Clients{"  "}
         <span className="text-black ">Say</span>

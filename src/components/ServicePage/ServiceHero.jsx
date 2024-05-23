@@ -4,7 +4,7 @@ const ServiceHero = ({service,image}) => {
       <div className="flex h-[70vh] relative overflow-hidden bg-[#7936b7]/30 bg-gradient-to-r from-[#1312149E]/50 via-[#1312149E]/50 to-[#1312149E]/50 ">
       <Image
         fill={true}
-        style={{ objectFit: "cover", objectPosition: "0px 10%" }}
+        style={{ objectFit: "cover", objectPosition: "0px 50%" }}
         src={image}
         className=" absolute -z-10"
       />

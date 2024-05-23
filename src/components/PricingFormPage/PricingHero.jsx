@@ -9,7 +9,7 @@ const PricingHero = () => {
         className=" absolute -z-10"
       />
       <h1 className="text-[#8838D3] text-center mx-auto text-5xl uppercase font-bold mb-10 mt-auto">
-        How to Custom Price
+        How to Customize
         <br />
         <span className="text-white ">
           Your Package

@@ -10,7 +10,7 @@ const OfferCard = ({ title, src }) => {
       </div>
     </div>
     
-    <div className="font-bold text-[#8838D3]">{title}</div>
+    <div className="font-bold ">{title}</div>
     </div>
   );
 };

@@ -1,8 +1,9 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import TakhleeqLogo from "/public/Takhleeq/logo-main.svg";
+import TakhleeqLogoWhite from "/public/Takhleeq/logo-full-white.svg";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { IoIosChatbubbles } from "react-icons/io";
 import { usePathname } from "next/navigation";
@@ -10,6 +11,7 @@ import { usePathname } from "next/navigation";
 function NavBar() {
   const pathname = usePathname();
   const [navbar, setNavbar] = useState(false);
+  const [isNavbarFixed, setIsNavbarFixed] = useState(false);
   const links = [
     {
       id: 2,
@@ -47,10 +49,35 @@ function NavBar() {
       name: "Contact Us",
     },
   ];
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 80) {
+        setIsNavbarFixed(true);
+      } else {
+        setIsNavbarFixed(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <nav
-      className={`w-full justify-between mx-auto md:items-center md:flex overflow-x-hidden fixed z-50 bg-white overflow-y-hidden shadow-lg 
-        ${navbar ? "px-0" : "px-8"}  
+      className={`w-full justify-between mx-auto md:items-center md:flex overflow-x-hidden  ${
+        isNavbarFixed
+          ? `fixed bg-white shadow-lg nav-in`
+          : `${
+              pathname === "/"
+                ? "fixed bg-transparent text-white pt-2"
+                : "relative bg-white shadow-lg"
+            }`
+      } fixed z-50  overflow-y-hidden  
+        ${navbar ? "px-0 bg-white" : " px-4 md:px-8 "}  
       `}
     >
       <div
@@ -60,10 +87,24 @@ function NavBar() {
       >
         <Link href="/" className="z-20">
           <Image
-            src={TakhleeqLogo}
+            src={
+              isNavbarFixed
+                ? TakhleeqLogo
+                : pathname === "/"
+                ? navbar
+                  ? TakhleeqLogo
+                  : TakhleeqLogoWhite
+                : TakhleeqLogo
+            }
             alt="sparkleo logo"
             quality={100}
-            className="w-[280px]"
+            className={` ${
+              isNavbarFixed
+                ? " w-[180px] md:w-[280px]"
+                : pathname === "/"
+                ? "w-[140px] md:w-[200px] md:ml-8"
+                : "w-[180px] md:w-[280px]"
+            } `}
             onClick={() => setNavbar(false)}
           />
         </Link>
@@ -74,9 +115,14 @@ function NavBar() {
             onClick={() => setNavbar(!navbar)}
           >
             {navbar ? (
-              <RiCloseLine size={40} color="#6A4DBB" />
+              <RiCloseLine size={40} className="text-[#8838D3]" />
             ) : (
-              <RiMenu3Line size={40} color="#6A4DBB" />
+              <RiMenu3Line
+                size={40}
+                className={` ${
+                  isNavbarFixed ? "text-[#8838D3]" : pathname === "/" ? "text-white" : "text-[#8838D3]"
+                } `}
+              />
             )}
           </button>
         </div>
@@ -91,23 +137,24 @@ function NavBar() {
           <ul
             className={`h-screen w-full md:h-auto md:items-center justify-center md:flex md:gap-6 lg:gap-10 text-xl md:text-base font-light md:font-medium transition-all duration-500 px-[10%] md:px-0`}
           >
-            {links.map((link,index) => (
-              <li key={index}
-                className={`py-4 text-left md:text-center my-2 border-b border-b-[#6A4DBB] hover:text-[#6A4DBB] md:border-b-0 ${pathname===link.href?"text-[#6A4DBB]":""} `}
+            {links.map((link, index) => (
+              <li
+                key={index}
+                className={`py-4 text-left md:text-center my-2 border-b border-b-[#6A4DBB]  lg:hover:text-[#6A4DBB] md:border-b-0 ${
+                  pathname === link.href ? "text-[#6A4DBB] font-bold lg:font-medium" : `text-[#6A4DBB] ${isNavbarFixed ?"lg:text-black": pathname==='/'?"lg:text-white":"lg:text-black"} `
+                } `}
               >
                 <Link href={link.href} onClick={() => setNavbar(false)}>
-                 {link.name}
+                  {link.name}
                 </Link>
               </li>
             ))}
-
-          
           </ul>
         </div>
       </div>
 
-      <div className=" hidden md:flex flex-row items-center">
-        <IoIosChatbubbles size={40} color="#6A4DBB" />
+      <div className=" hidden md:flex flex-row items-center mr-8">
+        <IoIosChatbubbles size={40} className="text-[#8838D3]" />
         <div className="flex flex-col ml-2">
           <p className="text-sm">CALL ANYTIME</p>
           <p className="text-md font-medium">0333-8483016</p>

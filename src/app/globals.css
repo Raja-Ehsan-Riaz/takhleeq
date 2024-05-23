@@ -76,3 +76,18 @@ body {
     3px -3px 0 rgb(199, 199, 199),
     -3px 3px rgb(199, 199, 199);
 }
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.nav-in {
+  animation: slideIn 0.3s ease-in-out forwards;
+}

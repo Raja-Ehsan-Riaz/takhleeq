@@ -12,7 +12,7 @@ export default function Service({ params }) {
     return (
         <div>
             <ServiceHero service={service.title} image={service.images[0]} />
-            <ServiceContainer service={service} />
+            <ServiceContainer service={service} title={decodeURIComponent(params.slug).replace(/&/g, "/")} />
         </div>
     );
 }

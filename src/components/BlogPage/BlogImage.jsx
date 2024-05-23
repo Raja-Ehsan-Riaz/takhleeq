@@ -4,7 +4,7 @@ import { FaComment, FaEye, FaShare } from "react-icons/fa";
 const BlogImage = ({ picture }) => {
   console.log(picture)
   return (
-    <div className="w-full h-[30vw] ">
+    <div className="w-full h-[15rem] md:h-[30vw] ">
       <div className=" w-full h-[90%] relative text-white">
         <Image
           src={`/Images/Blogs/${picture}`}
@@ -13,7 +13,7 @@ const BlogImage = ({ picture }) => {
           className="absolute"
         />
       </div>
-      <div className="flex flex-row justify-between items-center w-full h-[10%] bg-[#BBA2FF] text-[0.7rem] p-6">
+      {/* <div className="flex flex-row justify-between items-center w-full h-[10%] bg-[#BBA2FF] text-[0.7rem] p-6">
         <div className="flex gap-4 items-center">
           {" "}
           <div className="h-10 w-10 rounded-full overflow-hidden  relative ">
@@ -25,7 +25,7 @@ const BlogImage = ({ picture }) => {
             />
           </div>
           <div className="italic text-sm"> Saqib Malik</div>
-        </div>
+        </div> */}
         {/* <div className="flex gap-4 items-center">
           <div className="flex gap-2  items-center">
             <FaEye size={20} />
@@ -40,7 +40,7 @@ const BlogImage = ({ picture }) => {
             <div>Share</div>
           </div>
         </div> */}
-      </div>
+      {/* </div> */}
     </div>
   );
 };

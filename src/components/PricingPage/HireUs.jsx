@@ -10,9 +10,9 @@ const HireUs = () => {
   ]
 
   return (
-    <div className="py-28 px-[5%]">
-      <div className="flex justify-between items-start">
-        <h2 className="uppercase text-5xl text-left font-bold text-[#8838D3]">
+    <div className="py-16 md:py-28 px-[5%]">
+      <div className="flex flex-col gap-4 md:gap-0 md:flex-row justify-between items-start">
+        <h2 className="uppercase text-4xl md:text-5xl text-left font-bold text-[#8838D3]">
           How much will YOUR <br />
           <span className="text-black">PROJECT cost?</span>
         </h2>
@@ -29,7 +29,7 @@ const HireUs = () => {
       </div>
       <div className="flex flex-row justify-evenly items-center flex-wrap">
         <HireCard src="/Icons&Symbols/pricing/hire.png" heading={data[0].title} text={data[0].text} />
-        <HireCard src="/Icons&Symbols/pricing/brand.png"  heading={data[1].title} text={data[1].text} />
+        <HireCard src="/Icons&Symbols/pricing/branding.png"  heading={data[1].title} text={data[1].text} />
       </div>
     </div>
   );

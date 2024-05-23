@@ -3,14 +3,14 @@ import Link from "next/link";
 
 const BrandingRevolution = () => {
   return (
-    <div className="flex flex-col lg:flex-row px-[5%] justify-between items-stretch   py-28  text-white relative overflow-hidden  bg-[#7936b7]/30 bg-gradient-to-r from-[#1312149E]/50 via-[#1312149E]/50 to-[#1312149E]/50 ">
+    <div id="tdbr" className="flex flex-col lg:flex-row px-[5%] justify-between items-stretch  py-16  md:py-28  text-white relative overflow-hidden  bg-[#7936b7]/30 bg-gradient-to-r from-[#1312149E]/50 via-[#1312149E]/50 to-[#1312149E]/50 ">
       <Image
           fill={true}
           style={{ objectFit: "cover" }}
           src="/Images/branding.png"
           className=" absolute -z-10"
         />
-      <div className="lg:w-[40%] flex justify-center items-center text-5xl font-bold text-center lg:text-left">
+      <div className="lg:w-[40%] flex justify-center items-center text-4xl md:text-5xl font-bold text-center lg:text-left">
         Tech-Driven Branding Revolution
       </div>
       <div className="lg:w-[55%] text-center">

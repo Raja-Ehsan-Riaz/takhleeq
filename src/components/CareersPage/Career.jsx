@@ -7,20 +7,20 @@ import { IoEarth } from "react-icons/io5";
 const Career = (props) => {
   const [show, setShow] = useState(false);
   return (
-    <div className="p-12 bg-[#7957931A] w-full rounded-lg flex flex-col items-start gap-6">
+    <div className="p-6 md:p-12 bg-[#7957931A] w-full rounded-lg flex flex-col items-start gap-6">
       {!show ? (
         <>
           <div className="flex justify-between items-center w-full">
-            <div className="text-3xl font-bold text-black">
+            <div className=" text-xl md:text-3xl font-bold text-black">
               {props.title}
             </div>
             <Link href={`/career-application/${props.title}}`}>
-              <div className="text-black font-semibold hover:text-[#8838D3]">Apply Now</div>
+              <div className=" font-semibold text-[#8838D3] text-sm">Apply Now</div>
             </Link>
           </div>
-          <div dangerouslySetInnerHTML={{__html:props.about}}></div>
+          <div className="text-justify md:text-left" dangerouslySetInnerHTML={{__html:props.about}}></div>
           <div className=" flex justify-between items-end w-full">
-            <div className="flex gap-8 items-center">
+            <div className="flex flex-col md:flex-row gap-2 md:gap-8 items-center">
               <div className="flex items-center gap-4 py-3 px-8 font-semibold shadow-md bg-white cursor-pointer relative  bg-transparent  text-black  text-sm transition-colors overflow-hidden before:absolute before:-right-[100%] before:top-0 before:z-10 before:h-[100rem] before:w-[200%] before:origin-top-right before:rotate-[15deg] before:hover:rotate-0 before:scale-x-50 before:bg-black before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
                 <IoEarth size={20} className="relative z-20" />{" "}
                 <div className="relative z-20"> Remote</div>

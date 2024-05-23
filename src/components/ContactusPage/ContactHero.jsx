@@ -9,7 +9,7 @@ const ContactHero = () => {
           src="/Images/Heros/contact.jpg"
           className=" absolute -z-10"
         />
-        <h1 className="text-[#8838D3] text-center mx-auto text-5xl uppercase font-bold mb-10 mt-auto ">
+        <h1 className="text-[#8838D3] text-center mx-auto text-4xl md:text-5xl uppercase font-bold mb-10 mt-auto ">
           Contact{" "}
           <span className="text-white">
             Us

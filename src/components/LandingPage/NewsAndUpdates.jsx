@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const NewsAndUpdates = () => {
   return (
-    <div className="px-[5%] py-24 bg-[#7957931A]">
+    <div className="px-[5%] py-16 md:py-24 bg-[#7957931A]">
       <h2 className="text-[#8838D3] text-left text-4xl uppercase font-bold mb-10">
         News and{" "}
         <span className="text-black">
@@ -12,17 +12,17 @@ const NewsAndUpdates = () => {
         </span>
       </h2>
       <div className="mb-16">
-        <div className="flex flex-col lg:flex-row">
+        <div className="flex flex-col gap-2 lg:gap-0 lg:flex-row mb-2 lg:mb-0">
           {blogs.slice(0, 3).map((news, idx) => (
             <Link
               key={idx}
               href={`/blog/${news.title}`}
-              className={`relative bg-gray-900/50  hover:bg-[#8838D3]/90 cursor-pointer p-4 lg:w-[33.33%] pt-36 pr-16`}
+              className={`relative bg-gray-900/50  hover:bg-[#8838D3]/90 cursor-pointer p-4 lg:w-[33.33%] pt-24 md:pt-36 pr-16`}
             >
               <Image
                 fill={true}
                 style={{ objectFit: "cover" }}
-                src={`/Images/Blogs/${news.images[0]}`}
+                src={`/Images/Blogs/${news.images[1]}`}
                 className=" absolute -z-10"
               />
               <div className="bg-[#8838D3] px-3 py-1 text-white text-sm inline-block  border-white border-2 rounded-lg">
@@ -37,18 +37,18 @@ const NewsAndUpdates = () => {
             </Link>
           ))}
         </div>
-
-        <div className="flex flex-col lg:flex-row ">
+        
+        <div className="flex flex-col gap-2 lg:gap-0 lg:flex-row ">
           {blogs.slice(3, 5).map((news, idx) => (
             <Link
               key={idx}
               href={`/blog/${news.title}`}
-              className={`relative bg-gray-900/50  hover:bg-[#8838D3]/90 cursor-pointer p-4 lg:w-[50%] pt-44 pr-20`}
+              className={`relative bg-gray-900/50  hover:bg-[#8838D3]/90 cursor-pointer p-4 lg:w-[50%] pt-24 md:pt-44 pr-20`}
             >
               <Image
                 fill={true}
                 style={{ objectFit: "cover" }}
-                src={`/Images/Blogs/${news.images[0]}`}
+                src={`/Images/Blogs/${news.images[1]}`}
                 className=" absolute -z-10"
               />
               <div className="bg-[#8838D3] px-3 py-1 text-white text-sm inline-block  border-white border-2 rounded-lg">

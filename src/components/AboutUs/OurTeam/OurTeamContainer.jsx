@@ -25,7 +25,7 @@ const OurTeamContainer = ({ first, coreTeam }) => {
     }
   };
   return (
-    <div className={` ${first ? "pt-28" : "pt-4 pb-28"}  px-[5%] bg-[#7957931A] `}>
+    <div id="team" className={` ${first ? " pt-16 md:pt-28" : "pt-4 pb-28"}  px-[5%] bg-[#7957931A] `}>
       {first ? (
         <>
           <h2 className="uppercase text-4xl  font-bold text-center mb-8">
@@ -34,7 +34,7 @@ const OurTeamContainer = ({ first, coreTeam }) => {
               team
             </span>
           </h2>
-          <div className="text-center text-lg">
+          <div className="text-center text-lg text-justify md:text-left">
             With a focus on problem-solving
             through research and development, our young and dynamic
             professionals think outside the box and come up with unique

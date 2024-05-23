@@ -14,11 +14,11 @@ const Blog = ({ title, images, date }) => {
   const daysAgo = Math.floor(differenceInMs / (1000 * 60 * 60 * 24));
 
   return (
-    <div className="w-full h-[30vw] hover:shadow-lg transition duration-500 shadow-black ">
+    <div className="w-full h-[70vw] lg:h-[30vw] hover:shadow-lg transition duration-500 shadow-black ">
       <Link className="w-full h-full  " href={`/blog/${title}`}>
         <div className=" w-full h-[100%] relative text-white bg-gray-900/20">
           <Image
-            src={`/Images/Blogs/${images[0]}`}
+            src={`/Images/Blogs/${images[1]}`}
             alt=""
             fill
             className="absolute -z-10"
@@ -32,9 +32,9 @@ const Blog = ({ title, images, date }) => {
               ) : (
                 <> {daysAgo} days ago</>
               )}
-            </button>
-            <div className="text-2xl font-bold uppercase">{title}</div>
-            <div className="italic">{date}</div>
+            </button> 
+            <div className="text-xl md:text-2xl font-bold uppercase">{title}</div>
+            <div className=" text-sm md:text-base italic">{date}</div>
           </div>
         </div>
       </Link>
