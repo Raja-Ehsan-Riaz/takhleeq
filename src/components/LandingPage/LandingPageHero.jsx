@@ -1,9 +1,18 @@
 import Link from "next/link";
+import { list } from "@vercel/blob";
 
-const LandingPagehero = () => {
+const LandingPagehero = async () => {
+  const { blobs } = await list({
+    prefix: "PromoVideoTakhleeq",
+    limit: 1,
+  });
+  const { url } = blobs[0];
+  console.log(blobs)
+
   return (
     <div className="w-full h-[100vh] flex justify-center items-center bg-[#8838D3] text-white relative overflow-hidden ">
       <div className="w-[100vw] h-full absolute left-0 top-0 z-20 bg-gray-800/20"></div>
+
       <video
         width="320"
         height="240"
@@ -14,7 +23,7 @@ const LandingPagehero = () => {
         preload="auto"
         loop
       >
-        <source src="/Promo Video Takhleeq.mp4" type="video/mp4" />
+        <source src={url} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="flex justify-center items-center  lg:hidden">
