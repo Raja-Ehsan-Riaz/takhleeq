@@ -34,7 +34,7 @@ const OurTeamContainer = ({ first, coreTeam }) => {
               team
             </span>
           </h2>
-          <div className="text-center text-lg text-justify md:text-left">
+          <div className=" text-lg text-justify md:text-center">
             With a focus on problem-solving
             through research and development, our young and dynamic
             professionals think outside the box and come up with unique
