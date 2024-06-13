@@ -41,7 +41,7 @@ const Form = (props) => {
     }
 
     try {
-      const response = await fetch('https://formspree.io/f/xayrglwz', {
+      const response = await fetch('https://formspree.io/f/meqyyljy', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

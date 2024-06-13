@@ -44,7 +44,7 @@ const ApplicationForm = (props) => {
     formDataToSubmit.append("coverLetter", coverLetter);
 
     try {
-      const response = await fetch("https://formspree.io/f/mbjnvprp", {
+      const response = await fetch("https://formspree.io/f/myyrrdga", {
         method: "POST",
         body: formDataToSubmit,
       });
