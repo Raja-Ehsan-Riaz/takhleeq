@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import RoadMap from "/public/Images/RoadMap.png";
+import RoadMap from "/public/Images/roadmap.png";
 
 const BusinessStartupPitch = () => {
   return (

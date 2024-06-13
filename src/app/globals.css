@@ -70,11 +70,8 @@ body {
 }
 
 .text-border {
-  text-shadow: 
-    3px 3px 0 rgb(199, 199, 199), 
-    -3px -3px 0 rgb(199, 199, 199),
-    3px -3px 0 rgb(199, 199, 199),
-    -3px 3px rgb(199, 199, 199);
+  text-shadow: 3px 3px 0 rgb(199, 199, 199), -3px -3px 0 rgb(199, 199, 199),
+    3px -3px 0 rgb(199, 199, 199), -3px 3px rgb(199, 199, 199);
 }
 
 @keyframes slideIn {
@@ -90,4 +87,35 @@ body {
 
 .nav-in {
   animation: slideIn 0.3s ease-in-out forwards;
+}
+
+.float {
+  animation: Float 2s ease-in-out infinite;
+}
+
+@keyframes Float {
+  0% {
+    transform: translateY(5%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(5%);
+  }
+}
+
+.pop {
+  animation: Pop 1.5s ease-in-out forwards;
+}
+
+@keyframes Pop {
+  0% {
+    opacity: 0;
+    transform: scale(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(100%);
+  }
 }

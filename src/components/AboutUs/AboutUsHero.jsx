@@ -9,9 +9,10 @@ const AboutUsHero = () => {
         src="/Images/Heros/aboutus.jpg"
         className=" absolute -z-10"
       />
-      <h1 className="text-white text-center mx-auto text-4xl md:text-5xl uppercase font-bold mb-10 mt-auto ">
-        Where <span className="text-[#8838D3]"> creativity</span> meets <span className="text-[#8838D3]"> strategy </span>{" "}
-        <br /> for effective branding !
+      <h1 className="text-white text-center mx-auto pop text-4xl md:text-5xl uppercase font-bold mb-10 mt-auto ">
+        Where <span className="text-[#8838D3]"> creativity</span> meets{" "}
+        <span className="text-[#8838D3]"> strategy </span> <br /> for effective
+        branding !
       </h1>
     </div>
   );

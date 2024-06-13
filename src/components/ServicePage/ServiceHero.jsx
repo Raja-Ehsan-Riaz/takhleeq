@@ -8,7 +8,7 @@ const ServiceHero = ({service,image}) => {
         src={image}
         className=" absolute -z-10"
       />
-        <h1 className="text-white text-center mx-auto text-5xl uppercase font-bold mb-10 mt-auto">
+        <h1 className="text-white  pop text-center mx-auto text-5xl uppercase font-bold mb-10 mt-auto">
          {service}
         </h1>
       </div>

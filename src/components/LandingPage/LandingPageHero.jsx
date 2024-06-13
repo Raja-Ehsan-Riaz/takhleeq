@@ -27,7 +27,7 @@ const LandingPagehero = async () => {
         Your browser does not support the video tag.
       </video>
       <div className="flex justify-center items-center  lg:hidden">
-        <div className="text-center lg:w-[40%] ">
+        <div className="text-center lg:w-[40%] pop">
           <h1 className="text-6xl lg:text-8xl font-bold">takhleeq</h1>
           <p className=" text-lg lg:text-2xl ">Ultimate Branding Experience</p>
           {/* <div className="flex flex-row bg-white rounded-md items-center my-4">
