@@ -8,6 +8,7 @@ function findBlogByTitle(title) {
 function Blog({ params }) {
 
     const blog = decodeURIComponent(params.slug) ? findBlogByTitle(decodeURIComponent(params.slug)) : null;
+    console.log(blog)
     return (
         <div>
             <BlogContainer {...blog} />
