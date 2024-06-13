@@ -35,7 +35,7 @@ const BlogContainer = ({
         ))}
         <div className="w-full h-[15rem] md:h-[30vw] bg-gray-400 relative">
           <Image
-            src={`/Images/blogs/${images[1]}`}
+            src={`/Images/Blogs/${images[1]}`}
             alt=""
             fill
             className="absolute"
