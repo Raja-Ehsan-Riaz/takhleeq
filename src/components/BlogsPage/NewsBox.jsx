@@ -5,7 +5,7 @@ const NewsBox = ({ blogs ,title }) => {
       <div className="font-bold bg-[#b09edd] p-4 text-xl">Recent News</div>
       {blogs.filter((blog)=>(blog.title!=title)).slice(0, 3).map((blog, index) => {
         return (
-          <Link key={index} href={`blog/${blog.title}`}>
+          <Link key={index} href={`/blog/${blog.title}`}>
             <div
               className={`${
                 index % 2 === 0 ? "bg-gray-200" : "bg-gray-300"
