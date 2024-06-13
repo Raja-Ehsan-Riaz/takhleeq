@@ -16,59 +16,79 @@ const FAQ = () => {
     [
       {
         question:
-          "If you could travel back in time to any historical period, which era would you choose, and why?",
-        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 1",
+          "What branding services does takhleeq.io offer to help businesses establish a strong identity in the market? ",
+        answer:
+          "takhleeq.io offers comprehensive branding services, including brand identity development, logo design, and brand strategy. ",
       },
       {
         question:
-          "If you could travel back in time to any historical period, which era would you choose, and why?",
-        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 2",
+          "How can takhleeq.io's web development services enhance my online presence and engage my target audience effectively? ",
+        answer:
+          "takhleeq.io's web development services create intuitive and high-performance websites that reflect brand identities and engage visitors effectively.",
       },
       {
         question:
-          "If you could travel back in time to any historical period, which era would you choose, and why?",
-        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 2",
+          "Does takhleeq.io provide social media marketing solutions to help businesses increase their brand visibility and engage with their audience?",
+        answer:
+          "Yes, takhleeq.io provides social media marketing solutions to boost brand visibility and foster meaningful interactions across diverse platforms.",
       },
       {
         question:
-          "If you could travel back in time to any historical period, which era would you choose, and why?",
-        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 2",
-      },
-    ],
-    [
-      { question: " which era would you choose, and why?", answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 3" },
-      {
-        question:
-          "If you could travel back in time to any historical period, which era would you choose, and why?",
-        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 4",
-      },
-      {
-        question:
-          "If you could travel back in time to any historical period, which era would you choose, and why?",
-        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 2",
-      },
-      {
-        question:
-          "If you could travel back in time to any historical period, which era would you choose, and why?",
-        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 2",
+          "Can takhleeq.io assist with content creation to develop compelling and relevant content that resonates with my target audience?",
+        answer:
+          "takhleeq.io specializes in content creation, producing engaging and relevant content tailored to your target audience's preferences and interests. ",
       },
     ],
     [
       {
         question:
-          "If you could travel back in time to any historical period, which era would you choose, and why?",
-        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 5",
-      },
-      { question: " which era would you choose, and why?", answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 6" },
-      {
-        question:
-          "If you could travel back in time to any historical period, which era would you choose, and why?",
-        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 2",
+          "What is the typical process and timeline for takhleeq.io's branding services, and how much does it cost?",
+        answer:
+          "takhleeq.io's branding process typically involves initial consultations, research, design iterations, and final delivery, with pricing varying based on project scope and complexity.",
       },
       {
         question:
-          "If you could travel back in time to any historical period, which era would you choose, and why?",
-        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit 1 2",
+          "Can you provide an overview of the pricing structure for takhleeq.io's web development services, and are there any additional fees or charges?",
+        answer:
+          "takhleeq.io's web development pricing depends on factors such as site complexity, features, and customization, with transparent pricing structures and options for additional services.",
+      },
+      {
+        question:
+          "How does takhleeq.io determine pricing for social media marketing campaigns, and what factors influence the overall cost?",
+        answer:
+          "takhleeq.io's social media marketing pricing is influenced by campaign objectives, target audience, ad placement, and ad spend, with flexible pricing models tailored to client budgets.",
+      },
+      {
+        question:
+          "What are the pricing options available for takhleeq.io's content creation services, and do you offer customizable packages based on specific needs?",
+        answer:
+          "takhleeq.io offers content creation pricing based on factors like content type, volume, complexity, and level of customization, with options for customizable packages to suit specific needs and budgets.",
+      },
+    ],
+    [
+      {
+        question:
+          "How does takhleeq.io handle technical issues or bugs that arise during the branding or web development process?",
+        answer:
+          "takhleeq.io promptly addresses technical issues and bugs during projects, ensuring smooth progress and client satisfaction.",
+      },
+      {
+        question:
+          "What technical support options are available for clients using takhleeq.io's digital marketing services, particularly for troubleshooting or optimizing campaigns?",
+        answer:
+          "Clients have access to technical support for troubleshooting and optimizing digital marketing campaigns, ensuring optimal performance.",
+      },
+      {
+        question:
+          "Can takhleeq.io as sist with website maintenance and updates post-launch, and what level of technical support is included in ongoing service packages?",
+        answer:
+          "takhleeq.io offers website maintenance and updates post-launch, with varying levels of technical support included in service packages.",
+      },
+      {
+        question:
+          "Does takhleeq.io provide technical assistance for integrating and optimizing third-party tools or platforms used in branding, web development, or digital marketing efforts?",
+        answer:
+          "Yes, takhleeq.io provides technical assistance for integrating and optimizing third-party tools or platforms, enhancing overall project efficiency and effectiveness.",
       },
     ],
   ];
@@ -78,48 +98,58 @@ const FAQ = () => {
   };
 
   return (
-    <div className="w-[90%] m-auto">
-      <div className="flex justify-evenly items-center gap-8">
+    <div className=" w-full md:w-[90%] m-auto">
+      <div className="flex flex-col md:flex-row  justify-evenly items-center gap-8">
         {tabs.map((tab, index) => (
           <button
             key={index}
             onClick={() => setActiveTab(index)}
             className={`${
-              activeTab === index ? "bg-white" : "bg-white"
-            } p-6 rounded-lg focus:outline-none font-bold w-[25rem]`}
+              activeTab === index
+                ? "bg-[#8838D3] text-white"
+                : "bg-white text-[#8838D3]"
+            } p-6 rounded-lg focus:outline-none w-[20rem]  md:w-[25rem] relative   font-bold text-sm transition-colors overflow-hidden before:absolute before:-right-[100%] before:top-0 before:z-10 before:h-[100rem] before:w-[200%] before:origin-top-right before:rotate-[15deg] before:hover:rotate-0 before:scale-x-50 before:bg-[#8838D3] before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100`}
           >
-            {tab}
+            <div className="relative z-20">{tab}</div>
           </button>
         ))}
       </div>
-      <div className="p-4 rounded-b-lg mt-8">
-        {faqs[activeTab].map((faq, index) => (
-          <div key={index} className="mb-8 relative">
-            <div className="absolute right-2 top-2">
-              <IoIosArrowDown
-                className={`text-black duration-500 transition-transform ${
-                  activeQuestion === index ? "rotate-180" : "rotate-0"
-                }`}
-                size={30}
-              />
-            </div>
-            <div
-              onClick={() => handleQuestionClick(index)}
-              className={`cursor-pointer font-semibold border-l-8 border-[#8838D3]  p-4 ${
-                activeQuestion === index ? "text-black" : "text-black"
-              }`}
-            >
-              {faq.question}
-            </div>
-            {activeQuestion === index && (
-              <div className="text-black p-4">{faq.answer}</div>
-            )}
+      {faqs.map((item, index) => {
+        return (
+          <div
+            key={index}
+            className={`py-4 md:p-4 rounded-b-lg mt-8 ${
+              activeTab === index ? "change-item" : "hidden"
+            }`}
+          >
+            {item.map((faq, index) => (
+              <div key={index} className="mb-8 relative pr-8 text-sm md:text-base">
+                <div className="absolute right-2 top-2">
+                  <IoIosArrowDown
+                    className={`text-black duration-500 transition-transform ${
+                      activeQuestion === index ? "rotate-180" : "rotate-0"
+                    }`}
+                    size={30}
+                  />
+                </div>
+                <div
+                  onClick={() => handleQuestionClick(index)}
+                  className={`cursor-pointer font-semibold border-l-8 border-[#8838D3]   p-4 ${
+                    activeQuestion === index ? "text-black" : "text-black"
+                  }`}
+                >
+                  {faq.question}
+                </div>
+                {activeQuestion === index && (
+                  <div className="text-black p-4 change-item">{faq.answer}</div>
+                )}
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
+        );
+      })}
     </div>
   );
 };
-
 
 export default FAQ;

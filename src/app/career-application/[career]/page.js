@@ -3,11 +3,12 @@ import CareerHero from "@/components/CareersPage/CareerHero";
 import SMicons from "@/components/FAQsPage/SMicons";
 
 
-export default function CareerApplication() {
+export default function CareerApplication({ params }) {
+    const career = decodeURIComponent(params.career) ;
     return (
         <div>
             <CareerHero/>
-            <ApplicationForm/>
+            <ApplicationForm career={career}/>
             <SMicons/>
         </div>
     );

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from "next/link";
 import { FaClock } from "react-icons/fa";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { IoEarth } from "react-icons/io5";
@@ -6,23 +7,27 @@ import { IoEarth } from "react-icons/io5";
 const Career = (props) => {
   const [show, setShow] = useState(false);
   return (
-    <div className="p-12 bg-[#7957931A] w-full rounded-lg flex flex-col items-start gap-6">
+    <div className="p-6 md:p-12 bg-[#7957931A] w-full rounded-lg flex flex-col items-start gap-6">
       {!show ? (
         <>
           <div className="flex justify-between items-center w-full">
-            <div className="text-3xl font-bold text-[#8838D3]">
+            <div className=" text-xl md:text-3xl font-bold text-black">
               {props.title}
             </div>
-            <div className="text-[#8838D3] font-semibold">Apply Now</div>
+            <Link href={`/career-application/${props.title}}`}>
+              <div className=" font-semibold text-[#8838D3] text-sm">Apply Now</div>
+            </Link>
           </div>
-          <div>{props.description}</div>
+          <div className="text-justify md:text-left" dangerouslySetInnerHTML={{__html:props.about}}></div>
           <div className=" flex justify-between items-end w-full">
-            <div className="flex gap-8 items-center">
-              <div className="flex items-center gap-4 py-3 px-8 font-semibold shadow-md bg-white cursor-pointer">
-                <IoEarth size={20} /> <div> Remote</div>
+            <div className="flex flex-col md:flex-row gap-2 md:gap-8 items-center">
+              <div className="flex items-center gap-4 py-3 px-8 font-semibold shadow-md bg-white cursor-pointer relative  bg-transparent  text-black  text-sm transition-colors overflow-hidden before:absolute before:-right-[100%] before:top-0 before:z-10 before:h-[100rem] before:w-[200%] before:origin-top-right before:rotate-[15deg] before:hover:rotate-0 before:scale-x-50 before:bg-black before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
+                <IoEarth size={20} className="relative z-20" />{" "}
+                <div className="relative z-20"> Remote</div>
               </div>
-              <div className="flex items-center gap-4 py-3 px-8 font-semibold shadow-md bg-white cursor-pointer">
-                <FaClock size={20} /> <div> Fultime</div>
+              <div className="flex items-center gap-4 py-3 px-8 font-semibold shadow-md bg-white cursor-pointer relative  bg-transparent  text-black  text-sm transition-colors overflow-hidden before:absolute before:-right-[100%] before:top-0 before:z-10 before:h-[100rem] before:w-[200%] before:origin-top-right before:rotate-[15deg] before:hover:rotate-0 before:scale-x-50 before:bg-black before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
+                <FaClock size={20} className="relative z-20" />{" "}
+                <div className="relative z-20"> Fultime</div>
               </div>
             </div>
             <div>
@@ -31,7 +36,7 @@ const Career = (props) => {
                   setShow(true);
                 }}
                 size={30}
-                className="cursor-pointer text-[#8838D3] "
+                className="cursor-pointer text-black "
               />
             </div>
           </div>
@@ -39,23 +44,34 @@ const Career = (props) => {
       ) : (
         <>
           <div className="flex justify-between items-center w-full">
-            <div className="text-3xl font-bold text-[#8838D3]">
+            <div className="text-3xl font-bold text-black">
               {props.title}
             </div>
           </div>
           <div className="flex flex-col justify-center items-start w-full gap-2">
-            <div className="text-xl font-semibold text-[#8838D3]">
+            <div className="text-xl font-semibold text-black">
               About the job
             </div>
             <div>{props.about}</div>
           </div>
 
-          <div className="flex flex-col justify-center items-start w-full gap-2">
-            <div className="text-xl font-semibold text-[#8838D3]">The Role</div>
+          {/* <div className="flex flex-col justify-center items-start w-full gap-2">
+            <div className="text-xl font-semibold text-black">The Role</div>
             <div>{props.role}</div>
+          </div> */}
+
+          <div className="flex flex-col justify-center items-start w-full gap-2">
+            <div className="text-xl font-semibold text-black">
+              Requirements
+            </div>
+            <ul className="list-disc ml-5">
+              {props.requirements.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
           </div>
           <div className="flex flex-col justify-center items-start w-full gap-2">
-            <div className="text-xl font-semibold text-[#8838D3]">
+            <div className="text-xl font-semibold text-black">
               Responsibilities
             </div>
             <ul className="list-disc ml-5">
@@ -64,30 +80,20 @@ const Career = (props) => {
               ))}
             </ul>
           </div>
-          <div className="flex flex-col justify-center items-start w-full gap-2">
-            <div className="text-xl font-semibold text-[#8838D3]">
-              Ideal Profile
-            </div>
-            <ul className="list-disc ml-5">
-              {props.profile.map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-          </div>
           <div className=" flex justify-between items-end w-full">
-            <button
-              href={"#"}
-              className="px-10 py-4 bg-white text-black font-semibold"
+            <Link
+              href={`/career-application/${props.title}}`}
+              className="flex items-center gap-4 py-3 px-8 font-semibold shadow-md bg-white cursor-pointer relative  bg-transparent  text-black  text-sm transition-colors overflow-hidden before:absolute before:-right-[100%] before:top-0 before:z-10 before:h-[100rem] before:w-[200%] before:origin-top-right before:rotate-[15deg] before:hover:rotate-0 before:scale-x-50 before:bg-black before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100"
             >
-              Apply Now
-            </button>
+              <div className="z-50">Apply Now</div>
+            </Link>
             <div>
               <IoIosArrowUp
                 onClick={() => {
                   setShow(false);
                 }}
                 size={30}
-                className="cursor-pointer text-[#8838D3] "
+                className="cursor-pointer text-black "
               />
             </div>
           </div>

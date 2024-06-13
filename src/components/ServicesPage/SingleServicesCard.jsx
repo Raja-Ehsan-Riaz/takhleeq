@@ -1,33 +1,29 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import RebrandingImage from "/public/Illustrations/rebranding.png";
-
-const SingleServiceCard = () => {
+const SingleServiceCard = ({ title, description, icon }) => {
   return (
-    <div className="w-[33%] p-8 ">
-      <div className="bg-[#f8e8ff] rounded-lg px-6 py-8 flex flex-col">
-        <h3 className="text-2xl font-bold text-[#8838D3] text-center">
-          Branding
-        </h3>
-        <p className="text-center mt-2">
-          Phaseus sit amet tristique lorem ipsum is simply free text ligua donec
-          culis leo sus cipit.
-        </p>
+    <Link
+      href={`/service/${title.replace(/\//g, "&")}`}
+      className="md:w-[25rem] p-8"
+    >
+      <div className="bg-[#f8e8ff] rounded-lg px-4 py-8 flex flex-col items-center justify-between   h-[400px] transform hover:scale-105 duration-300 ">
+        <div>
+          <h3 className="text-2xl font-bold text-[#8838D3] text-center uppercase">
+            {title}
+          </h3>
+          <p className="text-center mt-2">{description}</p>
+        </div>
         <Image
-          src={RebrandingImage}
+          src={icon}
           alt="rebranding"
           quality={100}
-          className="w-[65%] mx-auto mt-4"
+          width={200}
+          height={200}
+          className="  mx-auto mt-4"
         />
-        <Link
-          href={"#"}
-          className="px-8 py-4 bg-[#8838D3] text-white mx-auto mt-10"
-        >
-          Learn More
-        </Link>
       </div>
-    </div>
+    </Link>
   );
 };
 

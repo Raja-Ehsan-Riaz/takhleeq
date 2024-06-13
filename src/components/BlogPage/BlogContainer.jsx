@@ -9,6 +9,7 @@ import NewsBox from "../BlogsPage/NewsBox";
 import CategoryBox from "../BlogsPage/CategoryBox";
 import blogs from "../../utils/blogs.json";
 import Link from "next/link";
+import Image from "next/image";
 
 const BlogContainer = ({
   title,
@@ -20,19 +21,26 @@ const BlogContainer = ({
   detail,
 }) => {
   return (
-    <div className="flex items-start gap-12 py-28 px-[10%]">
-      <div className="flex flex-col justify-start items-start w-[70%] gap-6">
-        <BlogImage />
-        <h2 className="text-4xl text-left font-bold mt-8">{title}</h2>
+    <div className="flex flex-col lg:flex-row items-start gap-12 py-16 pt-8 lg:py-28 px-4 md:px-[10%]">
+      <div className="flex flex-col justify-start items-start lg:w-[70%] gap-6">
+        <BlogImage picture={images[0]} />
+        <h2 className=" text-3xl md:text-4xl text-center md:text-left font-bold ">{title}</h2>
         <BlogDetails text={description} />
-        <BlogQuote />
+        {/* <BlogQuote /> */}
         {detail.slice(0, 3).map((item, index) => (
           <div key={index}>
             <h2 className="text-3xl text-left font-bold  my-4">{item.title}</h2>
             <BlogDetails text={item.description} />
           </div>
         ))}
-        <div className="w-full h-[30vw] bg-gray-400"></div>
+        <div className="w-full h-[15rem] md:h-[30vw] bg-gray-400 relative">
+          <Image
+            src={`/Images/Blogs/${images[1]}`}
+            alt=""
+            fill
+            className="absolute"
+          />
+        </div>
         {detail.slice(3).map((item, index) => (
           <div key={index}>
             <h2 className="text-3xl text-left font-bold  my-4">{item.title}</h2>
@@ -47,12 +55,12 @@ const BlogContainer = ({
             {link.title}
           </Link>{" "}
         </div>
-        <BlogOwner />
+        {/* <BlogOwner /> */}
       </div>
-      <div className="flex flex-col justify-start items-center w-[30%] gap-8">
-        <SearchBar />
-        <NewsBox blogs={blogs} />
-        <CategoryBox categories={blogs} />
+      <div className="flex flex-col justify-start items-center w-full lg:w-[30%] gap-8">
+        {/* <SearchBar /> */}
+        <NewsBox blogs={blogs} title={title} />
+        {/* <CategoryBox categories={blogs} /> */}
       </div>
     </div>
   );

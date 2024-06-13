@@ -7,12 +7,11 @@ const Quote = () => {
   return (
     <div className="bg-[#8838D3] text-center text-white py-32 px-[20%] relative">
       <p className="text-3xl z-10">
-        You&apos;re in the <b>right place</b> at the <b>right time</b>, and you
-        care enough to do what needs to be done. Sometimes{" "}
-        <b>that&apos;s enough.</b>
+        “Don&apos;t sit down and wait for the opportunities to come. Get up and
+        make them.”
       </p>
       <p className="text-lg font-light mt-6">
-        <i>- Erin Morgenstern</i>
+        <i>--Madam C.J. Walker</i>
       </p>
 
       <Image

@@ -8,9 +8,9 @@ const Services = () => {
   return (
     <div>
       <ServicesHero />
-      <ServicesList />
+      <ServicesList upper/>
       <Solutions />
-      <SolutionsVideo />
+      <ServicesList />
       <ContactStrip />
     </div>
   );

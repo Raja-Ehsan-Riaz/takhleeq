@@ -4,7 +4,7 @@ import placeholder from "/public/Placeholders/video-placeholder-services.png";
 
 const SolutionsVideo = () => {
   return (
-    <div className="py-20 px-[5%] flex flex-col">
+    <div className="py-20 px-[5%] flex flex-col bg-[#f8e8ff]">
       <h2 className="text-[#8838D3] text-center mx-auto text-4xl uppercase font-bold mb-10 mt-auto">
         We Shape{" "}
         <span className="text-black border-b-[6px] border-b-[#8838D3]">

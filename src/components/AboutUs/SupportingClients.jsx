@@ -1,34 +1,31 @@
 import Image from "next/image";
-
-import { FaRegCheckCircle } from "react-icons/fa";
-
-// import ITServicesImage from "/public/Images/it-services-section.png";
+import ITServicesImage from "/public/Images/building-head.png";
 
 const SupportingClients = () => {
   return (
-    <div className="flex flex-row items-center justify-between px-[5%] py-28">
-      <div className="w-[55%]">
-        <h2 className="uppercase text-6xl text-left font-semibold">
-          Supporting clients in all aspects{" "}
-          <span className="text-[#8838D3] border-b-8 border-b-black">team</span>
+    <div className="flex flex-col lg:flex-row items-stretch justify-between  lg:px-[0%] lg:pl-[5%] ">
+      <div className="lg:w-[55%] py-0 pt-16   md:py-28 px-[5%] lg:px-0">
+        <h2 className="uppercase text-4xl md:text-5xl  text-left font-bold">
+          Transforming <span className="text-[#8838D3] ">Visions </span> <br />  Into   Vibrant{" "}
+            Brands
         </h2>
-        <p className="text-lg mt-12">
-          We are committed to providing our customers with exceptional service
-          while offering our employees the best training.{" "}
+        <p className="text-lg mb-12 lg:mb-0 mt-6 text-justify md:text-left">
+          takhleeq.io is not just another branding company in Pakistan. What
+          sets us apart is our relentless focus on research and development. Our
+          team is always exploring new trends, technologies, and insights to
+          deliver innovative branding solutions that drive results. We offer the
+          most comprehensive suite of services under one roof, including brand
+          identity, creative design, web services, digital marketing, content
+          creation, media services, and UI/UX design. 
         </p>
-        <div className="text-lg mt-6">
-          We are committed to providing our customers with exceptional service
-          while offering our employees the best training. We are committed to
-          providing our customers with exceptional service while offering our
-          employees the best training.
-        </div>
       </div>
-      <div className="w-[40%] h-[30rem]  bg-[#7957931A]">
-        {/* <Image
+      <div className=" w-full lg:w-[35%] h-[30rem] lg:h-auto relative">
+        <Image
           src={ITServicesImage}
           alt="people talking about IT"
           className=""
-        /> */}
+          fill
+        />
       </div>
     </div>
   );
