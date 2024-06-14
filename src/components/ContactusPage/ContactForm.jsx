@@ -119,7 +119,7 @@ const ContactForm = () => {
             </div>
             <div className="flex flex-row justify-start items-center gap-4">
               <IoMailOutline size={30} />
-              <div>hr@takhleeq.io</div>
+              <div>info@takhleeq.io</div>
             </div>
           </div>
           <h2 className="text-lg font-bold text-center text-[#8838D3]">
@@ -129,7 +129,7 @@ const ContactForm = () => {
             </span>
           </h2>
           <div className="flex flex-col justify-center items-start text-black ">
-            <div className="flex flex-row justify-start items-start gap-4">
+            <div className="flex flex-row justify-start items-center gap-4">
               <IoLocation size={35} />
               <div>Takhleeq, Sector H-12, Islamabad</div>
             </div>

@@ -8,6 +8,7 @@ const CareerHero = () => {
           style={{ objectFit: "cover",objectPosition:"0px 30%" }}
           src="/Images/Heros/career.jpg"
           className=" absolute -z-10"
+          priority
         />
         <h1 className="text-[#8838D3] pop text-center mx-auto text-4xl md:text-5xl uppercase font-bold mb-10 mt-auto">
           Careers

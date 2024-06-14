@@ -7,6 +7,7 @@ const ClientHero = ({ title, images }) => {
         style={{ objectFit: "cover", objectPosition: "0px 30%" }}
         src={images}
         className=" absolute -z-10"
+        priority
       />
       <h1 className="text-white pop text-center mx-auto text-4xl md:text-5xl uppercase font-bold mb-10 mt-auto">
         {title}

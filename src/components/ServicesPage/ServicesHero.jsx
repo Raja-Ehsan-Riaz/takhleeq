@@ -8,6 +8,7 @@ const ServicesHero = () => {
           style={{ objectFit: "cover" }}
           src="/Images/Heros/services.png"
           className=" absolute -z-10"
+          priority
         />
       <h1 className="text-[#8838D3] pop text-center mx-auto text-4xl md:text-5xl uppercase font-bold mb-10 mt-auto">
         Services

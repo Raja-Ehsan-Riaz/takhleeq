@@ -8,6 +8,7 @@ const TDBRHero = () => {
           style={{ objectFit: "cover" }}
           src="/Images/Heros/tdbr.png"
           className=" absolute -z-10"
+          priority
         />
       <h1 className="text-white pop text-center mx-auto text-5xl uppercase font-bold mb-10 mt-auto">
         Where creativity meets strategy <br /> for effective{" "}
