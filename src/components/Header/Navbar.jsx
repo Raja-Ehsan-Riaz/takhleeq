@@ -156,7 +156,7 @@ function NavBar() {
       <div className=" hidden md:flex flex-row items-center mr-8">
         <IoIosChatbubbles size={40} className="text-[#8838D3]" />
         <div className="flex flex-col ml-2">
-          <p className="text-sm">CALL ANYTIME</p>
+          <p className="text-sm">Call Us On</p>
           <p className="text-md font-medium">0333-8483016</p>
         </div>
       </div>

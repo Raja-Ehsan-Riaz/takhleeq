@@ -6,6 +6,7 @@ const PricingPageHero = () => {
         fill={true}
         style={{ objectFit: "cover" }}
         src="/Images/Heros/pricingform.jpg"
+          priority
         className=" absolute -z-10"
       />
       <h1 className="text-[#8838D3] pop text-center mx-auto text-4xl md:text-5xl uppercase font-bold mb-10 mt-auto">

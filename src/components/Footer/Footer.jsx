@@ -103,7 +103,7 @@ const Footer = () => {
           />
 
           <div className="lg:pl-[10px]">
-            <h4 className="text-xl  uppercase mt-6 mb-8 lg:mb-2 text-center lg:text-left font-medium">
+            <h4 className="text-xl  uppercase mt-6 mb-8 lg:mb-2 text-center  font-medium">
               Subscribe to Our newsletter
             </h4>
             <div className=" bg-black text-white rounded-md items-center my-2 pr-4  ">
