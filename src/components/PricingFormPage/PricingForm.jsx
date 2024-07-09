@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
 
+
 const Form = (props) => {
   const [formData, setFormData] = useState({
-    companyName: "",
     organization: "",
     businessType: "",
     email: "",
@@ -26,25 +26,21 @@ const Form = (props) => {
 
     // Check if all fields are filled
     if (
-      !formData.companyName ||
       !formData.organization ||
-      !formData.businessType ||
       !formData.email ||
-      !formData.budget ||
       !formData.phoneNumber ||
       !formData.servicesRequired ||
-      !formData.location ||
       !formData.message
     ) {
-      alert("All fields are required");
+      alert("Fill all required fields");
       return;
     }
 
     try {
-      const response = await fetch('https://formspree.io/f/meqyyljy', {
-        method: 'POST',
+      const response = await fetch("https://formspree.io/f/meqyyljy", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify(formData),
       });
@@ -54,7 +50,6 @@ const Form = (props) => {
         alert("Form submitted successfully!");
         // Clear the form
         setFormData({
-          companyName: "",
           organization: "",
           businessType: "",
           email: "",
@@ -88,21 +83,11 @@ const Form = (props) => {
             <input
               type="text"
               className="bg-transparent placeholder-white/80 focus:outline-none text-sm border-b border-white/80 w-full p-2 pl-0"
-              placeholder="Company Name"
-              name="companyName"
-              value={formData.companyName}
-              onChange={handleChange}
-            />
-            <input
-              type="text"
-              className="bg-transparent placeholder-white/80 focus:outline-none text-sm border-b border-white/80 w-full p-2 pl-0"
-              placeholder="Company/Organization"
+              placeholder="Company/Organization *"
               name="organization"
               value={formData.organization}
               onChange={handleChange}
-            />
-          </div>
-          <div className="flex flex-col md:flex-row justify-between items-center w-full gap-10 md:gap-[10%]">
+            />{" "}
             <input
               type="text"
               className="bg-transparent placeholder-white/80 focus:outline-none text-sm border-b border-white/80 w-full p-2 pl-0"
@@ -111,16 +96,16 @@ const Form = (props) => {
               value={formData.businessType}
               onChange={handleChange}
             />
+          </div>
+          <div className="flex flex-col md:flex-row justify-between items-center w-full gap-10 md:gap-[10%]">
             <input
               type="email"
               className="bg-transparent placeholder-white/80 focus:outline-none text-sm border-b border-white/80 w-full p-2 pl-0"
-              placeholder="Email"
+              placeholder="Email *"
               name="email"
               value={formData.email}
               onChange={handleChange}
             />
-          </div>
-          <div className="flex flex-col md:flex-row justify-between items-center w-full gap-10 md:gap-[10%]">
             <input
               type="number"
               className="bg-transparent placeholder-white/80 focus:outline-none text-sm border-b border-white/80 w-full p-2 pl-0"
@@ -129,16 +114,16 @@ const Form = (props) => {
               value={formData.budget}
               onChange={handleChange}
             />
+          </div>
+          <div className="flex flex-col md:flex-row justify-between items-center w-full gap-10 md:gap-[10%]">
             <input
               type="number"
               className="bg-transparent placeholder-white/80 focus:outline-none text-sm border-b border-white/80 w-full p-2 pl-0"
-              placeholder="Phone Number"
+              placeholder="Phone Number *"
               name="phoneNumber"
               value={formData.phoneNumber}
               onChange={handleChange}
             />
-          </div>
-          <div className="flex flex-col md:flex-row justify-between items-center w-full gap-10 md:gap-[10%]">
             <input
               type="text"
               className="bg-transparent placeholder-white/80 focus:outline-none text-sm border-b border-white/80 w-full p-2 pl-0"
@@ -147,6 +132,8 @@ const Form = (props) => {
               value={formData.servicesRequired}
               onChange={handleChange}
             />
+          </div>
+          <div className="flex flex-col md:flex-row justify-between items-center w-full gap-10 md:gap-[10%]">
             <input
               type="text"
               className="bg-transparent placeholder-white/80 focus:outline-none text-sm border-b border-white/80 w-full p-2 pl-0"
@@ -158,7 +145,7 @@ const Form = (props) => {
           </div>
           <textarea
             className="bg-transparent placeholder-white/80 focus:outline-none text-sm border-b border-white/80 w-full p-2 pl-0 h-[10rem]"
-            placeholder="Send Us a Message"
+            placeholder="Send Us a Message *"
             name="message"
             value={formData.message}
             onChange={handleChange}

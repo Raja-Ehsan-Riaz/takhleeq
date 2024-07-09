@@ -29,7 +29,7 @@ const LandingPagehero = async () => {
         preload="auto"
         loop
       >
-        <source src={url} type="video/mp4" />
+        <source src="https://res.cloudinary.com/dx6o0lsev/video/upload/v1720556230/PromoVideoTakhleeq_idppft.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="flex justify-center items-center z-30  lg:hidden">
