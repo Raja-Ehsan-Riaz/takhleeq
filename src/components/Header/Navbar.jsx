@@ -68,7 +68,7 @@ function NavBar() {
 
   return (
     <nav
-      className={`w-full justify-between mx-auto md:items-center md:flex overflow-x-hidden  ${
+      className={`w-full justify-between mx-auto lg:items-center lg:flex overflow-x-hidden  ${
         isNavbarFixed
           ? `fixed bg-white shadow-lg nav-in`
           : `${
@@ -77,11 +77,11 @@ function NavBar() {
                 : "relative bg-white shadow-lg"
             }`
       } fixed z-50  overflow-y-hidden  
-        ${navbar ? "px-0 bg-white" : " px-4 md:px-8 "}  
+        ${navbar ? "px-0 bg-white" : " px-4 lg:px-8 "}  
       `}
     >
       <div
-        className={`flex items-center justify-between md:block z-20 ${
+        className={`flex items-center justify-between lg:block z-20 ${
           navbar ? "px-8 " : ""
         }`}
       >
@@ -100,16 +100,16 @@ function NavBar() {
             quality={100}
             className={` ${
               isNavbarFixed
-                ? " w-[180px] md:w-[280px]"
+                ? " w-[180px] lg:w-[280px]"
                 : pathname === "/"
-                ? "w-[140px] md:w-[200px] md:ml-8"
-                : "w-[180px] md:w-[280px]"
+                ? "w-[140px] lg:w-[200px] lg:ml-8"
+                : "w-[180px] lg:w-[280px]"
             } `}
             onClick={() => setNavbar(false)}
           />
         </Link>
         {/* HAMBURGER BUTTON FOR MOBILE */}
-        <div className="md:hidden z-20">
+        <div className="lg:hidden z-20">
           <button
             className="p-2 outline-none"
             onClick={() => setNavbar(!navbar)}
@@ -130,17 +130,17 @@ function NavBar() {
 
       <div className="z-20">
         <div
-          className={`flex md:justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-            navbar ? " md:p-0 block" : "hidden"
+          className={`flex lg:justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${
+            navbar ? " lg:p-0 block" : "hidden"
           }`}
         >
           <ul
-            className={`h-screen w-full md:h-auto md:items-center justify-center md:flex md:gap-6 lg:gap-10 text-xl md:text-base font-light md:font-medium transition-all duration-500 px-[10%] md:px-0`}
+            className={`h-screen w-full lg:h-auto lg:items-center justify-center lg:flex md:gap-6 lg:gap-10 text-xl lg:text-base font-light lg:font-medium transition-all duration-500 px-[10%] lg:px-0`}
           >
             {links.map((link, index) => (
               <li
                 key={index}
-                className={`py-4 text-left md:text-center my-2 border-b border-b-[#6A4DBB]  lg:hover:text-[#6A4DBB] md:border-b-0 ${
+                className={`py-4 text-left lg:text-center my-2 border-b border-b-[#6A4DBB]  lg:hover:text-[#6A4DBB] lg:border-b-0 ${
                   pathname === link.href ? "text-[#6A4DBB] font-bold lg:font-medium" : `text-[#6A4DBB] ${isNavbarFixed ?"lg:text-black": pathname==='/'?"lg:text-white":"lg:text-black"} `
                 } `}
               >
@@ -153,7 +153,7 @@ function NavBar() {
         </div>
       </div>
 
-      <div className=" hidden md:flex flex-row items-center mr-8">
+      <div className=" hidden lg:flex flex-row items-center mr-8">
         <IoIosChatbubbles size={40} className="text-[#8838D3]" />
         <div className="flex flex-col ml-2">
           <p className="text-sm">Call Us On</p>
