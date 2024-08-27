@@ -19,7 +19,11 @@
     "Designation": "Bussiness Partner",
     "Picture": "/Images/Team/Core Team/Mian Muhammad Idrees.jpg"
   },
-
+  {
+    "Name": "Muhammad Hammad",
+    "Designation": "Chief Operations Officer",
+    "Picture": "/Images/Team/Muhammad hammad [ Chief Operations Officer].jpg"
+  },
   {
     "Name": "Uraib Asif",
     "Designation": "Project Manager",
@@ -37,8 +41,13 @@
   },
   {
     "Name": "Aaila Tahir",
-    "Designation": "SMM Manager",
+    "Designation": "Digital Marketing Manager",
     "Picture": "/Images/Team/SMM/Aaila Tahir - Marketing Manager.jpg"
+  },
+  {
+    "Name": "Umair Tariq",
+    "Designation": "Digital Marketing Manager",
+    "Picture": "/Images/Team/SMM/umair tariq [digital marketing manager].jpg"
   },
   {
     "Name": "Ali Zeb",
@@ -46,9 +55,24 @@
     "Picture": "/Images/Team/Graphics/Ali Zaib - Graphic Designer.jpg"
   },
   {
+    "Name": "Ayesha Naeem",
+    "Designation": "HR Manager",
+    "Picture": "/Images/Team/ayesha naeem [HR Manager].jpg"
+  },
+  {
     "Name": "Saba Khateeb",
     "Designation": "Graphic Designer",
     "Picture": "/Images/Team/Graphics/Saba Khateeb - Graphics Designer.jpeg"
+  },
+  {
+    "Name": "Amna Rafique",
+    "Designation": "Graphic Illustrator",
+    "Picture": "/Images/Team/Graphics/amna rafique [graphic illustrator].jpg"
+  },
+  {
+    "Name": "Hina Naeem",
+    "Designation": "Graphic Designer",
+    "Picture": "/Images/Team/Graphics/hina naeem [ graphic designer].jpg"
   },
   {
     "Name": "Zainab Akram",
@@ -64,6 +88,14 @@
     "Name": "Faareha Sajjad",
     "Designation": "Graphic Designer",
     "Picture": "/Images/Team/Graphics/Faareha Sajjad - Graphics Designer.jpg"
+  },{
+    "Name": "Kulsoom Ayyaz",
+    "Designation": "Graphic Designer",
+    "Picture": "/Images/Team/Graphics/kulsoom ayyaz [ graphic designer].jpg"
+  },{
+    "Name": "Khurram Liaqat",
+    "Designation": "Graphic Designer",
+    "Picture": "/Images/Team/Graphics/khurram liaqat [graphic designer].jpg"
   },
   {
     "Name": "Izzah Azam",
@@ -74,11 +106,6 @@
     "Name": "Hajra Humayun",
     "Designation": "Graphic Designer",
     "Picture": "/Images/Team/Graphics/Hajra Humayun - Graphics Designer.jpeg"
-  },
-  {
-    "Name": "Ali Mazhar",
-    "Designation": "Web Developer",
-    "Picture": "/Images/Team/Web Development/Ali Mazhar - Web Developer.jpg"
   },
   {
     "Name": "Raja Ehsan Riaz",
@@ -101,8 +128,13 @@
     "Picture": "/Images/Team/Content Creation/Saad Masood - Content Writer.jpeg"
   },
   {
-    "Name": "Hina Naeem",
+    "Name": "Ashmal Saeed",
     "Designation": "Content Writer",
-    "Picture": "/Images/Team/Content Creation/Hina Naeem - Content Writer.jpeg"
+    "Picture": "/Images/Team/Content Creation/ashmal saeed [ content writer].jpg"
+  },
+  {
+    "Name": "Ramsha Imam",
+    "Designation": "Sales",
+    "Picture": "/Images/Team/ramsha imam [ sales ].jpg"
   }
 ]
