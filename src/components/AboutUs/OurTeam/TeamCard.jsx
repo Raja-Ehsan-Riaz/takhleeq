@@ -43,7 +43,7 @@ const TeamCard = ({name,designation,picture}) => {
             />
           </Link>
         </div>
-        <Image src={picture} fill  style={{objectFit:"cover"}} className="absolute z-30 filter grayscale hover:grayscale-0"  />
+        <Image src={picture} fill  style={{objectFit:"cover",objectPosition:"50% 0%"}} className="absolute z-30 filter grayscale hover:grayscale-0"  />
       </div>
       <div className="uppercase text-xl font-bold mt-4">{name}</div>
       <div className="text-sm">{designation}</div>

@@ -25,21 +25,22 @@ const OurTeamContainer = ({ first, coreTeam }) => {
     }
   };
   return (
-    <div id="team" className={` ${first ? " pt-16 md:pt-28" : "pt-4 pb-28"}  px-[5%] bg-[#7957931A] `}>
+    <div
+      id="team"
+      className={` ${
+        first ? " pt-16 md:pt-28" : "pt-4 pb-28"
+      }  px-[5%] bg-[#7957931A] `}
+    >
       {first ? (
         <>
           <h2 className="uppercase text-4xl  font-bold text-center mb-8">
-            our{" "}
-            <span className="text-[#8838D3] ">
-              team
-            </span>
+            our <span className="text-[#8838D3] ">team</span>
           </h2>
           <div className=" text-lg text-justify md:text-center">
-            With a focus on problem-solving
-            through research and development, our young and dynamic
-            professionals think outside the box and come up with unique
-            solutions that are both visually appealing and effective in
-            achieving the client&apos;s desired results.
+            With a focus on problem-solving through research and development,
+            our young and dynamic professionals think outside the box and come
+            up with unique solutions that are both visually appealing and
+            effective in achieving the client&apos;s desired results.
           </div>
         </>
       ) : (
@@ -54,7 +55,7 @@ const OurTeamContainer = ({ first, coreTeam }) => {
           modules={[Navigation, Pagination, A11y, Autoplay]}
           slidesPerView={1}
           loop
-          autoplay={{delay:2000,pauseOnMouseEnter:true}}
+          autoplay={{ delay: 2000, pauseOnMouseEnter: true }}
           ref={swiperRef}
           navigation={{
             prevEl: ".swiper-button-prev",
@@ -76,7 +77,7 @@ const OurTeamContainer = ({ first, coreTeam }) => {
         >
           {coreTeam ? (
             <>
-              {teams.slice(0, 4).map((member, index) => (
+              {teams.slice(0, 5).map((member, index) => (
                 <SwiperSlide key={index}>
                   <TeamCard
                     name={member.Name}
@@ -88,7 +89,7 @@ const OurTeamContainer = ({ first, coreTeam }) => {
             </>
           ) : (
             <>
-              {teams.slice(4).map((member, index) => (
+              {teams.slice(5).map((member, index) => (
                 <SwiperSlide key={index}>
                   <TeamCard
                     name={member.Name}
@@ -100,20 +101,16 @@ const OurTeamContainer = ({ first, coreTeam }) => {
             </>
           )}
         </Swiper>
-        {!coreTeam && (
-          <div className="swiper-button-prev-container absolute -left-20 top-[40%] cursor-pointer text-[#8838D3] hidden lg:block ">
-            <div className="swiper-button-prev-custom" onClick={goToPrevSlide}>
-              {<RiArrowLeftSLine size={50} />}
-            </div>
+        <div className="swiper-button-prev-container absolute -left-20 top-[40%] cursor-pointer text-[#8838D3] hidden lg:block ">
+          <div className="swiper-button-prev-custom" onClick={goToPrevSlide}>
+            {<RiArrowLeftSLine size={50} />}
           </div>
-        )}
-        {!coreTeam && (
-          <div className="swiper-button-next-container absolute -right-20 top-[40%] cursor-pointer text-[#8838D3]  hidden lg:block ">
-            <div className="swiper-button-next-custom" onClick={goToNextSlide}>
-              {<RiArrowRightSLine size={50} />}
-            </div>
+        </div>
+        <div className="swiper-button-next-container absolute -right-20 top-[40%] cursor-pointer text-[#8838D3]  hidden lg:block ">
+          <div className="swiper-button-next-custom" onClick={goToNextSlide}>
+            {<RiArrowRightSLine size={50} />}
           </div>
-        )}
+        </div>
       </div>
     </div>
   );
