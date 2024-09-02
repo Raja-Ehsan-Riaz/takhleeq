@@ -25,14 +25,14 @@
     "Picture": "/Images/Team/Muhammad hammad [ Chief Operations Officer].jpg"
   },
   {
-    "Name": "Uraib Asif",
-    "Designation": "Project Manager",
-    "Picture": "/Images/Team/Project Managers/Uraib Asif.jpg"
-  },
-  {
     "Name": "Shaheer Ahmad",
     "Designation": "Project Manager",
     "Picture": "/Images/Team/Project Managers/Shaheer Malik.jpg"
+  },
+  {
+    "Name": "Ahmed Usman",
+    "Designation": "Project Manager",
+    "Picture": "/Images/Team/Project Managers/Ahmed.png"
   },
   {
     "Name": "Zoya Salman",
@@ -51,7 +51,7 @@
   },
   {
     "Name": "Ali Zeb",
-    "Designation": "Graphic Designer",
+    "Designation": "Senior Graphic Designer",
     "Picture": "/Images/Team/Graphics/Ali Zaib - Graphic Designer.jpg"
   },
   {
@@ -75,16 +75,6 @@
     "Picture": "/Images/Team/Graphics/hina naeem [ graphic designer].jpg"
   },
   {
-    "Name": "Zainab Akram",
-    "Designation": "Graphic Designer",
-    "Picture": "/Images/Team/Graphics/Zainab Akram - Graphics Designer.jpeg"
-  },
-  {
-    "Name": "Zainab Shuja",
-    "Designation": "Graphic Designer",
-    "Picture": "/Images/Team/Graphics/Zennab Shuja - Graphics Designer.jpg"
-  },
-  {
     "Name": "Faareha Sajjad",
     "Designation": "Graphic Designer",
     "Picture": "/Images/Team/Graphics/Faareha Sajjad - Graphics Designer.jpg"
@@ -96,16 +86,6 @@
     "Name": "Khurram Liaqat",
     "Designation": "Graphic Designer",
     "Picture": "/Images/Team/Graphics/khurram liaqat [graphic designer].jpg"
-  },
-  {
-    "Name": "Izzah Azam",
-    "Designation": "Graphic Designer",
-    "Picture": "/Images/Team/Graphics/Izzah Azam- Illustrator.jpg"
-  },
-  {
-    "Name": "Hajra Humayun",
-    "Designation": "Graphic Designer",
-    "Picture": "/Images/Team/Graphics/Hajra Humayun - Graphics Designer.jpeg"
   },
   {
     "Name": "Raja Ehsan Riaz",
