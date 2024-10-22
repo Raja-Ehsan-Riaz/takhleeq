@@ -11,7 +11,7 @@ const LandingPagehero = async () => {
   // console.log(blobs);
 
   return (
-    <div className="w-full h-[100vh] flex justify-center items-center bg-[#8838D3]/80 lg:bg-[#8838D3] text-white relative overflow-hidden ">
+    <div className="w-full h-[100vh] flex flex-col-reverse justify-start  items-center bg-[#8838D3]/80 lg:bg-[#8838D3] text-white relative overflow-hidden ">
       <div className="w-[100vw] h-full absolute left-0 top-0 z-20 bg-gray-800/20"></div>
       <Image
         src={"/Images/Heros/landing.png"}
@@ -22,7 +22,7 @@ const LandingPagehero = async () => {
       <video
         width="320"
         height="240"
-        className="w-full hidden lg:block"
+        className="w-full block"
         autoPlay
         muted
         playsInline
@@ -32,9 +32,9 @@ const LandingPagehero = async () => {
         <source src="/Promo Video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className="flex justify-center items-center z-30  lg:hidden">
+      <div className="flex justify-center items-center h-full z-30  lg:hidden">
         <div className="text-center lg:w-[40%] pop">
-          <h1 className="text-6xl lg:text-8xl font-bold">takhleeq.io</h1>
+          <h1 className="text-5xl lg:text-8xl font-bold">takhleeq.io</h1>
           <p className=" text-lg lg:text-2xl ">Ultimate Branding Experience</p>
           {/* <div className="flex flex-row bg-white rounded-md items-center my-4">
             <IoMdSearch size={25} color="#888888" className="mx-4 my-2" />
