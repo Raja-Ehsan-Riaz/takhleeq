@@ -34,7 +34,7 @@ const LandingPagehero = async () => {
       </video>
       <div className="flex justify-center items-center z-30  lg:hidden">
         <div className="text-center lg:w-[40%] pop">
-          <h1 className="text-6xl lg:text-8xl font-bold">takhleeq</h1>
+          <h1 className="text-6xl lg:text-8xl font-bold">takhleeq.io</h1>
           <p className=" text-lg lg:text-2xl ">Ultimate Branding Experience</p>
           {/* <div className="flex flex-row bg-white rounded-md items-center my-4">
             <IoMdSearch size={25} color="#888888" className="mx-4 my-2" />
