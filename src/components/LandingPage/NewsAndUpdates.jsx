@@ -22,7 +22,7 @@ const NewsAndUpdates = () => {
               <Image
                 fill={true}
                 style={{ objectFit: "cover" }}
-                src={`/Images/Blogs/${news.images[1]}`}
+                src={`/Images/Blogs/${news.title==="Consistency and Focus Can Beat Every Hurdle"?news.images[0]:news.images[1]}`}
                 className=" absolute -z-10"
               />
               <div className="bg-[#8838D3] px-3 py-1 text-white text-sm inline-block  border-white border-2 rounded-lg">

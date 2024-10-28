@@ -70,11 +70,11 @@ function NavBar() {
     <nav
       className={`w-full justify-between mx-auto lg:items-center lg:flex overflow-x-hidden  ${
         isNavbarFixed
-          ? `fixed bg-white shadow-lg nav-in`
+          ? `fixed bg-white border-b-2 border-[#8838D3] nav-in`
           : `${
               pathname === "/"
                 ? "fixed bg-transparent text-white pt-2"
-                : "relative bg-white shadow-lg"
+                : "relative bg-white border-b-2 border-[#8838D3]"
             }`
       } fixed z-50  overflow-y-hidden  
         ${navbar ? "px-0 bg-white" : " px-4 lg:px-8 "}  
@@ -140,7 +140,7 @@ function NavBar() {
             {links.map((link, index) => (
               <li
                 key={index}
-                className={`py-4 text-left lg:text-center my-2 border-b border-b-[#6A4DBB]  lg:hover:text-[#6A4DBB] lg:border-b-0 ${
+                className={`py-4 text-left lg:text-center my-2 border-b-2 border-[#8838D3]b-[#6A4DBB]  lg:hover:text-[#6A4DBB] lg:border-b-0 ${
                   pathname === link.href ? "text-[#6A4DBB] font-bold lg:font-medium" : `text-[#6A4DBB] ${isNavbarFixed ?"lg:text-black": pathname==='/'?"lg:text-white":"lg:text-black"} `
                 } `}
               >

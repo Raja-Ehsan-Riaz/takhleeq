@@ -30,12 +30,12 @@ const BlogContainer = ({
         {detail.slice(0, 3).map((item, index) => (
           <div key={index}>
             <h2 className="text-3xl text-left font-bold  my-4">{item.title}</h2>
-            <BlogDetails text={item.description} />
+            <BlogDetails text={description} />
           </div>
         ))}
-        <div className="w-full h-[15rem] md:h-[30vw] bg-gray-400 relative">
+        <div className={`w-full h-[15rem] ${title==="Consistency and Focus Can Beat Every Hurdle"?"md:h-[40vw]":"md:h-[30vw]"}  bg-gray-400 relative`}>
           <Image
-            src={`/Images/Blogs/${images[1]}`}
+            src={`/Images/Blogs/${title==="Consistency and Focus Can Beat Every Hurdle"?images[0]:images[1]}`}
             alt=""
             fill
             className="absolute"
@@ -50,7 +50,8 @@ const BlogContainer = ({
         <BlogDetails text={bottomline} />
         <div className="font-bold">
           {" "}
-          Also Read:{" "}
+          {link.address.length>0 && "Also Read:" }
+          {" "}
           <Link target="_blank" className="underline" href={link.address}>
             {link.title}
           </Link>{" "}

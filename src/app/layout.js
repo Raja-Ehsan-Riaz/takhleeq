@@ -11,8 +11,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Takhleeq",
-  description: "The branding agency",
+  title: { default: "Takhleeq.io", template: "%s - Takhleeq.io" },
+  description: "At takhleeq.io, we specialize in crafting personalized roadmaps for businesses of all sizes. Whether you're a startup or an established enterprise, our expertise in branding and digital services ensures a tailored approach to help you achieve your marketing goals.",
 };
 
 export default function RootLayout({ children }) {

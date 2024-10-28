@@ -77,16 +77,14 @@ body {
 @keyframes slideIn {
   from {
     opacity: 0;
-    transform: translateY(-100%);
   }
   to {
     opacity: 1;
-    transform: translateY(0);
   }
 }
 
 .nav-in {
-  animation: slideIn 0.3s ease-in-out forwards;
+  animation: slideIn 0.8s ease-in-out forwards;
 }
 
 .float {
@@ -130,4 +128,103 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+/* Keyframe animation for circular progress */
+@keyframes drawCircle {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+  100% {
+    stroke-dasharray: 100 0;
+  }
+}
+
+/* Keyframes for opacity transition */
+@keyframes circleAppear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Circle animation class */
+.circle-animate {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: circleAppear 1.5s ease forwards;
+}
+
+/* SVG circle to draw border */
+.circle-animate svg circle {
+  stroke: #8838D3; /* Border color */
+  stroke-width: 4;
+  fill: transparent;
+  stroke-dasharray: 0 100;
+  animation: drawCircle 1s ease forwards;
+}
+
+/* Delays for circles */
+.circle-2  {
+  animation-delay: 2s;
+}
+
+.circle-3  {
+  animation-delay: 3.5s;
+}
+
+.circle-4 {
+  animation-delay: 5s;
+}
+
+/* Delays for circles */
+.circle-2 svg circle {
+  animation-delay: 2s;
+}
+
+.circle-3 svg circle {
+  animation-delay: 3.5s;
+}
+
+.circle-4 svg circle {
+  animation-delay: 5s;
+}
+
+/* Line animation remains the same */
+@keyframes lineAppear {
+  0% {
+    opacity: 0;
+    width: 0rem;
+    background-color: white;
+  }
+  100% {
+    opacity: 1;
+    width: 6rem;
+    background-color: #8838D3;
+  }
+}
+
+.line-animate {
+  animation: lineAppear 0.8s ease forwards;
+  animation-delay: 1.5s;
+  border-color: white;
+}
+
+.line-1 {
+  animation-delay: 1.5s;
+}
+
+.line-2 {
+  animation-delay: 3s;
+}
+
+.line-3 {
+  animation-delay: 4.5s;
 }

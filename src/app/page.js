@@ -8,6 +8,11 @@ import NewsAndUpdates from "@/components/LandingPage/NewsAndUpdates";
 import NeedConsultation from "@/components/LandingPage/NeedConsultation";
 import TestimonialContainer from "@/components/LandingPage/TestimonialContainer";
 
+export const metadata = {
+  title: "Home - Takhleeq.io",
+  description: "Takhleeq.io is not just another branding company in Pakistan. What sets us apart is our relentless focus on research and development. Our team is always exploring new trends, technologies, and insights to deliver innovative branding solutions that drive results. We offer the most comprehensive suite of services under one roof, including brand identity, creative design, web services, digital marketing, content creation, media services, and UI/UX design.",
+};
+
 export default function Home() {
   return (
     <div>
