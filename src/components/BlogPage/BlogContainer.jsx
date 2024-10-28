@@ -38,7 +38,7 @@ const BlogContainer = ({
             src={`/Images/Blogs/${title==="Consistency and Focus Can Beat Every Hurdle"?images[0]:images[1]}`}
             alt=""
             fill
-            className="absolute"
+            className={`absolute ${title==="Consistency and Focus Can Beat Every Hurdle"?"object-contain":""}`}
           />
         </div>
         {detail.slice(3).map((item, index) => (
