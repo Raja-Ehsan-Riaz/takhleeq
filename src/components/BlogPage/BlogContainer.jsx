@@ -24,7 +24,9 @@ const BlogContainer = ({
     <div className="flex flex-col lg:flex-row items-start gap-12 py-16 pt-8 lg:py-28 px-4 md:px-[10%]">
       <div className="flex flex-col justify-start items-start lg:w-[70%] gap-6">
         <BlogImage picture={images[0]} />
-        <h2 className=" text-3xl md:text-4xl text-center md:text-left font-bold ">{title}</h2>
+        <h2 className=" text-3xl md:text-4xl text-center md:text-left font-bold ">
+          {title}
+        </h2>
         <BlogDetails text={description} />
         {/* <BlogQuote /> */}
         {detail.slice(0, 3).map((item, index) => (
@@ -33,12 +35,22 @@ const BlogContainer = ({
             <BlogDetails text={description} />
           </div>
         ))}
-        <div className={`w-full h-[15rem] ${title==="Consistency and Focus Can Beat Every Hurdle"?"md:h-[40vw]":"md:h-[30vw]"}  bg-gray-400 relative`}>
+        <div
+          className={`w-full h-[15rem] ${
+            title === "Consistency and Focus Can Beat Every Hurdle"
+              ? "md:h-[40vw]"
+              : "md:h-[30vw]"
+          }   relative`}
+        >
           <Image
-            src={`/Images/Blogs/${title==="Consistency and Focus Can Beat Every Hurdle"?images[0]:images[1]}`}
+            src={`/Images/Blogs/${images[1]}`}
             alt=""
             fill
-            className={`absolute ${title==="Consistency and Focus Can Beat Every Hurdle"?"object-contain":""}`}
+            className={`absolute ${
+              title === "Consistency and Focus Can Beat Every Hurdle"
+                ? "object-contain"
+                : ""
+            }`}
           />
         </div>
         {detail.slice(3).map((item, index) => (
@@ -50,8 +62,7 @@ const BlogContainer = ({
         <BlogDetails text={bottomline} />
         <div className="font-bold">
           {" "}
-          {link.address.length>0 && "Also Read:" }
-          {" "}
+          {link.address.length > 0 && "Also Read:"}{" "}
           <Link target="_blank" className="underline" href={link.address}>
             {link.title}
           </Link>{" "}
