@@ -4,13 +4,13 @@ import { FaComment, FaEye, FaShare } from "react-icons/fa";
 const BlogImage = ({ picture }) => {
   console.log(picture)
   return (
-    <div className="w-full h-[15rem] md:h-[30vw] ">
+    <div className="w-full h-[15rem] md:h-[30vw]  ">
       <div className=" w-full h-[90%] relative text-white">
         <Image
           src={`/Images/Blogs/${picture}`}
           alt=""
           fill
-          className="absolute"
+          className="absolute object-cover"
         />
       </div>
       {/* <div className="flex flex-row justify-between items-center w-full h-[10%] bg-[#BBA2FF] text-[0.7rem] p-6">

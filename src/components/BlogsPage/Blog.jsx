@@ -21,7 +21,7 @@ const Blog = ({ title, images, date }) => {
             src={`/Images/Blogs/${ title === "Consistency and Focus Can Beat Every Hurdle"?images[0]:images[1]}`}
             alt=""
             fill
-            className="absolute -z-10"
+            className="absolute -z-10 object-cover"
           />
           <div className="flex flex-col justify-between items-start  absolute bottom-0 left-0 p-4">
             <button className="p-2 bg-white mb-4 rounded-lg text-black text-[0.6rem]">

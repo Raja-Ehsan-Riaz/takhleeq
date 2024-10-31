@@ -211,6 +211,22 @@ input[type=number] {
   }
 }
 
+/* Media query for mobile */
+@media (max-width: 1011px) { /* Adjust max-width as needed */
+  @keyframes lineAppear {
+    0% {
+      opacity: 0;
+      width: 0rem;
+      background-color: white;
+    }
+    100% {
+      opacity: 1;
+      width: 3rem;
+      background-color: #8838D3;
+    }
+  }
+}
+
 .line-animate {
   animation: lineAppear 0.8s ease forwards;
   animation-delay: 1.5s;
