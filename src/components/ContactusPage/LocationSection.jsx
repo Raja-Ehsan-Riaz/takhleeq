@@ -21,7 +21,7 @@ const LocationSection = () => {
 						<div className="flex flex-col sm:flex-row justify-between gap-2 sm:gap-6 mt-2">
 							<div className="flex flex-row justify-start items-center gap-4">
 								<IoMailOutline size={20} />
-								<div>info@takhleeq.io</div>
+								<div>info@takhleeq.ai</div>
 							</div>
 						</div>
 					</div>
@@ -40,7 +40,7 @@ const LocationSection = () => {
 						<div className="flex flex-col sm:flex-row justify-between gap-2 sm:gap-6 mt-2">
 							<div className="flex flex-row justify-start items-center gap-4">
 								<IoMailOutline size={20} />
-								<div>info@takhleeq.io</div>
+								<div>info@takhleeq.ai</div>
 							</div>
 						</div>
 					</div>

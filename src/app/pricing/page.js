@@ -6,7 +6,7 @@ import ContactStrip from "@/components/ServicesPage/ContactStrip";
 
 export const metadata = {
     title: "Pricing",
-    description: "Hire the team at takhleeq.io, to elevate your brand with cutting-edge design, strategic branding, and unparalleled creative solutions.",
+    description: "Hire the team at takhleeq.ai, to elevate your brand with cutting-edge design, strategic branding, and unparalleled creative solutions.",
 };
 
 export default function Pricing() {

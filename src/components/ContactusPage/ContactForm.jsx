@@ -123,7 +123,7 @@ const ContactForm = () => {
 						</div>
 						<div className="flex flex-row justify-start items-center gap-4">
 							<IoMailOutline size={30} />
-							<div>info@takhleeq.io</div>
+							<div>info@takhleeq.ai</div>
 						</div>
 					</div>
 					<h2 className="text-lg font-bold text-center text-[#8838D3]">
@@ -144,7 +144,7 @@ const ContactForm = () => {
 						</Link>
 						<Link
 							target="_blank"
-							href={"https://www.instagram.com/takhleeq.io/"}
+							href={"https://www.instagram.com/takhleeq.ai/"}
 						>
 							<BiLogoInstagramAlt size={40} className="object-contain" />
 						</Link>

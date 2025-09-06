@@ -17,7 +17,7 @@ const TopSection = () => {
     {
       title: "Takhleeq is Born",
       description:
-        "takhleeq.io is born out of a passion for creativity and innovation, with a vision to redefine the branding landscape. Rooted in a culture of excellence and driven by the desire to make a difference, takhleeq.io emerges as a beacon of ingenuity, offering unparalleled solutions that leave a lasting impact.        ",
+        "takhleeq.ai is born out of a passion for creativity and innovation, with a vision to redefine the branding landscape. Rooted in a culture of excellence and driven by the desire to make a difference, takhleeq.ai emerges as a beacon of ingenuity, offering unparalleled solutions that leave a lasting impact.        ",
     },
     {
       title: "Mission ",
@@ -32,7 +32,7 @@ const TopSection = () => {
     {
       title: "Values",
       description:
-        "At takhleeq.io, innovation fuels our drive, unlocking boundless opportunities for growth and progress. Our commitment to integrity ensures honesty and transparency, fostering trust and robust client relationships. Collaboration lies at the heart of our endeavors, as we strive to co-create impactful experiences that resonate and leave lasting impressions. With a relentless pursuit of excellence, we consistently surpass expectations, setting new standards of achievement in every project.",
+        "At takhleeq.ai, innovation fuels our drive, unlocking boundless opportunities for growth and progress. Our commitment to integrity ensures honesty and transparency, fostering trust and robust client relationships. Collaboration lies at the heart of our endeavors, as we strive to co-create impactful experiences that resonate and leave lasting impressions. With a relentless pursuit of excellence, we consistently surpass expectations, setting new standards of achievement in every project.",
     },
   ];
 

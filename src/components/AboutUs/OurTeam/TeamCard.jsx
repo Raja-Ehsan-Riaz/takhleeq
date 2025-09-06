@@ -9,11 +9,11 @@ const TeamCard = ({name,designation,picture}) => {
   return (
     <div className="flex flex-col justify-center items-center w-[15rem] mt-8 relative mx-auto text-center ">
       <div className="bg-gray-300  group rounded-lg overflow-hidden relative h-[20rem] w-full">
-        <div className="absolute right-4 top-3 transform duration-300 group-hover:rotate-45 z-50">
+        {/* <div className="absolute right-4 top-3 transform duration-300 group-hover:rotate-45 z-50">
           <BiPlusCircle size={20} color="black" />
-        </div>
+        </div> */}
         {/* <div className="w-full h-full bg-[#5d32d2] group-hover:block hidden transition-all duration-500 rounded-xl absolute top-0 left-0 z-40 opacity-30"></div> */}
-        <div className="absolute top-10 right-2  flex flex-col gap-2 justify-center items-center transform -translate-y-[15rem] transition-transform duration-500 group-hover:translate-y-0 z-50">
+        {/* <div className="absolute top-10 right-2  flex flex-col gap-2 justify-center items-center transform -translate-y-[15rem] transition-transform duration-500 group-hover:translate-y-0 z-50">
           <Link href="#">
             <FaSquareFacebook
               size={30}
@@ -42,7 +42,7 @@ const TeamCard = ({name,designation,picture}) => {
               className="object-contain  bg-white hover:bg-[#B418FB] p-1 rounded-sm"
             />
           </Link>
-        </div>
+        </div> */}
         <Image src={picture} fill  style={{objectFit:"cover",objectPosition:"50% 0%"}} className="absolute z-30 filter grayscale hover:grayscale-0"  />
       </div>
       <div className="uppercase text-xl font-bold mt-4">{name}</div>
