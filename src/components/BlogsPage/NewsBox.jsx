@@ -1,22 +1,24 @@
-import Link from "next/link";
-const NewsBox = ({ blogs ,title }) => {
-  return (
-    <div className="flex flex-col w-full rounded-md overflow-hidden border divide-y-2">
-      <div className="font-bold bg-[#b09edd] p-4 text-xl">Recent News</div>
-      {blogs.filter((blog)=>(blog.title!=title)).slice(0, 3).map((blog, index) => {
-        return (
-          <Link key={index} href={`/blog/${blog.title}`}>
-            <div
-              className={`bg-white  p-4 `}
-            >
-              <div className="font-semibold ">{blog.title}</div>
-              <div className="italic">{blog.date}</div>
-            </div>
-          </Link>
-        );
-      })}
-    </div>
-  );
-};
+import Link from "next/link"
+const NewsBox = ({ blogs, title }) => {
+	return (
+		<div className="flex flex-col w-full rounded-md overflow-hidden border divide-y-2">
+			<div className="font-bold bg-[#b09edd] p-4 text-xl">Recent News</div>
+			{blogs
+				.filter(blog => blog.title != title)
+				.slice(0, 3)
+				.map((blog, index) => {
+					return (
+						<Link key={index} href={`/blog/${blog.title}`}>
+							<div className={`bg-white  p-4 `}>
+								<div className="font-semibold ">{blog.title}</div>
+								<div className="italic">{blog.date}</div>
+							</div>
+						</Link>
+					)
+				})}
+		</div>
+	)
+}
 
-export default NewsBox;
+export default NewsBox
+//
