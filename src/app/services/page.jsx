@@ -15,7 +15,7 @@ const Services = () => {
       <ServicesHero />
       <ServicesList upper/>
       <Solutions />
-      <ServicesList />
+      {/* <ServicesList /> */}
       <ContactStrip />
     </div>
   );

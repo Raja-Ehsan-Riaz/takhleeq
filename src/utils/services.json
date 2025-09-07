@@ -1,6 +1,6 @@
 [
   {
-    "title": "Branding",
+    "title": "Branding and Strategy",
     "description": "Tailoring visually striking graphics to communicate brand stories effectively and captivate audiences.",
     "icon": "/Illustrations/services/branding.png",
     "punchline": "Where Striking Graphics Meet Lasting Impressions - Elevating Brands Beyond the Ordinary",
@@ -35,50 +35,7 @@
     "strategy": "Our branding strategy is a careful fusion of creativity and strategic thinking. We leverage visually striking graphics to craft compelling narratives that go beyond mere aesthetics. By ensuring our clients' brands not only stand out but also convey a story, we create a lasting impression in the competitive market. This approach aims to establish a robust and distinctive brand identity, fostering meaningful connections with target audiences and setting the stage for long-term brand success."
   },
   {
-    "title": "UI/UX Design",
-    "description": "Designing seamless, visually captivating interfaces that enhance user experiences and drive customer satisfaction",
-    "icon": "/Illustrations/services/uiux.png",
-    "punchline": "Seamless Experiences, Lasting Impressions, and Unparalleled Connection Between Users and Brands",
-    "detail": "takhleeq.ai's UI/UX Design service prioritizes seamless digital experiences, blending innovative design concepts with user-centric principles. Our visually captivating interfaces not only leave a lasting impression but also elevate user engagement by fostering a strong connection between users and brands. With a commitment to usability and aesthetics, takhleeq.ai ensures a satisfying and memorable digital journey for every user.",
-    "components": [
-      {
-        "heading": "User Research:",
-        "text": "Conducting in-depth research to understand the target audience's needs, preferences, and behaviors."
-      },
-      {
-        "heading": "Wireframing:",
-        "text": "Creating skeletal outlines of digital interfaces to outline the structure and functionality."
-      },
-      {
-        "heading": "Prototyping:",
-        "text": "Developing interactive prototypes to test and refine user interactions and flows."
-      },
-      {
-        "heading": "User Interface (UI) Design:",
-        "text": "Designing visually appealing interfaces that align with brand aesthetics and enhance usability."
-      },
-      {
-        "heading": "User Experience (UX) Design:",
-        "text": "Optimizing the overall user experience by ensuring intuitive navigation, clear messaging, and accessibility."
-      },
-      {
-        "heading": "Usability Testing:",
-        "text": "Conducting user testing sessions to gather feedback and iterate on design improvements."
-      },
-      {
-        "heading": "Responsive Design:",
-        "text": "Adapting designs to different screen sizes and devices to ensure consistency across platforms."
-      }
-    ],
-    "images": [
-      "/Images/Heros/Services/UI/1.jpg",
-      "/Images/Heros/Services/UI/2.jpg",
-      "/Images/Heros/Services/UI/3.jpg"
-    ],
-    "strategy": "takhleeq.ai's UI/UX Design strategy revolves around creating exceptional digital experiences through a meticulous blend of innovation and user-centric principles. Our approach begins with in-depth research into user behaviors, preferences, and industry trends. We prioritize functionality and usability, ensuring that every interface we design serves its purpose effectively. The iterative design process involves constant user testing and feedback, allowing us to refine and optimize the user experience continuously. By staying abreast of emerging design trends and technological advancements, we strive to provide visually captivating interfaces that not only leave a lasting impression but also foster a meaningful connection between users and brands."
-  },
-  {
-    "title": "Web/App Development",
+    "title": "Digital (Web/App) Development",
     "description": "Crafting intuitive, high-performance digital spaces that reflect brands' identities and engage visitors effectively.",
     "icon": "/Illustrations/services/web.png",
     "punchline": "Crafting High-Performance Spaces that Speak Your Brand, Engage Seamlessly, and Propel Digital Success",
@@ -127,20 +84,6 @@
     "strategy": "takhleeq.ai's Digital Marketing strategy is a multifaceted approach designed to maximize online visibility and customer engagement. The process begins with a comprehensive analysis of the client's business objectives and target audience. Our expert team leverages cutting-edge tools for precise audience segmentation, enabling the crafting of personalized campaigns tailored to specific demographics and interests. Continuous performance analytics provide real-time insights, allowing for data-driven optimizations to enhance brand visibility. takhleeq.ai's strategy includes a focus on various digital channels, including social media, search engine optimization (SEO), and content marketing, ensuring a holistic and effective reach. Through continuous monitoring, strategic adjustments, and a commitment to staying ahead of industry trends, takhleeq.ai's Digital Marketing service ensures sustained success for our clients in the ever-evolving and competitive digital landscape."
   },
   {
-    "title": "Interior Design",
-    "description": "Designing physical spaces that blend aesthetics and functionality for an unforgettable brand experience.",
-    "icon": "/Illustrations/services/interior.png",
-    "punchline": "Crafting Environments, Creating Impressions - Where Aesthetics Meet Functionality for Unforgettable Brand Experiences",
-    "detail": "takhleeq.ai's Interior Decor service seamlessly blends aesthetics and functionality to transform physical spaces into memorable brand experiences. Our expert team curates designs reflecting clients' brand essence, ensuring a seamless integration of visual appeal and practicality. From concept to execution, takhleeq.ai envisions and brings to life environments that captivate and resonate with visitors, creating lasting brand impressions.",
-    "components": [],
-    "images": [
-      "/Images/Heros/Services/Interior/1.jpg",
-      "/Images/Heros/Services/Interior/2.jpg",
-      "/Images/Heros/Services/Interior/3.jpg"
-    ],
-    "strategy": "takhleeq.ai's Interior Decor strategy revolves around creating immersive and brand-centric environments that seamlessly blend aesthetics with functionality. The process begins with a thorough understanding of the client's brand essence and the desired atmosphere for the space. Our expert team collaborates closely with clients, ensuring their vision is translated into designs that not only captivate but also align with practical needs. From conceptualization to execution, takhleeq.ai emphasizes meticulous attention to detail, utilizing a curated selection of materials, colors, and furnishings. The strategy includes a focus on creating flexible spaces that can adapt to evolving needs while maintaining a cohesive brand identity. Through a combination of creativity, functionality, and client collaboration, takhleeq.ai's Interior Decor service aims to transform physical spaces into captivating and memorable brand experiences that leave a lasting impression on visitors."
-  },
-  {
     "title": "Content Creation",
     "description": "Producing engaging and purposeful content to captivate audiences and build lasting connections.",
     "icon": "/Illustrations/services/content.png",
@@ -153,20 +96,6 @@
       "/Images/Heros/Services/Content/3.jpg"
     ],
     "strategy": "takhleeq.ai's Content Creation strategy is a meticulous and purpose-driven approach designed to craft compelling narratives that resonate with our clients' brands. The process begins with a comprehensive understanding of the brand identity, target audience, and marketing goals. Our expert team conducts thorough research to identify key themes and industry trends, ensuring content remains relevant and impactful. From there, we develop a content calendar outlining the creation of diverse pieces, including articles, blogs, and multimedia, strategically tailored to various platforms. takhleeq.ai emphasizes a cohesive storytelling approach, ensuring each piece contributes to the overarching brand narrative. Continuous evaluation and refinement, based on performance analytics, allow us to adapt and optimize content for maximum engagement and impact. Through this strategy, takhleeq.ai's Content Creation service aims to elevate brand visibility, foster meaningful engagement, and leave a lasting impression on audiences across diverse platforms."
-  },
-  {
-    "title": "Industrial Design",
-    "description": "Strategizing, curating, and creating meaningful interactions across diverse platforms to boost brand engagement.",
-    "icon": "/Illustrations/services/industrial.png",
-    "punchline": "Forging Tomorrow's Designs - Where Aesthetics Meet Innovation, and Functionality is Crafted with Precision for Impactful Solutions",
-    "detail": "takhleeq.ai's Industrial Design service merges cutting-edge aesthetics with user-centric functionality. Our expert team engineers innovative products from concept to prototyping, ensuring a seamless blend of form and usability. Committed to staying ahead of industry trends, we transform ideas into tangible, impactful solutions that prioritize both visual appeal and practicality.",
-    "components": [],
-    "images": [
-      "/Images/Heros/Services/Industrial/1.jpg",
-      "/Images/Heros/Services/Industrial/2.jpg",
-      "/Images/Heros/Services/Industrial/3.jpg"
-    ],
-    "strategy": "takhleeq.ai's Industrial Design strategy is founded on a commitment to merging cutting-edge aesthetics seamlessly with user-centric functionality. The process begins with a comprehensive understanding of the client's vision, market trends, and user needs. Our expert team engages in extensive research and ideation to conceptualize innovative solutions that prioritize both form and usability. From there, we move into the prototyping phase, refining designs to ensure they not only meet but exceed expectations. takhleeq.ai places a strong emphasis on staying ahead of industry trends, fostering a culture of innovation within the team. Continuous collaboration with clients and iterative refinement throughout the design process ensures that the final products are not only visually striking but also align perfectly with practical user requirements. The result is a portfolio of impactful solutions that set clients apart in the market, embodying the perfect balance of aesthetic appeal and functional excellence."
   },
   {
     "title": "Media Services",
@@ -184,7 +113,7 @@
   },
   {
     "title": "Creative Designs",
-    "description": "Crafts visually stunning graphics to captivate audiences and elevate brand storytelling.",
+    "description": "Crafts visually stunning graphics ad UI/UX to captivate audiences and elevate brand storytelling.",
     "icon": "/Illustrations/services/creative.png",
     "punchline": "Unlocking Creativity, Crafting Impactful Designs",
     "detail": "takhleeq.ai offers a range of creative design services tailored to enhance brand identity and engage audiences effectively. From eye-catching brochures to captivating standees and innovative wall paper designs, our team crafts visually compelling solutions that leave a lasting impression. With a focus on creativity and innovation, takhleeq.ai's creative designs elevate brands and help them stand out in today's competitive market.",

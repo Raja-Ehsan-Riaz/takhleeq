@@ -2,7 +2,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import services from "../../utils/services.json"
-import LogoFullWhite from "/public/Takhleeq/logo-full-white.svg"
+import LogoFullWhite from "/public/Takhleeq/logo-white.png"
 import { FaSquareFacebook } from "react-icons/fa6"
 import { BiLogoInstagramAlt } from "react-icons/bi"
 import { IoLogoLinkedin } from "react-icons/io5"
@@ -10,7 +10,7 @@ import { RiTwitterXFill } from "react-icons/ri"
 
 const Footer = () => {
 	return (
-		<div className=" bg-[#521389]  text-white ">
+		<div className=" bg-[#8838D3]  text-white ">
 			<div className="flex flex-col-reverse  items-start lg:flex-row gap-12 lg:gap-28 pt-20  pb-16 mx-[10%]">
 				<div className="flex flex-col mt-3">
 					<Link href={"#"}>

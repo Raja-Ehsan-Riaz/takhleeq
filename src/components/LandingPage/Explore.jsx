@@ -15,10 +15,6 @@ export default function Explore() {
 						global enterprises, we partner with visionary teams worldwide to
 						craft brands that transcend borders and resonate with cultures.
 					</p>
-					<p className=" text-lg">
-						Contact us for an instant demo class{" "}
-						<span className="font-bold">+123-456-789</span>
-					</p>
 				</div>
 
 				{/* Right Content */}
@@ -32,7 +28,7 @@ export default function Explore() {
 					<div className="absolute top-0 left-10">
 						<div className="w-24 h-24 bg-white border-4 border-gray-200 rounded-full flex items-center justify-center shadow-lg">
 							<img
-								src="https://flagsapi.com/PK/flat/64.png"
+								src="https://flagdownload.com/wp-content/uploads/Flag_of_Pakistan_Flat_Round-128x128.png"
 								alt="Pk"
 								className="w-20 h-20 rounded-full object-cover"
 							/>
@@ -41,7 +37,7 @@ export default function Explore() {
 					<div className="absolute top-0 right-10">
 						<div className="w-24 h-24 bg-white border-4 border-gray-200 rounded-full flex items-center justify-center shadow-lg">
 							<img
-								src="https://flagsapi.com/DE/flat/64.png"
+								src="https://flagdownload.com/wp-content/uploads/Flag_of_Pakistan_Flat_Round-128x128.png"
 								alt="DE"
 								className="w-20 h-20 rounded-full"
 							/>
@@ -50,7 +46,7 @@ export default function Explore() {
 					<div className="absolute top-40 left-0">
 						<div className="w-24 h-24 bg-white border-4 border-gray-200 rounded-full flex items-center justify-center shadow-lg">
 							<img
-								src="https://flagsapi.com/AE/flat/64.png"
+								src="https://flagdownload.com/wp-content/uploads/Flag_of_United_Arab_Emirates_Flat_Round-128x128.png"
 								alt="AE"
 								className="w-20 h-20 rounded-full"
 							/>
@@ -59,7 +55,7 @@ export default function Explore() {
 					<div className="absolute top-40     right-20">
 						<div className="w-24 h-24 bg-white border-4 border-gray-200 rounded-full flex items-center justify-center shadow-lg">
 							<img
-								src="https://flagsapi.com/GB/flat/64.png"
+								src="https://flagdownload.com/wp-content/uploads/Flag_of_United_Kingdom_Flat_Round-128x128.png"
 								alt="GB"
 								className="w-20 h-20 rounded-full"
 							/>
@@ -68,7 +64,7 @@ export default function Explore() {
 					<div className="absolute bottom-12 right-8">
 						<div className="w-24 h-24 bg-white border-4 border-gray-200 rounded-full flex items-center justify-center shadow-lg">
 							<img
-								src="https://flagsapi.com/SA/flat/64.png"
+								src="https://flagdownload.com/wp-content/uploads/Flag_of_United_States_Flat_Round-128x128.png"
 								alt="Sa"
 								className="w-20 h-20 rounded-full"
 							/>
