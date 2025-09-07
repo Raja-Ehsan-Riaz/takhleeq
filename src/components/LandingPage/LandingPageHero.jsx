@@ -1,49 +1,66 @@
 import Link from "next/link"
-// import { list } from "@vercel/blob";
 import Image from "next/image"
+import { BiSolidZap } from "react-icons/bi"
 
 const LandingPagehero = async () => {
-	// const { blobs } = await list({
-	//   prefix: "PromoVideoTakhleeq",
-	//   limit: 1,
-	// });
-	// const { url } = blobs[0];
-	// console.log(blobs);
-
 	return (
-		<div className="w-full h-[100vh] flex flex-col justify-center  items-center bg-[#8838D3]/80 lg:bg-[#8838D3] text-white relative overflow-hidden ">
-			<div className="w-[100vw] h-full absolute left-0 top-0 z-20 bg-gray-800/20"></div>
+		<div className="w-full h-[90vh] flex flex-col justify-center items-center bg-gray-50 text-gray-900 relative overflow-hidden">
+			{/* Main Content Container */}
+			<div className="flex flex-col lg:flex-row justify-center items-center h-full z-30 max-w-6xl mx-auto px-4">
+				{/* Left Side - Text Content */}
+				<div className="flex-1 text-center lg:text-left lg:pr-16">
+					<div className="mb-4">
+						<span className="text-2xl lg:text-3xl font-light text-gray-700">
+							Ultimate
+						</span>
+					</div>
 
-			<Image
-				src={"/Images/Heros/landing.png"}
-				className="object-cover absolute -z-10 block lg:hidden"
-				fill
-				alt=""
-			/>
-			<div className="flex justify-center items-center h-full pt-32 z-30  lg:hidden">
-				<div className="text-center lg:w-[40%] pop">
-					<h1 className="text-5xl lg:text-8xl font-bold">takhleeq.ai</h1>
-					<p className=" text-lg lg:text-2xl ">Ultimate Branding Experience</p>
-					<Link href="/services">
-						<button className="relative  mt-8 bg-transparent px-12 py-5 bg-white text-black font-bold text-sm transition-colors overflow-hidden before:absolute before:-right-[100%] before:top-0 before:z-10 before:h-[100rem] before:w-[200%] before:origin-top-right before:rotate-[15deg] before:hover:rotate-0 before:scale-x-50 before:bg-black before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
-							<div className="relative z-20">Make Brand</div>
-						</button>
-					</Link>
+					<h1 className="text-6xl lg:text-8xl font-black mb-4 leading-none">
+						Bran<span className="text-[#8838D3]">ding</span>
+					</h1>
+
+					<div className="mb-8">
+						<span className="text-xl lg:text-2xl font-light text-gray-600">
+							Experience
+						</span>
+					</div>
+				</div>
+
+				{/* Right Side - Purple Circle */}
+				<div className="lg:w-1/2 mt-16 lg:mt-0 relative">
+					<div className="relative mx-auto w-64 h-64">
+						{/* Main purple circle - matching the original design */}
+						<div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-purple-700 rounded-full shadow-2xl">
+							<div className="absolute inset-0 bg-gradient-to-t from-purple-800/20 to-transparent rounded-full"></div>
+						</div>
+
+						{/* White dot accent */}
+						<div className="absolute top-24 left-16 w-6 h-6 bg-white rounded-full shadow-lg"></div>
+
+						{/* Orbiting elements */}
+						<div
+							className="absolute inset-0 animate-spin"
+							style={{ animationDuration: "20s" }}
+						>
+							<div className="absolute -top-4 left-1/2 transform -translate-x-1/2 w-3 h-3 bg-purple-300 rounded-full"></div>
+							<div className="absolute top-1/2 -right-4 transform -translate-y-1/2 w-2 h-2 bg-purple-400 rounded-full"></div>
+							<div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-3 h-3 bg-purple-200 rounded-full"></div>
+							<div className="absolute top-1/2 -left-4 transform -translate-y-1/2 w-2 h-2 bg-purple-500 rounded-full"></div>
+						</div>
+					</div>
+
+					{/* Decorative grid */}
+					<div className="absolute top-10 right-10 grid grid-cols-3 gap-2 opacity-20">
+						{[...Array(9)].map((_, i) => (
+							<div key={i} className="w-2 h-2 bg-black-600 rounded-full"></div>
+						))}
+					</div>
 				</div>
 			</div>
-			<video
-				width="320"
-				height="240"
-				className="w-full block sm:mt-8 lg:mt-0"
-				autoPlay
-				muted
-				playsInline
-				preload="auto"
-				loop
-			>
-				<source src="/Promo Video.mp4" type="video/mp4" />
-				Your browser does not support the video tag.
-			</video>
+
+			{/* Subtle background decoration */}
+			<div className="absolute top-20 right-20 w-32 h-32 bg-gray-300 rounded-full opacity-30 blur-sm"></div>
+			<div className="absolute bottom-32 left-16 w-24 h-24 bg-purple-300 rounded-full opacity-40 blur-sm"></div>
 		</div>
 	)
 }

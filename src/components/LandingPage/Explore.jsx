@@ -3,7 +3,7 @@ import React from "react"
 
 export default function Explore() {
 	return (
-		<div className="relative bg-gradient-to-br from-[#300a44] to-[#007d60] text-white px-[5%] py-16 md:py-24">
+		<div className="relative bg-gradient-to-br from-[#300a44] to-[#3d99d6] text-white px-[5%] py-16 md:py-24">
 			<div className="flex justify-center items-center space-x-12">
 				{/* Left Content */}
 				<div className="flex flex-col items-start justify-start space-y-4 w-[60%]">
@@ -83,7 +83,7 @@ export default function Explore() {
 								<p className="">Projects</p>
 							</div>
 							<div className="text-center">
-								<p className="text-pink-600 font-bold text-2xl">50+</p>
+								<p className="text-[#8838D3] font-bold text-2xl">50+</p>
 								<p className="">Clients</p>
 							</div>
 						</div>

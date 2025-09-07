@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const NewsAndUpdates = () => {
 	return (
-		<div className="px-[5%] py-16 md:py-24 text-white   bg-gradient-to-b from-[#300a44] to-[#007d60]">
+		<div className="px-[5%] py-16 md:py-24 text-white   bg-gradient-to-b from-[#300a44] to-[#3d99d6]">
 			<h2 className="text-center  text-4xl uppercase font-bold mb-10">
 				News and updates
 			</h2>
