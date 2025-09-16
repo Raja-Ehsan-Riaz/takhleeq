@@ -44,11 +44,6 @@ function NavBar() {
 			href: "/careers",
 			name: "Careers",
 		},
-		{
-			id: 8,
-			href: "/contact-us",
-			name: "Contact",
-		},
 	]
 
 	useEffect(() => {
@@ -162,6 +157,13 @@ function NavBar() {
 								</Link>
 							</li>
 						))}
+						<li>
+							<Link href={"/contact-us"}>
+								<div className="px-8 py-3  focus:outline-none   relative border bg-white border-black text-black cursor-pointer font-bold text-sm transition-colors overflow-hidden before:absolute before:-right-[100%] before:top-0 before:z-10 before:h-[100rem] before:w-[200%] before:origin-top-right before:rotate-[15deg] before:hover:rotate-0 before:scale-x-50 before:bg-black before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
+									<div className="relative z-20">Contact</div>
+								</div>
+							</Link>
+						</li>
 					</ul>
 				</div>
 			</div>

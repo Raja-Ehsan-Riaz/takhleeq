@@ -51,8 +51,8 @@ export default function ServicesSection() {
 		>
 			<div className="container mx-auto flex flex-col items-center justify-center">
 				{/* Title */}
-				<h1 className="text-4xl font-bold text-center mb-12">
-					How we create clear, outspoken, digital, living brands
+				<h1 className="text-4xl font-bold text-center mb-12 max-w-lg">
+					Transforming Ideas into Bold, Digital Realities
 				</h1>
 
 				{/* Central Image */}

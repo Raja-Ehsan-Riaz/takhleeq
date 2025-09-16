@@ -12,7 +12,6 @@ export default function TDBR() {
         <div>
             <TDBRHero/>
             <Branding/>
-            <Quote/>
             <NeuroMarketing/>
             <ContactStrip/>
         </div>

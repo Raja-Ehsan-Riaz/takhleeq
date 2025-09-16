@@ -9,20 +9,17 @@ const Branding = () => {
 					<span className="text-[#8838D3]">Revolution</span>
 				</h2>
 				<p className="text-lg mt-4">
-					At the helm of takhleeq.ai&apos;s Tech-Driven Branding Revolution
-					(TDBR) is a dynamic team of visionaries, innovators, and trailblazers.
-					Committed to pushing the boundaries of creativity and technology, this
-					team utilizes the power of cutting-edge tools and methodologies to
-					redefine the landscape of branding.{" "}
+					A driving force of innovators committed to redefining the future of
+					branding in the digital era. This specialized unit integrates
+					creativity with advanced expertise in AI, Marketing, and emerging
+					technologies to deliver brand experiences that not only differentiate
+					but also transform industries.
 				</p>
 				<div className="text-lg mt-2 lg:mt-6">
-					With a relentless focus on research, experimentation, and
-					collaboration, they spearhead initiatives that leverage AI, data
-					analytics, and emerging technologies to unlock new possibilities and
-					drive unprecedented results for clients. Guided by a passion for
-					innovation and a dedication to excellence, the team at takhleeq.ai is
-					pioneering a new era of brand experiences that captivate, inspire, and
-					transform.
+					Anchored in research, experimentation, and a relentless pursuit of
+					excellence, the team develops future-ready branding solutions that
+					engage audiences, accelerate business growth, and set new standards of
+					leadership in the branding space
 				</div>
 			</div>
 			<div className=" h-[35rem] w-[35rem] overflow-hidden rounded-full   relative ">

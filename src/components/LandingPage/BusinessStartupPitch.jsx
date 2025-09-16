@@ -16,8 +16,9 @@ const BusinessStartupPitch = () => {
 			</div>
 			<div className="lg:w-[55%] lg:pl-8 lg:py-28 px-[5%] lg:px-0 flex flex-col items-start">
 				<h2 className="uppercase text-4xl md:text-5xl text-left font-bold">
-					Brands that people love and make companies
-					<span className="text-black">thrive.</span>
+					<span className="text-gray-950">Brands</span> that people love and
+					make companies
+					<span className="text-gray-950"> thrive</span>
 				</h2>
 				<p className="text-lg mt-6 text-justify md:text-left">
 					Wherever innovation is needed, we bring strategy, creativity, and

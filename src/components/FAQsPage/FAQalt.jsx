@@ -43,11 +43,12 @@ const FAQalt = () => {
 		<div className=" px-[5%] py-16 lg:py-24 lg:pb-28 ">
 			<div className="flex flex-col items-center justify-center text-center max-w-6xl m-auto">
 				<h2 className=" text-5xl text-gray-950 uppercase font-bold mb-6 max-w-2xl">
-					We&apos;re here to answer all your Questions
+					We&apos;re here to answer all{" "}
+					<span className="text-[#8838D3]">your Questions</span>
 				</h2>
 				<p className="text-lg max-w-2xl text-gray-700">
 					Curious about our process, services, or how we can help your business
-					grow? Find answers here and if not, we’re only a message away.
+					grow? Find answers here and if not, we&apso;re only a message away.
 				</p>
 				<div className={`py-4 md:p-4 rounded-b-lg mt-8 w-full `}>
 					{faqs.map((faq, index) => (
