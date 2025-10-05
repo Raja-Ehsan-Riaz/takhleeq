@@ -60,7 +60,7 @@ const ContactBar = () => {
 				<div
 					onClick={handleToggle}
 					style={{ cursor: "pointer" }}
-					className={`p-3 rounded-full z-30 bg-blue-500 text-white shadow-lg transition-transform duration-300 ${
+					className={`p-3 rounded-full z-30 bg-[#8838D3] text-white shadow-lg transition-transform duration-300 ${
 						isOpen ? "rotate-90" : ""
 					}`}
 				>

@@ -68,8 +68,8 @@ function NavBar() {
 				isNavbarFixed
 					? `fixed bg-white lg:top-2 lg:left-2 lg:rounded-full lg:w-[99%] shadow-lg  nav-in`
 					: `${
-							pathname === "//"
-								? "fixed bg-transparent text-white pt-2"
+							pathname === "/"
+								? "relative  text-white pt-2 shadow-none bg-gray-50"
 								: "relative bg-white  "
 					  }`
 			} fixed z-50 shadow-md  overflow-y-hidden  
