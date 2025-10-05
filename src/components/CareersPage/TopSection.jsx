@@ -35,7 +35,7 @@ const TopSection = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center px-6 md:px-[15%] py-16 md:py-28 bg-gray-200 text-black">
+    <div className="flex flex-col items-center justify-center px-6 md:px-[15%] py-16 md:py-28 bg-gray-100 text-black">
       <h2 className="uppercase text-4xl md:text-5xl text-center md:text-left font-bold">
         HOW DO WE <span className="text-[#8838D3]"> HIRE?</span>
       </h2>

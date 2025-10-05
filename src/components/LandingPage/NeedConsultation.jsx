@@ -68,7 +68,7 @@ const NeedConsultation = () => {
         </p>
       </div>
       <div className="flex flex-col lg:flex-row lg:ml-12">
-        <div className="bg-gradient-to-bl from-[#382a69] to-[#3c2886] text-white p-12 rounded-3xl border border-black">
+        <div className=" text-black p-12 rounded-3xl border shadow-md">
           <form className="mt-4 flex flex-col items-center">
             <div className="flex flex-col lg:flex-row justify-between space-x-6 w-full">
               <div className="flex flex-col w-full">
@@ -81,7 +81,7 @@ const NeedConsultation = () => {
                   name="fullName"
                   placeholder="John Doe"
                   required
-                  className="p-4 w-full border-b border-white  focus:outline-none bg-transparent"
+                  className="p-4 w-full border-b border-white  focus:outline-none bg-gray-50"
                   value={formData.fullName}
                   onChange={handleChange}
                 />
@@ -96,7 +96,7 @@ const NeedConsultation = () => {
                   name="email"
                   placeholder="xyz@gmail.com"
                   required
-                  className="p-4 w-full border-b border-white  focus:outline-none bg-transparent"
+                  className="p-4 w-full border-b border-white  focus:outline-none bg-gray-50"
                   value={formData.email}
                   onChange={handleChange}
                 />
@@ -113,7 +113,7 @@ const NeedConsultation = () => {
                   name="company"
                   placeholder="Company Name"
                   required
-                  className="p-4 w-full border-b border-white  focus:outline-none bg-transparent"
+                  className="p-4 w-full border-b border-white  focus:outline-none bg-gray-50"
                   value={formData.company}
                   onChange={handleChange}
                 />
@@ -127,7 +127,7 @@ const NeedConsultation = () => {
                   id="phoneNumber"
                   name="phoneNumber"
                   placeholder="123 45678"
-                  className="p-4 w-full border-b border-white  focus:outline-none bg-transparent"
+                  className="p-4 w-full border-b border-white  focus:outline-none bg-gray-50"
                   value={formData.phoneNumber}
                   onChange={handleChange}
                 />
@@ -143,7 +143,7 @@ const NeedConsultation = () => {
                 rows={7}
                 required
                 placeholder="Write here your message"
-                className="p-4 border-b border-white  focus:outline-none bg-transparent w-full"
+                className="p-4 border-b border-white  focus:outline-none w-full bg-gray-50 mt-4"
                 value={formData.message}
                 onChange={handleChange}
               />

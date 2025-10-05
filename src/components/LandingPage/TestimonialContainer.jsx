@@ -21,7 +21,7 @@ const TestimonialContainer = () => {
           // install Swiper modules
           modules={[Navigation, Pagination, A11y, Autoplay]}
           slidesPerView={1}
-          autoplay={{ delay: 2000, pauseOnMouseEnter: true }}
+          autoplay={{ delay: 4000, pauseOnMouseEnter: true }}
           loop={true}
           breakpoints={{
             // when window width is >= 768px

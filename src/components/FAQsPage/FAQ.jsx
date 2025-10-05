@@ -107,7 +107,7 @@ const FAQ = ({ home }) => {
 		>
 			{home && (
 				<h1 className="uppercase text-4xl  font-bold text-gray-900 mb-12">
-					Frequently Asked <span className="text-[#8838D3]">Questions</span>
+					Frequently Asked <span className="text-black">Questions</span>
 				</h1>
 			)}
 			<div className="flex flex-col md:flex-row  justify-evenly items-center gap-8">
@@ -117,9 +117,9 @@ const FAQ = ({ home }) => {
 						onClick={() => setActiveTab(index)}
 						className={`${
 							activeTab === index
-								? "bg-[#8838D3] text-white"
-								: "bg-white text-[#8838D3]"
-						} p-6 rounded-lg focus:outline-none w-[20rem]  md:w-[25rem] relative   font-bold text-sm transition-colors overflow-hidden before:absolute before:-right-[100%] before:top-0 before:z-10 before:h-[100rem] before:w-[200%] before:origin-top-right before:rotate-[15deg] before:hover:rotate-0 before:scale-x-50 before:bg-[#8838D3] before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100`}
+								? "bg-black text-white"
+								: "bg-white text-black"
+						} p-6 rounded-lg focus:outline-none w-[20rem]  md:w-[25rem] relative   font-bold text-sm transition-colors overflow-hidden before:absolute before:-right-[100%] before:top-0 before:z-10 before:h-[100rem] before:w-[200%] before:origin-top-right before:rotate-[15deg] before:hover:rotate-0 before:scale-x-50 before:bg-black before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100`}
 					>
 						<div className="relative z-20">{tab}</div>
 					</button>
@@ -140,15 +140,16 @@ const FAQ = ({ home }) => {
 							>
 								<div className="absolute right-2 top-2">
 									<IoIosArrowDown
-										className={`text-black duration-500 transition-transform ${
+										className={`text-black duration-500 transition-transform cursor-pointer ${
 											activeQuestion === index ? "rotate-180" : "rotate-0"
 										}`}
+										onClick={() => handleQuestionClick(index)}
 										size={30}
 									/>
 								</div>
 								<div
 									onClick={() => handleQuestionClick(index)}
-									className={`cursor-pointer font-semibold border-l-8 border-[#8838D3]   p-4 ${
+									className={`cursor-pointer font-semibold border-l-8 border-black   p-4 ${
 										activeQuestion === index ? "text-black" : "text-black"
 									}`}
 								>

@@ -11,11 +11,9 @@ import { RiTwitterXFill } from "react-icons/ri"
 const Footer = () => {
 	return (
 		<div className=" bg-[#8838D3]  text-white ">
-			<div className="flex flex-col-reverse  items-start lg:flex-row gap-12 lg:gap-28 pt-20  pb-16 mx-[10%]">
+			<div className="flex flex-col-reverse  items-start lg:flex-row gap-12 lg:gap-24 pt-20  pb-16 mx-[10%]">
 				<div className="flex flex-col mt-3">
-					<Link href={"#"}>
-						<h3 className="mb-4 text-2xl font-semibold">About</h3>
-					</Link>
+					<h3 className="mb-4 text-2xl font-semibold">About</h3>
 					<Link href={"/about-us"} className="mb-2">
 						What We Offer
 					</Link>
@@ -61,13 +59,11 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className="flex flex-col mt-3">
-					<Link href={"#"}>
-						<h3 className="mb-4 text-2xl font-semibold">Services</h3>
-					</Link>
+					<h3 className="mb-4 text-2xl font-semibold">Services</h3>
 					{services.slice(0, 4).map((service, idx) => (
 						<Link
 							key={idx}
-							href={`/service/${service.title.replace(/\//g, "&")}`}
+							href={`/services`}
 							className="mb-2"
 						>
 							{service.title}
@@ -75,9 +71,7 @@ const Footer = () => {
 					))}
 				</div>
 				<div className="flex flex-col mt-3">
-					<Link href={"#"}>
-						<h3 className="mb-4 text-2xl font-semibold">Resources</h3>
-					</Link>
+					<h3 className="mb-4 text-2xl font-semibold">Resources</h3>
 
 					<Link href={"/FAQs"} className="mb-2">
 						FAQS

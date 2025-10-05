@@ -10,8 +10,8 @@ const CareerHero = () => {
           className=" absolute -z-10"
           priority
         />
-        <h1 className="text-white pop text-center mx-auto text-4xl md:text-5xl uppercase font-bold mb-10 mt-auto">
-          Join us and shape what&apos;s next.
+        <h1 className="text-white pop text-center mx-auto text-4xl md:text-5xl uppercase font-bold my-auto">
+         Shape what&apos;s next.
         </h1>
       </div>
     );

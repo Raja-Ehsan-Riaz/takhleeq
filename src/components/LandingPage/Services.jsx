@@ -58,9 +58,9 @@ export default function ServicesSection() {
 				{/* Central Image */}
 				<div className="relative w-[25rem] h-[30rem] m-auto px-2 flex justify-center">
 					<img
-						src="https://via.placeholder.com/350x450" // Replace with your image URL
+						src="/Images/center.jpg"
 						alt="Center"
-						className="w-full h-full object-cover rounded-lg shadow-lg"
+						className="w-full h-full object-contain "
 					/>
 
 					{[

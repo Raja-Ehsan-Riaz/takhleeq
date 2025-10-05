@@ -1,13 +1,13 @@
 [
   {
-    "Name": "Saqib Malik",
-    "Designation": "CEO & Founder",
-    "Picture": "/Images/Team/Core Team/Saqib Malik.jpg"
-  },
-  {
     "Name": "Dr. Abid Rafique",
     "Designation": "Chairman & Executive Founder",
     "Picture": "/Images/Team/Core Team/Dr Abid Rafique 2.jpg"
+  },
+  {
+    "Name": "Saqib Malik",
+    "Designation": "CEO & Founder",
+    "Picture": "/Images/Team/Core Team/Saqib Malik.jpg"
   },
   {
     "Name": "Dr. Wajahat Hussain",
@@ -20,29 +20,24 @@
     "Picture": "/Images/Team/Core Team/Mian Muhammad Idrees.jpg"
   },
   {
-    "Name": "Muhammad Abdullah",
-    "Designation": "Chief Operations Officer",
-    "Picture": "/Images/Team/Core Team/Abdullah.jpg"
-  },
-   {
     "Name": "Salman Muslim",
     "Designation": "Lead Business Outreach",
-    "Picture": "/Images/Team/Project Managers/Shaheer Malik.jpg"
+    "Picture": "/Images/Team/Salman.png"
   },
   {
     "Name": "Zahra Noor",
     "Designation": "Business Development Manager",
-    "Picture": "/Images/Team/Project Managers/Ahmed.png"
+    "Picture": "/Images/Team/Zahra.png"
   },
   {
     "Name": "Aymen Mehmood",
     "Designation": "Digital Marketing Manager",
-    "Picture": "/Images/Team/SMM/Zoya Salman - SMM Manager.jpg"
+    "Picture": "/Images/Team/Aymen.jpg"
   },
   {
-    "Name": "Umair Tariq",
-    "Designation": "Digital Marketing Manager",
-    "Picture": "/Images/Team/SMM/umair tariq [digital marketing manager].jpg"
+    "Name": "Muhammad Abdullah",
+    "Designation": "Media Director",
+    "Picture": "/Images/Team/Media Team/Mohammad Abdullah - Videographer.jpeg"
   },
   {
     "Name": "Ali Zeb",
@@ -62,11 +57,6 @@
   {
     "Name": "Faisal Amin",
     "Designation": "UI/UX Designer",
-    "Picture": "/Images/Team/UI-UX/Faisal Amin - UI_UX Designer.jpeg"
-  },
-  {
-    "Name": "Muhammad Abdullah",
-    "Designation": "Videographer & Photographer",
-    "Picture": "/Images/Team/Media Team/Mohammad Abdullah - Videographer.jpeg"
+    "Picture": "/Images/Team/UI-UX/Faisal.png"
   }
 ]

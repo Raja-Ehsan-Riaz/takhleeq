@@ -10,10 +10,8 @@ const ServicesHero = () => {
 				className=" absolute -z-10"
 				priority
 			/>
-			<h1 className="text-white pop text-center mx-auto text-4xl md:text-5xl uppercase font-bold mb-10 mt-auto">
-				Services
-				<br />
-				at Takhleeq
+			<h1 className="text-white pop text-center mx-auto text-4xl md:text-5xl uppercase font-bold my-auto">
+				Shaping Brands With Purpose & Precision
 			</h1>
 		</div>
 	)

@@ -2,19 +2,19 @@ import Image from "next/image";
 
 const FAQhero = () => {
     return (
-      <div className="flex h-[70vh] relative  bg-[#1312149E]/60 bg-gradient-to-r from-[#1312149E]/50 via-[#1312149E]/20 to-[#1312149E]/50">
+      <div className="flex h-[70vh] relative  bg-[#8838D3]/30 ">
         <Image
           fill={true}
           style={{ objectFit: "cover",objectPosition:"0px 0%" }}
-          src="/Images/Heros/faq.png"
+          src="/Images/Heros/faqs.jpg"
           className=" absolute -z-10"
           priority
         />
-        <h1 className="text-[#8838D3] pop text-center mx-auto text-5xl uppercase font-bold mb-10 mt-auto">
+        <h1 className=" text-white pop text-center mx-auto text-5xl uppercase font-bold mb-10 mt-auto">
           Frequently 
           <br />
           Asked {" "}
-          <span className="text-white border-b-[6px] border-b-[#8838D3]">
+          <span >
             Questions
           </span>
         </h1>

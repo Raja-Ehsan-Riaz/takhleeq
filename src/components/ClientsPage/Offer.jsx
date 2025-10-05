@@ -33,7 +33,7 @@ const Offer = () => {
 		},
 	]
 	return (
-		<div className="flex flex-col items-center justify-center px-[5%] py-16 md:py-28  bg-gray-200 text-black">
+		<div className="flex flex-col items-center justify-center px-[5%] py-16 md:py-28  bg-gray-100 text-black">
 			<h2 className="uppercase text-4xl text-center md:text-5xl font-bold">
 				WHAT DO WE OFFER?
 			</h2>
@@ -46,7 +46,7 @@ const Offer = () => {
 					// install Swiper modules
 					modules={[Navigation, Pagination, A11y, Autoplay]}
 					slidesPerView={1}
-					autoplay={{ delay: 2000, pauseOnMouseEnter: true }}
+					autoplay={{ delay: 4000, pauseOnMouseEnter: true }}
 					loop={true}
 					breakpoints={{
 						// when window width is >= 768px

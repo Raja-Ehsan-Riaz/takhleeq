@@ -9,8 +9,8 @@ const PricingPageHero = () => {
 				priority
 				className=" absolute -z-10"
 			/>
-			<h1 className="text-white pop text-center mx-auto text-4xl md:text-5xl uppercase font-bold mb-10 mt-auto">
-				How to Customize
+			<h1 className="text-white pop text-center mx-auto text-4xl md:text-5xl uppercase font-bold my-auto">
+				Customize
 				<br />
 				Your Package
 			</h1>

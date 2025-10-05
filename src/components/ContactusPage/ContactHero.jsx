@@ -10,7 +10,7 @@ const ContactHero = () => {
 				className=" absolute -z-10"
 				priority
 			/>
-			<h1 className="text-white pop text-center mx-auto text-4xl md:text-5xl uppercase font-bold mb-10 mt-auto ">
+			<h1 className="text-white pop text-center mx-auto text-4xl md:text-5xl uppercase font-bold my-auto ">
 				Ready to build a Living Brand
 			</h1>
 		</div>

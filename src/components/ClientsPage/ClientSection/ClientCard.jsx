@@ -4,7 +4,7 @@ import Link from "next/link"
 export const ClientCard = ({ name, description, icon, services }) => {
 	return (
 		<Link href={`/client/${name}`} className="lg:w-[40%] w-[29rem]">
-			<div className="flex flex-col h-full justify-start items-stretch p-4  gap-6 bg-gray-100 rounded-3xl shadow-lg hover:shadow-3xl border border-gray-100 cursor-pointer transition-all duration-500">
+			<div className="flex flex-col h-full justify-start items-stretch p-4  gap-6 bg-white rounded-3xl shadow-lg hover:shadow-3xl border border-gray-100 cursor-pointer transition-all duration-500">
 				<div className="h-[10rem] md:h-[15rem] relative rounded-2xl overflow-hidden">
 					<Image
 						fill={true}
