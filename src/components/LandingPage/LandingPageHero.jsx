@@ -4,7 +4,7 @@ import { BiSolidZap } from "react-icons/bi"
 
 const LandingPagehero = async () => {
 	return (
-		<div className="w-full h-[90vh] md:h-[70vh] flex flex-col justify-center items-center bg-gray-50 text-gray-900 relative overflow-hidden py-28">
+		<div className="w-full h-[70vh] flex flex-col justify-center items-center bg-gray-50 text-gray-900 relative overflow-hidden py-28">
 			{/* Main Content Container */}
 			<div className="flex flex-col md:flex-row justify-center items-center h-full z-30 max-w-6xl mx-auto px-4">
 				{/* Left Side - Text Content */}

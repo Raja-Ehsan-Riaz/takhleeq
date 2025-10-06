@@ -9,7 +9,7 @@ export default function Explore() {
 
 	useEffect(() => {
 		const observer = new IntersectionObserver(
-			(entries) => {
+			entries => {
 				if (entries[0].isIntersecting) {
 					setInView(true)
 					observer.disconnect()
@@ -37,8 +37,8 @@ export default function Explore() {
 
 			const counter = setInterval(() => {
 				start++
-				setProjects((prev) => Math.min(prev + incrementProjects, projectTarget))
-				setClients((prev) => Math.min(prev + incrementClients, clientTarget))
+				setProjects(prev => Math.min(prev + incrementProjects, projectTarget))
+				setClients(prev => Math.min(prev + incrementClients, clientTarget))
 				if (start >= steps) clearInterval(counter)
 			}, interval)
 		}
@@ -49,9 +49,9 @@ export default function Explore() {
 			ref={sectionRef}
 			className="relative bg-gradient-to-br from-[#300a44] to-[#3d99d6] text-white px-[5%] py-16 md:py-24"
 		>
-			<div className="flex justify-center items-center space-x-12">
+			<div className="flex justify-center flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-12">
 				{/* Left Content */}
-				<div className="flex flex-col items-start justify-start space-y-6 w-[60%]">
+				<div className="flex flex-col items-start justify-start space-y-6 md:w-[60%]">
 					<h1 className="text-4xl md:text-5xl font-bold">
 						Ideas Without Borders, Impact Across the Globe
 					</h1>
@@ -63,8 +63,8 @@ export default function Explore() {
 				</div>
 
 				{/* Right Content */}
-				<div className="relative w-[40%]">
-					<div className="w-full h-[30rem] rounded-lg overflow-hidden" />
+				<div className="relative md:w-[40%]  flex md:flex-none gap-2 flex-wrap">
+					<div className="w-full md:h-[30rem]  rounded-lg overflow-hidden" />
 
 					{/* Country Flags */}
 					{[
@@ -91,7 +91,7 @@ export default function Explore() {
 					].map((flag, i) => (
 						<div
 							key={i}
-							className={`absolute ${flag.class} ${
+							className={`md:absolute ${flag.class} ${
 								inView ? `fade-in delay-${i}` : "opacity-0"
 							}`}
 						>
@@ -106,7 +106,7 @@ export default function Explore() {
 					))}
 
 					{/* Stats Section */}
-					<div className="absolute bottom-8 left-8 transform translate-y-12 text-gray-900 bg-white shadow-lg rounded-lg px-8 py-6">
+					<div className="md:absolute mx-auto bottom-8 left-8 transform translate-y-4 md:translate-y-12 text-gray-900 bg-white shadow-lg rounded-lg px-8 py-6">
 						<div className="flex space-x-8">
 							<div className="text-center">
 								<p className="font-bold text-2xl">{Math.floor(projects)}+</p>

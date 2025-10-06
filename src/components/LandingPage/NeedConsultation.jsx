@@ -56,7 +56,7 @@ const NeedConsultation = () => {
   };
   // 
   return (
-    <div className="w-full   px-[5%] py-20 flex justify-center items-center">
+    <div className="w-full   px-[5%] py-20 flex-col md:flex-row flex justify-center items-center">
       <div className="max-w-xl">
         <h2 className="text-left text-5xl uppercase font-bold mb-6">
           What&apos;s the next step for your brand?
@@ -67,10 +67,10 @@ const NeedConsultation = () => {
           brand&apos;s hidden potential to life.
         </p>
       </div>
-      <div className="flex flex-col lg:flex-row lg:ml-12">
-        <div className=" text-black p-12 rounded-3xl border shadow-md">
+      <div className="flex flex-col lg:flex-row lg:ml-12 mt-4 lg:mt-0">
+        <div className=" text-black p-6 lg:p-12 rounded-3xl border shadow-md">
           <form className="mt-4 flex flex-col items-center">
-            <div className="flex flex-col lg:flex-row justify-between space-x-6 w-full">
+            <div className="flex flex-col lg:flex-row justify-between lg:space-x-6 w-full">
               <div className="flex flex-col w-full">
                 <label htmlFor="fullName" className="mb-2 font-semibold">
                   Full Name
@@ -102,7 +102,7 @@ const NeedConsultation = () => {
                 />
               </div>
             </div>
-            <div className="flex flex-col lg:flex-row justify-between space-x-6 w-full mt-4">
+            <div className="flex flex-col lg:flex-row justify-between lg:space-x-6 w-full mt-4">
               <div className="flex flex-col w-full">
                 <label htmlFor="company" className="mb-2 font-semibold">
                   Company

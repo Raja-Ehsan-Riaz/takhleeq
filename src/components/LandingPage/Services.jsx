@@ -56,11 +56,11 @@ export default function ServicesSection() {
 				</h1>
 
 				{/* Central Image */}
-				<div className="relative w-[25rem] h-[30rem] m-auto px-2 flex justify-center">
+				<div className="relative md:w-[25rem] md:h-[30rem] m-auto px-2 flex flex-col md:flex-row justify-center space-y-12 md:space-y-0 ">
 					<img
 						src="/Images/center.jpg"
 						alt="Center"
-						className="w-full h-full object-contain "
+						className="w-full h-full object-contain hidden md:block "
 					/>
 
 					{[
@@ -106,7 +106,7 @@ export default function ServicesSection() {
 							style={{
 								backgroundColor: box.bgColor,
 							}}
-							className={`absolute ${
+							className={`md:absolute ${
 								box.position
 							} w-[20rem] shadow-lg rounded-lg p-6 flex flex-col items-center text-center cursor-pointer  transition-transform duration-300 ${
 								animateSquares[index]
