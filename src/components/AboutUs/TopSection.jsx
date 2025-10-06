@@ -57,7 +57,7 @@ const TopSection = () => {
 						width={50}
 					/>
 				</div>
-				<div className=" w-6 sm:w-12 lg:w-24 border-2 border-gray-900"></div>
+				<div className=" w-6 sm:w-12 lg:w-24 border-2 border-gray-900 border-dashed"></div>
 				<div
 					className={`h-16 sm:h-32 w-16 sm:w-32 rounded-full cursor-pointer relative bg-white shadow-md flex justify-center items-center ${
 						selectedItemIndex === 1 &&
@@ -72,7 +72,7 @@ const TopSection = () => {
 						width={60}
 					/>
 				</div>
-				<div className=" w-6 sm:w-12 lg:w-24 border-2 border-gray-900"></div>
+				<div className=" w-6 sm:w-12 lg:w-24 border-2 border-gray-900 border-dashed"></div>
 				<div
 					className={`h-16 sm:h-32 w-16 sm:w-32 rounded-full cursor-pointer relative bg-white shadow-md flex justify-center items-center ${
 						selectedItemIndex === 2 &&
@@ -87,7 +87,7 @@ const TopSection = () => {
 						width={40}
 					/>
 				</div>
-				<div className=" w-6 sm:w-12 lg:w-24 border-2 border-gray-900"></div>
+				<div className=" w-6 sm:w-12 lg:w-24 border-2 border-gray-900 border-dashed"></div>
 				<div
 					className={`h-16 sm:h-32 w-16 sm:w-32 rounded-full cursor-pointer relative bg-white shadow-md flex justify-center items-center ${
 						selectedItemIndex === 3 &&
