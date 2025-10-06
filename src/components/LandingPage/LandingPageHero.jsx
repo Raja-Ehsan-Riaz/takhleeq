@@ -17,7 +17,7 @@ const LandingPagehero = async () => {
 
 					<h1 className="text-6xl md:text-9xl font-black mb-4 leading-none relative">
 						Bran<span className="text-white">ding</span>
-						<div className="absolute -right-[7%] -top-[65%] h-40 w-40 md:h-80 md:w-80 text-left -z-10   ">
+						<div className="absolute -right-[4%] -top-[70%] h-40 w-40 md:h-80 md:w-80 text-left -z-10   ">
 							{/* Main purple circle - matching the original design */}
 							<div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-purple-700 rounded-full shadow-2xl">
 								<div className="absolute inset-0 bg-gradient-to-t from-purple-800/20 to-transparent rounded-full"></div>
