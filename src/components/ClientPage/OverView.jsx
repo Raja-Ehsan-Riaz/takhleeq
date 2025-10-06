@@ -5,9 +5,9 @@ const OverView = ({description,image,link}) => {
   return (
     <div className="flex flex-col-reverse lg:flex-row justify-between px-[5%] py-16 lg:py-28 gap-8">
       <div className="lg:w-[60%] flex flex-col items-start gap-8">
-        <h2 className="uppercase text-4xl text-left font-bold text-[#8838D3]">
+        <h2 className="uppercase text-4xl text-left font-bold ">
           Project{" "}
-          <span className="text-black">
+          <span className="text-[#8838D3]">
             Overview
           </span>
         </h2>

@@ -27,7 +27,7 @@ const Portfolio = ({ title, portfolio }) => {
 
   return (
     <div
-      className={`flex flex-col justify-center items-center gap-6 py-16 lg:py-28 bg-[#7957931A]`}
+      className={`flex flex-col justify-center items-center gap-6 py-16 lg:py-28 bg-gray-100`}
     >
       <h2 className=" text-left text-4xl uppercase font-bold mb-10">
         Portfolio

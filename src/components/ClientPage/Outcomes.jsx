@@ -1,6 +1,6 @@
 const Outcomes = ({ outcomes }) => {
   return (
-    <div className=" flex flex-col items-start gap-8 px-[5%] py-16 lg:py-28">
+    <div className=" flex flex-col items-start gap-8 px-[5%] py-16 lg:py-28 bg-gray-100">
       <h2 className="uppercase text-4xl text-left font-bold ">
         Project{" "}
         <span className="text-[#8838D3]">
